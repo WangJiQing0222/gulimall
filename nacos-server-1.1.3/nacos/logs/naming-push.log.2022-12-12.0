@@ -1,0 +1,78 @@
+2022-12-12 16:06:57,705 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:09:58,125 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:10:17,357 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:10:23,729 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:12:44,129 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:12:57,501 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:13:04,194 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:13:16,326 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2022-12-12 16:40:07,443 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:40:07,507 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2022-12-12 16:40:30,757 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:40:36,686 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2022-12-12 16:47:58,318 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2022-12-12 16:47:59,917 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:47:59,918 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:53333, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53333,4327920081800
+
+2022-12-12 16:47:59,918 INFO send udp packet: 192.168.100.1,53333,4327920081800
+
+2022-12-12 16:48:09,920 INFO retry to push data, key: 192.168.100.1,53333,4327920081800
+
+2022-12-12 16:48:09,920 INFO send udp packet: 192.168.100.1,53333,4327920081800
+
+2022-12-12 16:48:19,921 INFO retry to push data, key: 192.168.100.1,53333,4327920081800
+
+2022-12-12 16:48:19,921 WARN max re-push times reached, retry times 2, key: 192.168.100.1,53333,4327920081800
+
+2022-12-12 16:57:16,107 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:58:26,869 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 16:59:21,165 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:04:56,339 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:05:22,920 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:38:56,304 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:38:57,354 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:39:01,507 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:43:30,276 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:43:49,065 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:49:21,254 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:49:38,582 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:51:05,132 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:51:21,875 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:52:11,972 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:52:29,302 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:53:00,887 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:53:19,446 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-12-12 17:55:39,442 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+

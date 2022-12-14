@@ -1,0 +1,364 @@
+2022-12-13 15:24:27,336 INFO Starting Nacos v1.1.3 on DESKTOP-2EKL8KH with PID 1804 (D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos\target\nacos-server.jar started by WangJiQing in D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos\bin)
+
+2022-12-13 15:24:27,359 INFO The following profiles are active: standalone
+
+2022-12-13 15:24:33,045 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$f6c72966] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-12-13 15:24:33,380 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-12-13 15:24:33,388 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7ef82753' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-12-13 15:24:33,408 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$1b9bcc18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-12-13 15:24:33,430 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-12-13 15:24:36,285 INFO Tomcat initialized with port(s): 8848 (http)
+
+2022-12-13 15:24:41,512 INFO Starting service [Tomcat]
+
+2022-12-13 15:24:41,513 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2022-12-13 15:24:41,534 INFO An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+
+2022-12-13 15:24:41,535 INFO Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+
+2022-12-13 15:24:41,535 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+
+2022-12-13 15:24:41,535 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+
+2022-12-13 15:24:42,629 INFO OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+
+2022-12-13 15:24:42,845 INFO Initializing Spring embedded WebApplicationContext
+
+2022-12-13 15:24:42,845 INFO Root WebApplicationContext: initialization completed in 15346 ms
+
+2022-12-13 15:24:48,199 INFO Use Mysql as the driver
+
+2022-12-13 15:24:48,821 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2022-12-13 15:24:49,295 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-12-13 15:24:50,150 INFO Creating filter chain: Ant [pattern='/'], []
+
+2022-12-13 15:24:50,151 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2022-12-13 15:24:50,154 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2022-12-13 15:24:50,156 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2022-12-13 15:24:50,156 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2022-12-13 15:24:50,157 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2022-12-13 15:24:50,158 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2022-12-13 15:24:50,159 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2022-12-13 15:24:50,159 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2022-12-13 15:24:50,160 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2022-12-13 15:24:50,161 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2022-12-13 15:24:50,161 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2022-12-13 15:24:50,162 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2022-12-13 15:24:50,163 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2022-12-13 15:24:50,164 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2022-12-13 15:24:50,164 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2022-12-13 15:24:50,208 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c153b9e, org.springframework.security.web.context.SecurityContextPersistenceFilter@793138bd, org.springframework.security.web.header.HeaderWriterFilter@784b990c, org.springframework.security.web.authentication.logout.LogoutFilter@e98770d, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@2a7686a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c18016b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57ac5227, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@758a34ce, org.springframework.security.web.session.SessionManagementFilter@25bc0606, org.springframework.security.web.access.ExceptionTranslationFilter@3e14c16d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bc28c33]
+
+2022-12-13 15:24:50,269 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2022-12-13 15:24:50,320 INFO Initializing ExecutorService 'taskScheduler'
+
+2022-12-13 15:24:50,486 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2022-12-13 15:24:50,496 INFO Started Nacos in 27.098 seconds (JVM running for 28.801)
+
+2022-12-13 15:24:50,496 INFO Nacos Log files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/logs/
+
+2022-12-13 15:24:50,497 INFO Nacos Conf files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/conf/
+
+2022-12-13 15:24:50,498 INFO Nacos Data files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/data/
+
+2022-12-13 15:24:50,499 INFO Nacos started successfully in stand alone mode.
+
+2022-12-13 15:24:52,961 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-12-13 15:24:52,962 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-12-13 15:24:52,977 INFO Completed initialization in 14 ms
+
+2022-12-13 15:25:06,671 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2022-12-13 15:25:25,114 INFO Expired JWT token.
+
+2022-12-13 15:25:25,115 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2022-12-13 15:25:33,528 INFO Expired JWT token.
+
+2022-12-13 15:25:33,529 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2022-12-13 15:25:40,554 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2022-12-13 15:34:47,890 INFO [capacityManagement] start correct usage
+
+2022-12-13 15:34:47,910 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 15:34:48,188 WARN clearConfigHistory start
+
+2022-12-13 15:43:11,620 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2022-12-13 15:44:47,920 INFO [capacityManagement] start correct usage
+
+2022-12-13 15:44:47,922 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 15:44:48,200 WARN clearConfigHistory start
+
+2022-12-13 15:54:47,926 INFO [capacityManagement] start correct usage
+
+2022-12-13 15:54:47,927 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 15:54:48,212 WARN clearConfigHistory start
+
+2022-12-13 16:04:47,928 INFO [capacityManagement] start correct usage
+
+2022-12-13 16:04:47,928 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 16:04:48,222 WARN clearConfigHistory start
+
+2022-12-13 16:14:47,944 INFO [capacityManagement] start correct usage
+
+2022-12-13 16:14:47,944 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 16:14:48,224 WARN clearConfigHistory start
+
+2022-12-13 16:24:47,948 INFO [capacityManagement] start correct usage
+
+2022-12-13 16:24:47,949 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 16:24:48,233 WARN clearConfigHistory start
+
+2022-12-13 16:27:34,183 INFO Expired JWT token.
+
+2022-12-13 16:27:34,183 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2022-12-13 16:34:47,951 INFO [capacityManagement] start correct usage
+
+2022-12-13 16:34:47,951 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 16:34:48,234 WARN clearConfigHistory start
+
+2022-12-13 16:44:47,953 INFO [capacityManagement] start correct usage
+
+2022-12-13 16:44:47,962 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 16:44:48,239 WARN clearConfigHistory start
+
+2022-12-13 16:54:47,965 INFO [capacityManagement] start correct usage
+
+2022-12-13 16:54:47,966 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 16:54:48,265 WARN clearConfigHistory start
+
+2022-12-13 17:02:20,025 INFO Expired JWT token.
+
+2022-12-13 17:02:20,027 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2022-12-13 17:02:24,128 INFO Expired JWT token.
+
+2022-12-13 17:02:24,129 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2022-12-13 17:04:47,969 INFO [capacityManagement] start correct usage
+
+2022-12-13 17:04:47,970 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 17:04:48,279 WARN clearConfigHistory start
+
+2022-12-13 17:14:47,978 INFO [capacityManagement] start correct usage
+
+2022-12-13 17:14:47,979 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 17:14:48,295 WARN clearConfigHistory start
+
+2022-12-13 17:24:47,980 INFO [capacityManagement] start correct usage
+
+2022-12-13 17:24:47,980 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 17:24:48,308 WARN clearConfigHistory start
+
+2022-12-13 17:34:47,989 INFO [capacityManagement] start correct usage
+
+2022-12-13 17:34:47,990 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 17:34:48,319 WARN clearConfigHistory start
+
+2022-12-13 17:44:47,991 INFO [capacityManagement] start correct usage
+
+2022-12-13 17:44:47,992 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 17:44:48,336 WARN clearConfigHistory start
+
+2022-12-13 17:53:20,212 INFO Expired JWT token.
+
+2022-12-13 17:53:20,212 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2022-12-13 17:54:48,006 INFO [capacityManagement] start correct usage
+
+2022-12-13 17:54:48,006 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 17:54:48,353 WARN clearConfigHistory start
+
+2022-12-13 21:32:55,799 INFO Starting Nacos v1.1.3 on DESKTOP-2EKL8KH with PID 13008 (D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos\target\nacos-server.jar started by WangJiQing in D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos\bin)
+
+2022-12-13 21:32:55,803 INFO The following profiles are active: standalone
+
+2022-12-13 21:32:58,619 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$209b3f7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-12-13 21:32:58,744 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-12-13 21:32:58,760 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7d0b7e3c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-12-13 21:32:58,760 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$456fe22c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-12-13 21:32:58,760 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-12-13 21:33:00,190 INFO Tomcat initialized with port(s): 8848 (http)
+
+2022-12-13 21:33:00,237 INFO Starting service [Tomcat]
+
+2022-12-13 21:33:00,237 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2022-12-13 21:33:00,253 INFO An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+
+2022-12-13 21:33:00,253 INFO Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+
+2022-12-13 21:33:00,253 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+
+2022-12-13 21:33:00,253 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+
+2022-12-13 21:33:01,318 INFO OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+
+2022-12-13 21:33:01,443 INFO Initializing Spring embedded WebApplicationContext
+
+2022-12-13 21:33:01,443 INFO Root WebApplicationContext: initialization completed in 5578 ms
+
+2022-12-13 21:33:04,908 INFO Use Mysql as the driver
+
+2022-12-13 21:33:05,502 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2022-12-13 21:33:05,772 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-12-13 21:33:06,526 INFO Creating filter chain: Ant [pattern='/'], []
+
+2022-12-13 21:33:06,526 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2022-12-13 21:33:06,526 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2022-12-13 21:33:06,526 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2022-12-13 21:33:06,526 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2022-12-13 21:33:06,526 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2022-12-13 21:33:06,526 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2022-12-13 21:33:06,526 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2022-12-13 21:33:06,526 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2022-12-13 21:33:06,526 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2022-12-13 21:33:06,526 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2022-12-13 21:33:06,542 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2022-12-13 21:33:06,542 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2022-12-13 21:33:06,542 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2022-12-13 21:33:06,542 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2022-12-13 21:33:06,542 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2022-12-13 21:33:06,589 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c989952, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bb6ab3a, org.springframework.security.web.header.HeaderWriterFilter@56c698e3, org.springframework.security.web.authentication.logout.LogoutFilter@32811494, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@784b990c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c4748bf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73dce0e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d3ba765, org.springframework.security.web.session.SessionManagementFilter@f478a81, org.springframework.security.web.access.ExceptionTranslationFilter@5733f295, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7096b474]
+
+2022-12-13 21:33:06,651 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2022-12-13 21:33:06,698 INFO Initializing ExecutorService 'taskScheduler'
+
+2022-12-13 21:33:06,839 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2022-12-13 21:33:06,839 INFO Started Nacos in 12.611 seconds (JVM running for 13.415)
+
+2022-12-13 21:33:06,839 INFO Nacos Log files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/logs/
+
+2022-12-13 21:33:06,839 INFO Nacos Conf files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/conf/
+
+2022-12-13 21:33:06,839 INFO Nacos Data files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/data/
+
+2022-12-13 21:33:06,839 INFO Nacos started successfully in stand alone mode.
+
+2022-12-13 21:33:07,372 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-12-13 21:33:07,372 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-12-13 21:33:07,372 INFO Completed initialization in 0 ms
+
+2022-12-13 21:33:16,799 INFO Expired JWT token.
+
+2022-12-13 21:33:16,810 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2022-12-13 21:43:04,610 INFO [capacityManagement] start correct usage
+
+2022-12-13 21:43:04,628 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 21:43:04,905 WARN clearConfigHistory start
+
+2022-12-13 21:53:05,973 INFO [capacityManagement] start correct usage
+
+2022-12-13 21:53:05,974 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 21:53:06,254 WARN clearConfigHistory start
+
+2022-12-13 22:03:05,975 INFO [capacityManagement] start correct usage
+
+2022-12-13 22:03:05,976 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 22:03:06,257 WARN clearConfigHistory start
+
+2022-12-13 22:13:05,977 INFO [capacityManagement] start correct usage
+
+2022-12-13 22:13:05,978 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 22:13:06,260 WARN clearConfigHistory start
+
+2022-12-13 22:23:05,979 INFO [capacityManagement] start correct usage
+
+2022-12-13 22:23:05,981 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 22:23:06,264 WARN clearConfigHistory start
+
+2022-12-13 22:33:05,982 INFO [capacityManagement] start correct usage
+
+2022-12-13 22:33:05,983 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 22:33:06,265 WARN clearConfigHistory start
+
+2022-12-13 22:43:05,984 INFO [capacityManagement] start correct usage
+
+2022-12-13 22:43:05,987 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 22:43:06,267 WARN clearConfigHistory start
+
+2022-12-13 22:53:05,988 INFO [capacityManagement] start correct usage
+
+2022-12-13 22:53:05,989 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-12-13 22:53:06,270 WARN clearConfigHistory start
+

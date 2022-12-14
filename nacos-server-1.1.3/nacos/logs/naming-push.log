@@ -1,0 +1,68 @@
+2022-12-14 16:15:49,951 INFO DEFAULT_GROUP@@gulimail-gateway is changed, add it to push queue.
+
+2022-12-14 16:48:32,399 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 16:49:39,822 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 16:52:56,843 INFO DEFAULT_GROUP@@gulimail-gateway is changed, add it to push queue.
+
+2022-12-14 16:58:27,646 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 16:59:00,716 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 16:59:22,592 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:03:23,904 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:03:45,703 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:06:47,714 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:07:13,286 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:09:10,381 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:09:32,863 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:23:17,915 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:23:40,154 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:24:22,423 INFO DEFAULT_GROUP@@gulimail-gateway is changed, add it to push queue.
+
+2022-12-14 17:24:38,520 INFO DEFAULT_GROUP@@gulimail-gateway is changed, add it to push queue.
+
+2022-12-14 17:47:34,640 INFO DEFAULT_GROUP@@gulimail-gateway is changed, add it to push queue.
+
+2022-12-14 17:47:43,844 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:47:58,713 INFO DEFAULT_GROUP@@gulimail-gateway is changed, add it to push queue.
+
+2022-12-14 17:48:09,346 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:50:54,435 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:50:54,437 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.100.1:53969, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53969,9581438448300
+
+2022-12-14 17:50:54,437 INFO send udp packet: 192.168.100.1,53969,9581438448300
+
+2022-12-14 17:50:54,450 INFO received ack: {"type": "push-ack", "lastRefTime":"9581438448300", "data":""} from: 192.168.100.1:, cost: 53969 ms, unacked: 13, total push: 0
+
+2022-12-14 17:51:18,571 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:51:18,571 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.100.1:53969, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53969,9605574120200
+
+2022-12-14 17:51:18,571 INFO send udp packet: 192.168.100.1,53969,9605574120200
+
+2022-12-14 17:51:18,576 INFO received ack: {"type": "push-ack", "lastRefTime":"9605574120200", "data":""} from: 192.168.100.1:, cost: 53969 ms, unacked: 5, total push: 0
+
+2022-12-14 17:55:56,856 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-12-14 17:55:56,856 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.100.1:53969, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53969,9883859283400
+
+2022-12-14 17:55:56,856 INFO send udp packet: 192.168.100.1,53969,9883859283400
+
+2022-12-14 17:55:56,860 INFO received ack: {"type": "push-ack", "lastRefTime":"9883859283400", "data":""} from: 192.168.100.1:, cost: 53969 ms, unacked: 4, total push: 0
+
+2022-12-14 17:56:00,939 INFO DEFAULT_GROUP@@gulimail-gateway is changed, add it to push queue.
+
