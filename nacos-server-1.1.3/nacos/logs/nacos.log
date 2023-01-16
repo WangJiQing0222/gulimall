@@ -1,274 +1,474 @@
-2022-12-14 16:10:37,068 INFO Starting Nacos v1.1.3 on DESKTOP-2EKL8KH with PID 14732 (D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos\target\nacos-server.jar started by WangJiQing in D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos\bin)
+2023-01-16 15:19:22,030 INFO Starting Nacos v1.1.3 on DESKTOP-2EKL8KH with PID 9096 (D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos\target\nacos-server.jar started by WangJiQing in D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos\bin)
 
-2022-12-14 16:10:37,073 INFO The following profiles are active: standalone
+2023-01-16 15:19:22,035 INFO The following profiles are active: standalone
 
-2022-12-14 16:10:40,389 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$c9d2d924] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-16 15:19:25,075 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$fcb60de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2022-12-14 16:10:40,600 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-16 15:19:25,206 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2022-12-14 16:10:40,605 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5d0bf09b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-16 15:19:25,210 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@53045c6c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2022-12-14 16:10:40,608 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$eea77bd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-16 15:19:25,213 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$34a00390] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2022-12-14 16:10:40,618 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-16 15:19:25,224 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2022-12-14 16:10:42,215 INFO Tomcat initialized with port(s): 8848 (http)
+2023-01-16 15:19:26,895 INFO Tomcat initialized with port(s): 8848 (http)
 
-2022-12-14 16:10:42,273 INFO Starting service [Tomcat]
+2023-01-16 15:19:26,929 INFO Starting service [Tomcat]
 
-2022-12-14 16:10:42,273 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+2023-01-16 15:19:26,930 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
 
-2022-12-14 16:10:42,300 INFO An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+2023-01-16 15:19:26,951 INFO An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
 
-2022-12-14 16:10:42,300 INFO Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-01-16 15:19:26,951 INFO Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
 
-2022-12-14 16:10:42,300 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-16 15:19:26,951 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
 
-2022-12-14 16:10:42,301 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-16 15:19:26,951 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
 
-2022-12-14 16:10:43,331 INFO OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-01-16 15:19:27,982 INFO OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
 
-2022-12-14 16:10:43,440 INFO Initializing Spring embedded WebApplicationContext
+2023-01-16 15:19:28,137 INFO Initializing Spring embedded WebApplicationContext
 
-2022-12-14 16:10:43,441 INFO Root WebApplicationContext: initialization completed in 6299 ms
+2023-01-16 15:19:28,137 INFO Root WebApplicationContext: initialization completed in 6027 ms
 
-2022-12-14 16:10:46,687 INFO Use Mysql as the driver
+2023-01-16 15:19:32,780 INFO Use Mysql as the driver
 
-2022-12-14 16:10:47,220 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-16 15:19:33,554 INFO Initializing ExecutorService 'applicationTaskExecutor'
 
-2022-12-14 16:10:47,467 INFO Adding welcome page: class path resource [static/index.html]
+2023-01-16 15:19:33,870 INFO Adding welcome page: class path resource [static/index.html]
 
-2022-12-14 16:10:48,198 INFO Creating filter chain: Ant [pattern='/'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/'], []
 
-2022-12-14 16:10:48,199 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
 
-2022-12-14 16:10:48,200 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
 
-2022-12-14 16:10:48,200 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
 
-2022-12-14 16:10:48,201 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
 
-2022-12-14 16:10:48,201 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
 
-2022-12-14 16:10:48,202 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
 
-2022-12-14 16:10:48,203 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
 
-2022-12-14 16:10:48,203 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
 
-2022-12-14 16:10:48,203 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
 
-2022-12-14 16:10:48,204 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
 
-2022-12-14 16:10:48,204 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
 
-2022-12-14 16:10:48,205 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
 
-2022-12-14 16:10:48,205 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
 
-2022-12-14 16:10:48,206 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
 
-2022-12-14 16:10:48,206 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+2023-01-16 15:19:35,369 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
 
-2022-12-14 16:10:48,253 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d0d6318, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d3ba765, org.springframework.security.web.header.HeaderWriterFilter@7096b474, org.springframework.security.web.authentication.logout.LogoutFilter@43aaf813, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@4bc28c33, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d1659ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c18016b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4409e975, org.springframework.security.web.session.SessionManagementFilter@3c989952, org.springframework.security.web.access.ExceptionTranslationFilter@3f07b12c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f001896]
+2023-01-16 15:19:35,444 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55342f40, org.springframework.security.web.context.SecurityContextPersistenceFilter@4409e975, org.springframework.security.web.header.HeaderWriterFilter@f001896, org.springframework.security.web.authentication.logout.LogoutFilter@312ab28e, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@a4ca3f6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a7686a7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@bff34c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72ea6193, org.springframework.security.web.session.SessionManagementFilter@1d0d6318, org.springframework.security.web.access.ExceptionTranslationFilter@765f05af, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40f70521]
 
-2022-12-14 16:10:48,308 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-01-16 15:19:35,528 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
 
-2022-12-14 16:10:48,354 INFO Initializing ExecutorService 'taskScheduler'
+2023-01-16 15:19:35,586 INFO Initializing ExecutorService 'taskScheduler'
 
-2022-12-14 16:10:48,524 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+2023-01-16 15:19:35,748 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
 
-2022-12-14 16:10:48,534 INFO Started Nacos in 13.329 seconds (JVM running for 14.205)
+2023-01-16 15:19:35,760 INFO Started Nacos in 16.223 seconds (JVM running for 17.292)
 
-2022-12-14 16:10:48,534 INFO Nacos Log files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/logs/
+2023-01-16 15:19:35,760 INFO Nacos Log files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/logs/
 
-2022-12-14 16:10:48,534 INFO Nacos Conf files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/conf/
+2023-01-16 15:19:35,761 INFO Nacos Conf files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/conf/
 
-2022-12-14 16:10:48,535 INFO Nacos Data files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/data/
+2023-01-16 15:19:35,761 INFO Nacos Data files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/data/
 
-2022-12-14 16:10:48,535 INFO Nacos started successfully in stand alone mode.
+2023-01-16 15:19:35,761 INFO Nacos started successfully in stand alone mode.
 
-2022-12-14 16:10:51,376 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-16 15:19:37,670 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
 
-2022-12-14 16:10:51,376 INFO Initializing Servlet 'dispatcherServlet'
+2023-01-16 15:19:37,670 INFO Initializing Servlet 'dispatcherServlet'
 
-2022-12-14 16:10:51,387 INFO Completed initialization in 11 ms
+2023-01-16 15:19:37,699 INFO Completed initialization in 29 ms
 
-2022-12-14 16:10:54,483 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+2023-01-16 15:29:32,174 INFO [capacityManagement] start correct usage
 
-2022-12-14 16:20:46,336 INFO [capacityManagement] start correct usage
+2023-01-16 15:29:32,205 INFO [capacityManagement] end correct usage, cost: 0s
 
-2022-12-14 16:20:46,365 INFO [capacityManagement] end correct usage, cost: 0s
-
-2022-12-14 16:20:46,675 WARN clearConfigHistory start
-
-2022-12-14 16:22:18,151 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
-
-2022-12-14 16:22:18,710 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
-
-2022-12-14 16:22:18,983 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
-
-2022-12-14 16:30:46,366 INFO [capacityManagement] start correct usage
-
-2022-12-14 16:30:46,369 INFO [capacityManagement] end correct usage, cost: 0s
-
-2022-12-14 16:30:46,697 WARN clearConfigHistory start
-
-2022-12-14 16:40:46,370 INFO [capacityManagement] start correct usage
-
-2022-12-14 16:40:46,373 INFO [capacityManagement] end correct usage, cost: 0s
-
-2022-12-14 16:40:46,699 WARN clearConfigHistory start
-
-2022-12-14 16:49:00,840 INFO Expired JWT token.
-
-2022-12-14 16:49:00,841 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
-
-2022-12-14 16:50:46,374 INFO [capacityManagement] start correct usage
-
-2022-12-14 16:50:46,375 INFO [capacityManagement] end correct usage, cost: 0s
-
-2022-12-14 16:50:46,702 WARN clearConfigHistory start
-
-2022-12-14 16:52:41,654 INFO Starting Nacos v1.1.3 on DESKTOP-2EKL8KH with PID 1924 (D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos\target\nacos-server.jar started by WangJiQing in D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos\bin)
-
-2022-12-14 16:52:41,656 INFO The following profiles are active: standalone
-
-2022-12-14 16:52:44,408 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$f6c72966] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-
-2022-12-14 16:52:44,531 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-
-2022-12-14 16:52:44,536 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7ef82753' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-
-2022-12-14 16:52:44,539 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$1b9bcc18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-
-2022-12-14 16:52:44,547 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-
-2022-12-14 16:52:45,815 INFO Tomcat initialized with port(s): 8848 (http)
-
-2022-12-14 16:52:45,858 INFO Starting service [Tomcat]
-
-2022-12-14 16:52:45,858 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
-
-2022-12-14 16:52:45,877 INFO An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
-
-2022-12-14 16:52:45,878 INFO Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
-
-2022-12-14 16:52:45,878 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-
-2022-12-14 16:52:45,878 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-
-2022-12-14 16:52:47,010 INFO OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
-
-2022-12-14 16:52:47,204 INFO Initializing Spring embedded WebApplicationContext
-
-2022-12-14 16:52:47,204 INFO Root WebApplicationContext: initialization completed in 5489 ms
-
-2022-12-14 16:52:50,655 INFO Use Mysql as the driver
-
-2022-12-14 16:52:51,222 INFO Initializing ExecutorService 'applicationTaskExecutor'
-
-2022-12-14 16:52:51,495 INFO Adding welcome page: class path resource [static/index.html]
-
-2022-12-14 16:52:52,297 INFO Creating filter chain: Ant [pattern='/'], []
-
-2022-12-14 16:52:52,298 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
-
-2022-12-14 16:52:52,300 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
-
-2022-12-14 16:52:52,303 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
-
-2022-12-14 16:52:52,305 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
-
-2022-12-14 16:52:52,306 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
-
-2022-12-14 16:52:52,307 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
-
-2022-12-14 16:52:52,308 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
-
-2022-12-14 16:52:52,312 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
-
-2022-12-14 16:52:52,313 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
-
-2022-12-14 16:52:52,314 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
-
-2022-12-14 16:52:52,315 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
-
-2022-12-14 16:52:52,316 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
-
-2022-12-14 16:52:52,317 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
-
-2022-12-14 16:52:52,318 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
-
-2022-12-14 16:52:52,318 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
-
-2022-12-14 16:52:52,378 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4409e975, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d1659ea, org.springframework.security.web.header.HeaderWriterFilter@3c989952, org.springframework.security.web.authentication.logout.LogoutFilter@4ba302e0, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@5c153b9e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1951b871, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43aaf813, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a7686a7, org.springframework.security.web.session.SessionManagementFilter@3d3ba765, org.springframework.security.web.access.ExceptionTranslationFilter@7096b474, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d0d6318]
-
-2022-12-14 16:52:52,441 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
-
-2022-12-14 16:52:52,492 INFO Initializing ExecutorService 'taskScheduler'
-
-2022-12-14 16:52:52,656 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
-
-2022-12-14 16:52:52,664 INFO Started Nacos in 12.66 seconds (JVM running for 13.421)
-
-2022-12-14 16:52:52,664 INFO Nacos Log files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/logs/
-
-2022-12-14 16:52:52,664 INFO Nacos Conf files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/conf/
-
-2022-12-14 16:52:52,665 INFO Nacos Data files: D:\SoftWareData\ideaProjects\projects\gulimall\nacos-server-1.1.3\nacos/data/
-
-2022-12-14 16:52:52,666 INFO Nacos started successfully in stand alone mode.
-
-2022-12-14 16:52:52,875 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
-
-2022-12-14 16:52:52,875 INFO Initializing Servlet 'dispatcherServlet'
-
-2022-12-14 16:52:52,891 INFO Completed initialization in 15 ms
-
-2022-12-14 17:02:50,274 INFO [capacityManagement] start correct usage
-
-2022-12-14 17:02:50,298 INFO [capacityManagement] end correct usage, cost: 0s
-
-2022-12-14 17:02:50,644 WARN clearConfigHistory start
-
-2022-12-14 17:12:50,300 INFO [capacityManagement] start correct usage
-
-2022-12-14 17:12:50,301 INFO [capacityManagement] end correct usage, cost: 0s
-
-2022-12-14 17:12:50,657 WARN clearConfigHistory start
-
-2022-12-14 17:22:50,301 INFO [capacityManagement] start correct usage
-
-2022-12-14 17:22:50,302 INFO [capacityManagement] end correct usage, cost: 0s
-
-2022-12-14 17:22:50,660 WARN clearConfigHistory start
-
-2022-12-14 17:23:19,826 INFO Expired JWT token.
-
-2022-12-14 17:23:19,839 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
-
-2022-12-14 17:32:50,304 INFO [capacityManagement] start correct usage
-
-2022-12-14 17:32:50,307 INFO [capacityManagement] end correct usage, cost: 0s
-
-2022-12-14 17:32:50,662 WARN clearConfigHistory start
-
-2022-12-14 17:42:50,308 INFO [capacityManagement] start correct usage
-
-2022-12-14 17:42:50,311 INFO [capacityManagement] end correct usage, cost: 0s
-
-2022-12-14 17:42:50,664 WARN clearConfigHistory start
-
-2022-12-14 17:52:50,311 INFO [capacityManagement] start correct usage
-
-2022-12-14 17:52:50,313 INFO [capacityManagement] end correct usage, cost: 0s
-
-2022-12-14 17:52:50,666 WARN clearConfigHistory start
-
-2022-12-14 18:02:50,313 INFO [capacityManagement] start correct usage
-
-2022-12-14 18:02:50,315 INFO [capacityManagement] end correct usage, cost: 0s
-
-2022-12-14 18:02:50,668 WARN clearConfigHistory start
-
+2023-01-16 15:29:32,753 WARN clearConfigHistory start
+
+2023-01-16 15:29:32,769 WARN clearConfigHistory, getBeforeStamp:2022-12-17 15:29:32.0, totalCount:50, pageSize:1000, removeTime:1
+
+2023-01-16 15:29:32,988 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:211)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:934)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$fc777aaa.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService$3.run(DumpService.java:112)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2023-01-16 15:32:07,307 INFO Expired JWT token.
+
+2023-01-16 15:32:07,325 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2023-01-16 15:39:32,224 INFO [capacityManagement] start correct usage
+
+2023-01-16 15:39:32,225 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-01-16 15:39:33,010 WARN clearConfigHistory start
+
+2023-01-16 15:39:33,014 WARN clearConfigHistory, getBeforeStamp:2022-12-17 15:39:33.0, totalCount:50, pageSize:1000, removeTime:1
+
+2023-01-16 15:39:33,017 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:211)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:934)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$fc777aaa.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService$3.run(DumpService.java:112)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2023-01-16 15:49:32,230 INFO [capacityManagement] start correct usage
+
+2023-01-16 15:49:32,231 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-01-16 15:49:33,023 WARN clearConfigHistory start
+
+2023-01-16 15:49:33,027 WARN clearConfigHistory, getBeforeStamp:2022-12-17 15:49:33.0, totalCount:50, pageSize:1000, removeTime:1
+
+2023-01-16 15:49:33,030 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:211)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:934)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$fc777aaa.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService$3.run(DumpService.java:112)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2023-01-16 15:59:32,233 INFO [capacityManagement] start correct usage
+
+2023-01-16 15:59:32,234 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-01-16 15:59:33,045 WARN clearConfigHistory start
+
+2023-01-16 15:59:33,047 WARN clearConfigHistory, getBeforeStamp:2022-12-17 15:59:33.0, totalCount:50, pageSize:1000, removeTime:1
+
+2023-01-16 15:59:33,054 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:211)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:934)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$fc777aaa.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService$3.run(DumpService.java:112)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2023-01-16 16:02:29,161 INFO Expired JWT token.
+
+2023-01-16 16:02:29,167 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2023-01-16 16:09:32,249 INFO [capacityManagement] start correct usage
+
+2023-01-16 16:09:32,251 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-01-16 16:09:33,056 WARN clearConfigHistory start
+
+2023-01-16 16:09:33,064 WARN clearConfigHistory, getBeforeStamp:2022-12-17 16:09:33.0, totalCount:50, pageSize:1000, removeTime:1
+
+2023-01-16 16:09:33,080 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:211)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:934)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$fc777aaa.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService$3.run(DumpService.java:112)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted

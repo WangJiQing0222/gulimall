@@ -1,118 +1,92 @@
-2022-12-14 16:15:48,942 INFO DEFAULT_GROUP@@gulimail-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:21:12,838 INFO DEFAULT_GROUP@@gulimall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 16:15:48,951 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimail-gateway, ips: 192.168.100.1:88_true,
+2023-01-16 15:21:12,844 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 192.168.100.1:88_true,
 
-2022-12-14 16:48:31,398 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:21:22,609 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 16:48:31,398 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 15:21:22,609 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 16:48:31,399 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 15:21:22,609 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 16:49:38,821 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:29:25,219 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 16:49:38,821 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+2023-01-16 15:29:25,219 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
 
-2022-12-14 16:52:55,840 INFO DEFAULT_GROUP@@gulimail-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:29:48,255 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 16:52:55,842 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimail-gateway, ips: 192.168.100.1:88_true,
+2023-01-16 15:29:48,255 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 16:58:26,646 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:29:48,271 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 16:58:26,646 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 15:31:20,204 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 16:58:26,648 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 15:31:20,204 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
 
-2022-12-14 16:58:59,715 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:31:31,973 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 16:58:59,715 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+2023-01-16 15:31:31,973 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 16:59:21,591 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:39:04,208 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 16:59:21,591 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 15:39:04,208 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
 
-2022-12-14 17:03:22,903 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:39:16,217 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:03:22,904 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+2023-01-16 15:39:16,217 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 17:03:44,703 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:40:49,288 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:03:44,703 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 15:40:49,288 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
 
-2022-12-14 17:03:44,703 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 15:41:01,171 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:06:46,713 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:41:01,171 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 17:06:46,713 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+2023-01-16 15:41:01,172 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 17:07:12,285 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:43:28,206 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:07:12,285 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 15:43:28,206 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
 
-2022-12-14 17:07:12,286 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 15:43:39,580 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:09:09,380 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:43:39,580 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 17:09:09,381 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+2023-01-16 15:43:39,580 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 17:09:31,862 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:47:47,218 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:09:31,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 15:47:47,218 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
 
-2022-12-14 17:09:31,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 15:47:59,355 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:23:16,914 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 15:47:59,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 17:23:16,914 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+2023-01-16 15:47:59,356 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 17:23:39,153 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 16:01:30,076 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:23:39,153 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 16:01:30,076 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
 
-2022-12-14 17:23:39,153 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
+2023-01-16 16:01:46,746 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:24:21,422 INFO DEFAULT_GROUP@@gulimail-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 16:01:46,746 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 17:24:21,422 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimail-gateway, ips: 
+2023-01-16 16:01:46,747 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2022-12-14 17:24:37,520 INFO DEFAULT_GROUP@@gulimail-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 16:01:55,937 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:24:37,520 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimail-gateway, ips: 192.168.100.1:88_true,
+2023-01-16 16:01:55,937 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,192.168.100.1:10001_true,
 
-2022-12-14 17:24:37,522 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimail-gateway, ips: 192.168.100.1:88_true,
+2023-01-16 16:01:55,942 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,192.168.100.1:10001_true,
 
-2022-12-14 17:47:33,638 INFO DEFAULT_GROUP@@gulimail-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 16:01:58,617 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10002:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:47:33,638 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimail-gateway, ips: 
+2023-01-16 16:01:58,617 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10002_true,192.168.100.1:10000_true,192.168.100.1:10001_true,
 
-2022-12-14 17:47:42,843 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-01-16 16:01:58,622 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10001_true,192.168.100.1:10002_true,192.168.100.1:10000_true,
 
-2022-12-14 17:47:42,843 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+2023-01-16 16:02:02,188 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10003:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-12-14 17:47:57,712 INFO DEFAULT_GROUP@@gulimail-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2022-12-14 17:47:57,713 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimail-gateway, ips: 192.168.100.1:88_true,
-
-2022-12-14 17:47:57,716 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimail-gateway, ips: 192.168.100.1:88_true,
-
-2022-12-14 17:48:08,345 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2022-12-14 17:48:08,345 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
-
-2022-12-14 17:48:08,346 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
-
-2022-12-14 17:50:53,434 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2022-12-14 17:50:53,434 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
-
-2022-12-14 17:51:17,570 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2022-12-14 17:51:17,570 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.100.1:8080_true,
-
-2022-12-14 17:55:55,855 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2022-12-14 17:55:55,855 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
-
-2022-12-14 17:55:59,938 INFO DEFAULT_GROUP@@gulimail-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2022-12-14 17:55:59,938 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimail-gateway, ips: 
+2023-01-16 16:02:02,188 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10001_true,192.168.100.1:10003_true,192.168.100.1:10002_true,192.168.100.1:10000_true,
 

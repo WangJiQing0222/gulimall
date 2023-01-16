@@ -50,11 +50,11 @@ public class SpuInfoEntity implements Serializable {
 	 */
 	private Integer publishStatus;
 	/**
-	 * 
+	 * 创建时间
 	 */
 	private Date createTime;
 	/**
-	 * 
+	 * 更新时间
 	 */
 	private Date updateTime;
 
