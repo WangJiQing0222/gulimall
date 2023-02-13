@@ -1,4 +1,4 @@
-package com.atguigu.gulimall.order.controller;
+package com.atguigu.gulimall.order.web;
 
 import com.atguigu.gulimall.order.service.OrderService;
 import com.atguigu.gulimall.order.vo.OrderConfirmVo;
