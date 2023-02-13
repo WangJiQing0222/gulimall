@@ -19,4 +19,5 @@ public class MybatisConfig {
         paginationInterceptor.setLimit(1000);
         return paginationInterceptor;
     }
+
 }

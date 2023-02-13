@@ -20,7 +20,7 @@ spring:
   thymeleaf:
     cache: false  # close cache, Can be real-time access to the latest data
   redis:
-    host: localhost #TODO replace linux server IP
+    host: 192.168.56.10 #TODO replace linux server IP
     port: 6379
 
 mybatis-plus:
@@ -34,5 +34,13 @@ server:
   port: 10000
 logging:
   level:
-    com.atguigu.gulimall: error
+    com.atguigu.gulimall: debug
+
+#自定义线程池
+gulimall:
+  thread:
+    core-thread: 20
+    max-thread: 200
+    max-alive-time: 10
+
 

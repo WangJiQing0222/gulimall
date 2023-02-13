@@ -9,8 +9,19 @@ spring:
       oss:
         endpoint: oss-cn-hangzhou.aliyuncs.com
         bucket: gulimall-cat
+      sms:
+        host: https://gyytz.market.alicloudapi.com
+        path: /sms/smsSend
+        method: POST
+        appcode: 2f49688f3fc244b7b66be9cf81f1c0f3
+
+      sms-test:
+        accessKeyId: LTAI5tQLaLNMZKpMLDGPpA9J
+        accessKeySecret: aYVdXqcvxeljWBn3hw1m8lY645X7DR
 
   application:
     name: gulimall-third-party
 server:
   port: 30000
+
+

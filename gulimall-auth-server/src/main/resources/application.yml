@@ -1,0 +1,8 @@
+feign:
+  okhttp:
+    enabled: true
+  client:
+    config:
+      default:
+        connect-timeout: 600000
+        read-timeout: 600000

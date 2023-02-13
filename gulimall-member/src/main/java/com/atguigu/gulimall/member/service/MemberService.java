@@ -1,10 +1,16 @@
 package com.atguigu.gulimall.member.service;
 
-import com.baomidou.mybatisplus.extension.service.IService;
 import com.atguigu.common.utils.PageUtils;
 import com.atguigu.gulimall.member.entity.MemberEntity;
+import com.atguigu.gulimall.member.exception.PhoneExistException;
+import com.atguigu.gulimall.member.exception.UserNameExistException;
+import com.atguigu.gulimall.member.vo.MemberLoginVo;
+import com.atguigu.gulimall.member.vo.MemberRegistVo;
+import com.atguigu.gulimall.member.vo.SocialGiteeUser;
+import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.Map;
+import java.util.Random;
 
 /**
  * 会员
@@ -16,5 +22,15 @@ import java.util.Map;
 public interface MemberService extends IService<MemberEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    void regist(MemberRegistVo vo);
+
+    void checkUserNameUnique(String userName) throws UserNameExistException;
+
+    void checkPhoneUnique(String phone) throws PhoneExistException;
+
+    MemberEntity login(MemberLoginVo vo);
+
+    MemberEntity login(SocialGiteeUser vo) throws Exception;
 }
 

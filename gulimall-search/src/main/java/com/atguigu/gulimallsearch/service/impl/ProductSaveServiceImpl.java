@@ -3,7 +3,7 @@ package com.atguigu.gulimallsearch.service.impl;
 import com.alibaba.fastjson.JSON;
 import com.atguigu.common.to.es.SkuEsModel;
 import com.atguigu.gulimallsearch.config.GulimallElasticSearchConfig;
-import com.atguigu.gulimallsearch.es.EsConstant;
+import com.atguigu.gulimallsearch.constant.EsConstant;
 import com.atguigu.gulimallsearch.service.ProductSaveService;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.bulk.BulkRequest;

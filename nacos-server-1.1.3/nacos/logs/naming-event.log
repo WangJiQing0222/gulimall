@@ -1,92 +1,112 @@
-2023-01-16 15:21:12,838 INFO DEFAULT_GROUP@@gulimall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:20:20,566 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:21:12,844 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 192.168.100.1:88_true,
+2023-02-13 10:20:20,579 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 192.168.100.1:20000_true,
 
-2023-01-16 15:21:22,609 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:20:20,583 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:21:22,609 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:20:20,583 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 192.168.100.1:20000_true,
 
-2023-01-16 15:21:22,609 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:20:20,586 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 192.168.100.1:20000_true,
 
-2023-01-16 15:29:25,219 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:20:20,586 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 192.168.100.1:20000_true,
 
-2023-01-16 15:29:25,219 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+2023-02-13 10:20:24,366 INFO DEFAULT_GROUP@@gulimall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:29:48,255 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:20:24,366 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 192.168.100.1:8000_true,
 
-2023-01-16 15:29:48,255 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:20:24,367 INFO DEFAULT_GROUP@@gulimall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:29:48,271 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:20:24,367 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 192.168.100.1:8000_true,
 
-2023-01-16 15:31:20,204 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:20:24,370 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 192.168.100.1:8000_true,
 
-2023-01-16 15:31:20,204 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+2023-02-13 10:20:24,370 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 192.168.100.1:8000_true,
 
-2023-01-16 15:31:31,973 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:20:41,864 INFO DEFAULT_GROUP@@gulimall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:31:31,973 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:20:41,865 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-ware, ips: 192.168.100.1:11000_true,
 
-2023-01-16 15:39:04,208 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:20:53,206 INFO DEFAULT_GROUP@@gulimall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:39:04,208 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+2023-02-13 10:20:53,207 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-order, ips: 192.168.100.1:9000_true,
 
-2023-01-16 15:39:16,217 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:20:59,502 INFO DEFAULT_GROUP@@gulimall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:39:16,217 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:20:59,502 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 192.168.100.1:88_true,
 
-2023-01-16 15:40:49,288 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:20:59,503 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 192.168.100.1:88_true,
 
-2023-01-16 15:40:49,288 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+2023-02-13 10:21:07,184 INFO DEFAULT_GROUP@@gulimall-search {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:41:01,171 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:21:07,184 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 192.168.100.1:12000_true,
 
-2023-01-16 15:41:01,171 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:21:07,184 INFO DEFAULT_GROUP@@gulimall-search {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:41:01,172 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:21:07,184 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 192.168.100.1:12000_true,
 
-2023-01-16 15:43:28,206 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:21:07,185 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 192.168.100.1:12000_true,
 
-2023-01-16 15:43:28,206 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+2023-02-13 10:21:07,185 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 192.168.100.1:12000_true,
 
-2023-01-16 15:43:39,580 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:21:12,038 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:43:39,580 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:21:12,038 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 192.168.100.1:30000_true,
 
-2023-01-16 15:43:39,580 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:21:12,039 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:47:47,218 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:21:12,039 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 192.168.100.1:30000_true,
 
-2023-01-16 15:47:47,218 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+2023-02-13 10:21:19,346 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 15:47:59,355 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:21:19,346 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2023-01-16 15:47:59,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:21:19,347 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
 
-2023-01-16 15:47:59,356 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:29:51,868 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 16:01:30,076 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:29:51,869 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 
 
-2023-01-16 16:01:30,076 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+2023-02-13 10:29:51,869 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 16:01:46,746 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:29:51,869 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 
 
-2023-01-16 16:01:46,746 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:29:52,006 INFO DEFAULT_GROUP@@gulimall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 16:01:46,747 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,
+2023-02-13 10:29:52,006 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 
 
-2023-01-16 16:01:55,937 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:29:52,006 INFO DEFAULT_GROUP@@gulimall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 16:01:55,937 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,192.168.100.1:10001_true,
+2023-02-13 10:29:52,006 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 
 
-2023-01-16 16:01:55,942 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10000_true,192.168.100.1:10001_true,
+2023-02-13 10:29:52,221 INFO DEFAULT_GROUP@@gulimall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 16:01:58,617 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:29:52,222 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-order, ips: 
 
-2023-01-16 16:01:58,617 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10002_true,192.168.100.1:10000_true,192.168.100.1:10001_true,
+2023-02-13 10:29:52,239 INFO DEFAULT_GROUP@@gulimall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 16:01:58,622 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10001_true,192.168.100.1:10002_true,192.168.100.1:10000_true,
+2023-02-13 10:29:52,239 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 
 
-2023-01-16 16:02:02,188 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.1:10003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-02-13 10:29:52,335 INFO DEFAULT_GROUP@@gulimall-search {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-01-16 16:02:02,188 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.100.1:10001_true,192.168.100.1:10003_true,192.168.100.1:10002_true,192.168.100.1:10000_true,
+2023-02-13 10:29:52,335 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 
+
+2023-02-13 10:29:52,335 INFO DEFAULT_GROUP@@gulimall-search {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-02-13 10:29:52,335 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 
+
+2023-02-13 10:29:52,402 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-02-13 10:29:52,402 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 
+
+2023-02-13 10:29:52,402 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-02-13 10:29:52,402 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 
+
+2023-02-13 10:29:52,464 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-02-13 10:29:52,464 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+
+2023-02-13 10:29:53,683 INFO DEFAULT_GROUP@@gulimall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.1:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-02-13 10:29:53,683 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-ware, ips: 
 
