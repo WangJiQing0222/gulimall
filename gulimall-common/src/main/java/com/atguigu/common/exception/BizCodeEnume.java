@@ -10,6 +10,7 @@ package com.atguigu.common.exception;
  * 10: 通用
  *      001：参数格式校验
  *      002：短信验证码发送频率太高
+ *      003：请求流量过大
  * 11: 商品
  * 12: 订单
  * 13: 购物车
@@ -21,6 +22,7 @@ public enum BizCodeEnume {
     UNKNOW_EXCETPION(10000, "系统未知异常"),
     VALID_EXCETPION(10001, "参数格式校验失败"),
     SMS_CODE_EXCETPION(10002, "短信验证码发送频率太高，请稍后再试"),
+    TOO_MANY_REQUEST(10003, "请求流量过大"),
     PRODUCT_UP_EXCEPTION(11000, "商品商家错误"),
     USERNAME_EXIST_EXCEPTION(15001, "用户名已存在"),
     PHONE_EXIST_EXCEPTION(15002, "手机号已存在"),

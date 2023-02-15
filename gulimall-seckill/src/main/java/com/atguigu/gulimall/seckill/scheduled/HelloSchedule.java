@@ -41,8 +41,8 @@ public class HelloSchedule {
      *          spring.task.execution.pool.max-size=50
      * 异步任务
      */
-    @Scheduled(cron = "* * * * * *")
-    @Async//默认coreSize = 8; maxSize = 2147483647;
+//    @Scheduled(cron = "* * * * * *")
+//    @Async//默认coreSize = 8; maxSize = 2147483647;
     public void hello() throws InterruptedException {
         log.debug("hello...");
         System.out.println("lalala-->线程id：" + Thread.currentThread().getId());

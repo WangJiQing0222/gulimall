@@ -99,4 +99,26 @@ public class MyMQConfig {
                 "order.release.other.#",
                 null);
     }
+
+    @Bean
+    public Queue orderSeckillOrderQueue(){
+        //String name, boolean durable, boolean exclusive, boolean autoDelete, Map<String, Object> arguments
+        return new Queue("order.seckill.order.queue", true, false, false);
+    }
+
+    @Bean
+    public Binding orderSeckillOrderQueueBinding(){
+        /**
+         *     public Binding(String destination,
+         *          Binding.DestinationType destinationType,
+         *          String exchange, String routingKey,
+         *          Map<String, Object> arguments) {
+         */
+        return new Binding("order.seckill.order.queue",
+                Binding.DestinationType.QUEUE,
+                "order-event-exchange",
+                "order.seckill.order",
+                null);
+    }
+
 }
