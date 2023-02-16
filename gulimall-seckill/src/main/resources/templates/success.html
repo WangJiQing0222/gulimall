@@ -65,8 +65,8 @@
     <div class="success-wrap">
         <div class="w" id="result">
             <div class="m succeed-box">
-                <div th:if="${orderSn==null}" class="mc success-cont">
-                    <h1>恭喜，秒杀成功，订单号[[${orderSn}]</h1>
+                <div th:if="${orderSn!=null}" class="mc success-cont">
+                    <h1>恭喜，秒杀成功，订单号[[${orderSn}]]</h1>
                     <h2>正在准备订单数据，10s以后自动跳转支付 <a style="color: red" th:href="${'http://order.gulimall.com/payOrder?orderSn=' + orderSn}">去支付</a></h2>
                 </div>
                 <div th:if="${orderSn == null}">

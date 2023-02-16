@@ -29,6 +29,16 @@ public class WareInfoController {
     private WareInfoService wareInfoService;
 
     /**
+     * 测试Seata的插入数据样例 wms_ware_info
+     * @return
+     */
+    @GetMapping("/insert")
+    public R testSeata(){
+        Boolean flag = wareInfoService.testSeata();
+        return flag == true ? R.ok() : R.error("测试Seata的插入数据样例失败");
+    }
+
+    /**
      * 根据用户的收获地址计算运费
      * @param addrId
      * @return

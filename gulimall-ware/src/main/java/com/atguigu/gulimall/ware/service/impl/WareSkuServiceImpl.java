@@ -26,7 +26,6 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.rabbitmq.client.Channel;
 import lombok.Data;
-import org.apache.commons.lang.StringUtils;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
@@ -35,6 +34,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.StringUtils;
 
 import java.io.IOException;
 import java.util.Date;
@@ -163,6 +163,7 @@ public class WareSkuServiceImpl extends ServiceImpl<WareSkuDao, WareSkuEntity> i
     @Transactional
     @Override
     public boolean orderLockStock(WareSkuLockVo vo) {
+        System.out.println("vo:" + vo);
         /**
          * 保存库存工作单详情信息
          * 追溯
@@ -181,6 +182,7 @@ public class WareSkuServiceImpl extends ServiceImpl<WareSkuDao, WareSkuEntity> i
             SkuWareHasStock stock = new SkuWareHasStock();
             Long skuId = item.getSkuId();
             stock.setSkuId(skuId);
+            stock.setNum(item.getCount());
             //查询这个商品在哪里有库存
             List<Long> wareIds = wareSkuDao.listWareIdHasSkuStock(skuId);
             stock.setWareId(wareIds);
@@ -194,8 +196,9 @@ public class WareSkuServiceImpl extends ServiceImpl<WareSkuDao, WareSkuEntity> i
 
             Long skuId = hasStock.getSkuId();
             List<Long> wareIds = hasStock.getWareId();
-            if (wareIds == null || wareIds.size() == 0) {
+            if (StringUtils.isEmpty(wareIds)) {
                 //没有任何仓库有这个库存
+                System.out.println("没有任何仓库有这个库存...");
                 throw new NoStockException(skuId);
             }
 
@@ -219,17 +222,15 @@ public class WareSkuServiceImpl extends ServiceImpl<WareSkuDao, WareSkuEntity> i
                     lockedTo.setDetailTo(stockDetailTo);
 
                     rabbitTemplate.convertAndSend("stock-event-exchange","stock.locked",lockedTo);
-
-
                     break;
                 }else {
                     //当前仓库锁失败，重试下一个仓库
-
                 }
             }
 
             if (skuStocked == false) {
                 //当前商品所有仓库都没有锁住
+                System.out.println("当前商品所有仓库都没有锁住...");
                 throw new NoStockException(skuId);
             }
         }

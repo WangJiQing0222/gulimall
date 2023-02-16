@@ -15,7 +15,7 @@ import java.io.IOException;
 
 @Slf4j
 @Component
-@RabbitListener
+@RabbitListener(queues = {"order.seckill.order.queue"})
 public class OrderSeckillListener {
 
     @Autowired

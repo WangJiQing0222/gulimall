@@ -27,8 +27,8 @@
         select sum(stock - stock_locked) from wms_ware_sku where sku_id = #{skuId}
     </select>
     <select id="listWareIdHasSkuStock" resultType="java.lang.Long">
-        SELECT * FROM `wms_ware_sku`
-        WHERE sku_id = #{skuId} AND stock_locked > 0
+        SELECT ware_id FROM `wms_ware_sku`
+        WHERE sku_id = #{skuId} AND stock - stock_locked > 0
     </select>
 
 

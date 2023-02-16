@@ -1,6 +1,2540 @@
-2023-02-15 14:02:29,949 INFO DEFAULT_GROUP@@gulimall-gateway is changed, add it to push queue.
+2023-02-16 08:59:38,732 INFO DEFAULT_GROUP@@gulimall-third-party is changed, add it to push queue.
 
-2023-02-15 14:03:08,617 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+2023-02-16 08:59:43,157 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
 
-2023-02-15 14:03:27,728 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+2023-02-16 09:00:07,167 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:02:57,320 INFO DEFAULT_GROUP@@gulimall-gateway is changed, add it to push queue.
+
+2023-02-16 09:05:35,204 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:05:35,222 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,735224456100
+
+2023-02-16 09:05:35,246 INFO send udp packet: 192.168.100.1,54146,735224456100
+
+2023-02-16 09:05:35,468 INFO received ack: {"type": "push-ack", "lastRefTime":"735224456100", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 246, total push: 0
+
+2023-02-16 09:06:12,427 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:06:12,428 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,772430741800
+
+2023-02-16 09:06:12,428 INFO send udp packet: 192.168.100.1,54146,772430741800
+
+2023-02-16 09:06:12,430 INFO received ack: {"type": "push-ack", "lastRefTime":"772430741800", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 09:09:52,430 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:09:52,430 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,992433252400
+
+2023-02-16 09:09:52,430 INFO send udp packet: 192.168.100.1,54146,992433252400
+
+2023-02-16 09:09:52,431 INFO received ack: {"type": "push-ack", "lastRefTime":"992433252400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 09:10:07,573 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:10:07,573 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1007576060800
+
+2023-02-16 09:10:07,573 INFO send udp packet: 192.168.100.1,54146,1007576060800
+
+2023-02-16 09:10:07,576 INFO received ack: {"type": "push-ack", "lastRefTime":"1007576060800", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 09:11:23,256 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:11:23,256 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1083259932400
+
+2023-02-16 09:11:23,256 INFO send udp packet: 192.168.100.1,54146,1083259932400
+
+2023-02-16 09:11:23,259 INFO received ack: {"type": "push-ack", "lastRefTime":"1083259932400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 09:11:42,569 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:11:42,569 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1102572854600
+
+2023-02-16 09:11:42,569 INFO send udp packet: 192.168.100.1,54146,1102572854600
+
+2023-02-16 09:11:42,571 INFO received ack: {"type": "push-ack", "lastRefTime":"1102572854600", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 09:11:57,583 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:11:57,583 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1117586520500
+
+2023-02-16 09:11:57,583 INFO send udp packet: 192.168.100.1,54146,1117586520500
+
+2023-02-16 09:11:57,588 INFO received ack: {"type": "push-ack", "lastRefTime":"1117586520500", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 5, total push: 0
+
+2023-02-16 09:16:18,940 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:16:18,945 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1378947999100
+
+2023-02-16 09:16:18,945 INFO send udp packet: 192.168.100.1,54146,1378947999100
+
+2023-02-16 09:16:18,947 INFO received ack: {"type": "push-ack", "lastRefTime":"1378947999100", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 09:17:16,525 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:17:16,525 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1436528575300
+
+2023-02-16 09:17:16,526 INFO send udp packet: 192.168.100.1,54146,1436528575300
+
+2023-02-16 09:17:16,529 INFO received ack: {"type": "push-ack", "lastRefTime":"1436528575300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 4, total push: 0
+
+2023-02-16 09:18:12,628 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:18:12,628 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1492631301100
+
+2023-02-16 09:18:12,628 INFO send udp packet: 192.168.100.1,54146,1492631301100
+
+2023-02-16 09:18:12,629 INFO received ack: {"type": "push-ack", "lastRefTime":"1492631301100", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 09:18:27,635 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:18:27,635 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1507638947300
+
+2023-02-16 09:18:27,636 INFO send udp packet: 192.168.100.1,54146,1507638947300
+
+2023-02-16 09:18:27,639 INFO received ack: {"type": "push-ack", "lastRefTime":"1507638947300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 09:19:11,832 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:19:11,832 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1551835404300
+
+2023-02-16 09:19:11,832 INFO send udp packet: 192.168.100.1,54146,1551835404300
+
+2023-02-16 09:19:11,836 INFO received ack: {"type": "push-ack", "lastRefTime":"1551835404300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 09:19:47,639 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:19:47,640 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1587642856900
+
+2023-02-16 09:19:47,640 INFO send udp packet: 192.168.100.1,54146,1587642856900
+
+2023-02-16 09:19:47,641 INFO received ack: {"type": "push-ack", "lastRefTime":"1587642856900", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 09:20:02,647 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:20:02,648 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1602651158900
+
+2023-02-16 09:20:02,648 INFO send udp packet: 192.168.100.1,54146,1602651158900
+
+2023-02-16 09:20:02,651 INFO received ack: {"type": "push-ack", "lastRefTime":"1602651158900", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 09:22:34,550 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:22:34,550 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1754553392800
+
+2023-02-16 09:22:34,550 INFO send udp packet: 192.168.100.1,54146,1754553392800
+
+2023-02-16 09:22:34,552 INFO received ack: {"type": "push-ack", "lastRefTime":"1754553392800", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 09:23:29,549 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 09:23:29,549 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,1809552295400
+
+2023-02-16 09:23:29,549 INFO send udp packet: 192.168.100.1,54146,1809552295400
+
+2023-02-16 09:23:29,550 INFO received ack: {"type": "push-ack", "lastRefTime":"1809552295400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 09:49:34,821 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2023-02-16 09:49:34,821 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:54596, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54596,3374824788200
+
+2023-02-16 09:49:34,821 INFO send udp packet: 192.168.100.1,54596,3374824788200
+
+2023-02-16 09:49:34,828 INFO received ack: {"type": "push-ack", "lastRefTime":"3374824788200", "data":""} from: 192.168.100.1:, cost: 54596 ms, unacked: 7, total push: 0
+
+2023-02-16 09:52:18,264 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 09:52:18,264 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,3538267319200
+
+2023-02-16 09:52:18,264 INFO send udp packet: 192.168.100.1,54146,3538267319200
+
+2023-02-16 09:52:18,265 INFO received ack: {"type": "push-ack", "lastRefTime":"3538267319200", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 09:59:22,962 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:59:22,963 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,3962965701200
+
+2023-02-16 09:59:22,963 INFO send udp packet: 192.168.100.1,54146,3962965701200
+
+2023-02-16 09:59:22,964 INFO received ack: {"type": "push-ack", "lastRefTime":"3962965701200", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 09:59:23,998 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 09:59:23,998 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,3964001184400
+
+2023-02-16 09:59:23,998 INFO send udp packet: 192.168.100.1,54146,3964001184400
+
+2023-02-16 09:59:23,999 INFO received ack: {"type": "push-ack", "lastRefTime":"3964001184400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 10:05:33,016 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:05:33,016 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4333019636000
+
+2023-02-16 10:05:33,016 INFO send udp packet: 192.168.100.1,54146,4333019636000
+
+2023-02-16 10:05:33,017 INFO received ack: {"type": "push-ack", "lastRefTime":"4333019636000", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 10:05:48,049 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:05:48,049 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4348052601900
+
+2023-02-16 10:05:48,049 INFO send udp packet: 192.168.100.1,54146,4348052601900
+
+2023-02-16 10:05:48,052 INFO received ack: {"type": "push-ack", "lastRefTime":"4348052601900", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 10:07:51,304 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:07:51,304 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4471307886700
+
+2023-02-16 10:07:51,305 INFO send udp packet: 192.168.100.1,54146,4471307886700
+
+2023-02-16 10:07:51,306 INFO received ack: {"type": "push-ack", "lastRefTime":"4471307886700", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 10:08:15,073 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:08:15,074 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4495077345100
+
+2023-02-16 10:08:15,074 INFO send udp packet: 192.168.100.1,54146,4495077345100
+
+2023-02-16 10:08:15,078 INFO received ack: {"type": "push-ack", "lastRefTime":"4495077345100", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 4, total push: 0
+
+2023-02-16 10:08:52,042 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:08:52,042 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4532045525000
+
+2023-02-16 10:08:52,042 INFO send udp packet: 192.168.100.1,54146,4532045525000
+
+2023-02-16 10:08:52,045 INFO received ack: {"type": "push-ack", "lastRefTime":"4532045525000", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 10:13:18,095 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:13:18,097 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4798099030800
+
+2023-02-16 10:13:18,098 INFO send udp packet: 192.168.100.1,54146,4798099030800
+
+2023-02-16 10:13:18,100 INFO received ack: {"type": "push-ack", "lastRefTime":"4798099030800", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 10:13:33,258 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:13:33,259 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4813262250400
+
+2023-02-16 10:13:33,259 INFO send udp packet: 192.168.100.1,54146,4813262250400
+
+2023-02-16 10:13:33,322 INFO received ack: {"type": "push-ack", "lastRefTime":"4813262250400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 63, total push: 0
+
+2023-02-16 10:14:38,017 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:14:38,017 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4878020375100
+
+2023-02-16 10:14:38,018 INFO send udp packet: 192.168.100.1,54146,4878020375100
+
+2023-02-16 10:14:38,023 INFO received ack: {"type": "push-ack", "lastRefTime":"4878020375100", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 5, total push: 0
+
+2023-02-16 10:15:08,118 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:15:08,118 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4908121346300
+
+2023-02-16 10:15:08,118 INFO send udp packet: 192.168.100.1,54146,4908121346300
+
+2023-02-16 10:15:08,119 INFO received ack: {"type": "push-ack", "lastRefTime":"4908121346300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 10:15:23,123 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:15:23,123 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4923126667300
+
+2023-02-16 10:15:23,123 INFO send udp packet: 192.168.100.1,54146,4923126667300
+
+2023-02-16 10:15:23,125 INFO received ack: {"type": "push-ack", "lastRefTime":"4923126667300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 10:15:39,792 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:15:39,793 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4939795572100
+
+2023-02-16 10:15:39,793 INFO send udp packet: 192.168.100.1,54146,4939795572100
+
+2023-02-16 10:15:39,796 INFO received ack: {"type": "push-ack", "lastRefTime":"4939795572100", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 10:16:08,124 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:16:08,124 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4968127381700
+
+2023-02-16 10:16:08,124 INFO send udp packet: 192.168.100.1,54146,4968127381700
+
+2023-02-16 10:16:08,125 INFO received ack: {"type": "push-ack", "lastRefTime":"4968127381700", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 10:16:18,271 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:16:18,271 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,4978274346300
+
+2023-02-16 10:16:18,271 INFO send udp packet: 192.168.100.1,54146,4978274346300
+
+2023-02-16 10:16:18,272 INFO received ack: {"type": "push-ack", "lastRefTime":"4978274346300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 10:20:46,248 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:20:46,248 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,5246251661200
+
+2023-02-16 10:20:46,248 INFO send udp packet: 192.168.100.1,54146,5246251661200
+
+2023-02-16 10:20:46,253 INFO received ack: {"type": "push-ack", "lastRefTime":"5246251661200", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 5, total push: 0
+
+2023-02-16 10:21:25,205 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 10:21:25,205 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,5285208220400
+
+2023-02-16 10:21:25,205 INFO send udp packet: 192.168.100.1,54146,5285208220400
+
+2023-02-16 10:21:25,208 INFO received ack: {"type": "push-ack", "lastRefTime":"5285208220400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 10:22:35,223 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-02-16 10:22:35,223 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,5355226429000
+
+2023-02-16 10:22:35,223 INFO send udp packet: 192.168.100.1,54146,5355226429000
+
+2023-02-16 10:22:35,226 INFO received ack: {"type": "push-ack", "lastRefTime":"5355226429000", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 10:23:41,699 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 10:23:41,700 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,5421703087300
+
+2023-02-16 10:23:41,700 INFO send udp packet: 192.168.100.1,54146,5421703087300
+
+2023-02-16 10:23:41,701 INFO received ack: {"type": "push-ack", "lastRefTime":"5421703087300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 10:23:46,488 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 10:23:55,245 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 10:24:05,410 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 10:24:05,410 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,5445413795900
+
+2023-02-16 10:24:05,410 INFO send udp packet: 192.168.100.1,54146,5445413795900
+
+2023-02-16 10:24:05,411 INFO received ack: {"type": "push-ack", "lastRefTime":"5445413795900", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 10:26:21,838 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 10:26:21,838 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,5581841276300
+
+2023-02-16 10:26:21,838 INFO send udp packet: 192.168.100.1,54146,5581841276300
+
+2023-02-16 10:26:21,879 INFO received ack: {"type": "push-ack", "lastRefTime":"5581841276300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 41, total push: 0
+
+2023-02-16 10:27:14,414 INFO DEFAULT_GROUP@@gulimall-cart is changed, add it to push queue.
+
+2023-02-16 10:27:14,414 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,5634417799300
+
+2023-02-16 10:27:14,414 INFO send udp packet: 192.168.100.1,54146,5634417799300
+
+2023-02-16 10:27:14,415 INFO received ack: {"type": "push-ack", "lastRefTime":"5634417799300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 10:34:10,292 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 10:34:10,292 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,6050295313300
+
+2023-02-16 10:34:10,292 INFO send udp packet: 192.168.100.1,54146,6050295313300
+
+2023-02-16 10:34:10,293 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:49232, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,49232,6050295313300
+
+2023-02-16 10:34:10,293 INFO send udp packet: 192.168.100.1,49232,6050295313300
+
+2023-02-16 10:34:10,295 INFO received ack: {"type": "push-ack", "lastRefTime":"6050295313300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 1
+
+2023-02-16 10:34:10,308 INFO received ack: {"type": "push-ack", "lastRefTime":"6050295313300", "data":""} from: 192.168.100.1:, cost: 49232 ms, unacked: 15, total push: 0
+
+2023-02-16 10:39:48,888 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 10:39:48,889 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,6388892221500
+
+2023-02-16 10:39:48,889 INFO send udp packet: 192.168.100.1,54146,6388892221500
+
+2023-02-16 10:39:48,890 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:49232, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,49232,6388892221500
+
+2023-02-16 10:39:48,890 INFO send udp packet: 192.168.100.1,49232,6388892221500
+
+2023-02-16 10:39:48,892 INFO received ack: {"type": "push-ack", "lastRefTime":"6388892221500", "data":""} from: 192.168.100.1:, cost: 49232 ms, unacked: 2, total push: 1
+
+2023-02-16 10:39:48,893 INFO received ack: {"type": "push-ack", "lastRefTime":"6388892221500", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 4, total push: 0
+
+2023-02-16 10:40:24,458 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 10:40:24,458 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,6424461195500
+
+2023-02-16 10:40:24,458 INFO send udp packet: 192.168.100.1,54146,6424461195500
+
+2023-02-16 10:40:24,458 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:49232, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,49232,6424461195500
+
+2023-02-16 10:40:24,458 INFO send udp packet: 192.168.100.1,49232,6424461195500
+
+2023-02-16 10:40:24,461 INFO received ack: {"type": "push-ack", "lastRefTime":"6424461195500", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 1
+
+2023-02-16 10:40:24,462 INFO received ack: {"type": "push-ack", "lastRefTime":"6424461195500", "data":""} from: 192.168.100.1:, cost: 49232 ms, unacked: 4, total push: 0
+
+2023-02-16 10:46:38,290 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 10:46:38,290 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,6798293672500
+
+2023-02-16 10:46:38,290 INFO send udp packet: 192.168.100.1,50459,6798293672500
+
+2023-02-16 10:46:38,295 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,6798293672500
+
+2023-02-16 10:46:38,295 INFO send udp packet: 192.168.100.1,54146,6798293672500
+
+2023-02-16 10:46:38,299 INFO received ack: {"type": "push-ack", "lastRefTime":"6798293672500", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 9, total push: 1
+
+2023-02-16 10:46:38,301 INFO received ack: {"type": "push-ack", "lastRefTime":"6798293672500", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 6, total push: 0
+
+2023-02-16 10:47:11,314 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 10:47:11,314 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,6831317465300
+
+2023-02-16 10:47:11,314 INFO send udp packet: 192.168.100.1,50459,6831317465300
+
+2023-02-16 10:47:11,314 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,6831317465300
+
+2023-02-16 10:47:11,314 INFO send udp packet: 192.168.100.1,54146,6831317465300
+
+2023-02-16 10:47:11,318 INFO received ack: {"type": "push-ack", "lastRefTime":"6831317465300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 4, total push: 1
+
+2023-02-16 10:47:11,318 INFO received ack: {"type": "push-ack", "lastRefTime":"6831317465300", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 4, total push: 0
+
+2023-02-16 10:47:57,015 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 10:47:57,015 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,6877018526600
+
+2023-02-16 10:47:57,015 INFO send udp packet: 192.168.100.1,50459,6877018526600
+
+2023-02-16 10:47:57,015 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,6877018526600
+
+2023-02-16 10:47:57,015 INFO send udp packet: 192.168.100.1,54146,6877018526600
+
+2023-02-16 10:47:57,017 INFO received ack: {"type": "push-ack", "lastRefTime":"6877018526600", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 1
+
+2023-02-16 10:47:57,017 INFO received ack: {"type": "push-ack", "lastRefTime":"6877018526600", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 2, total push: 0
+
+2023-02-16 10:48:12,024 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 10:48:12,024 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,6892027077100
+
+2023-02-16 10:48:12,024 INFO send udp packet: 192.168.100.1,50459,6892027077100
+
+2023-02-16 10:48:12,024 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,6892027077100
+
+2023-02-16 10:48:12,024 INFO send udp packet: 192.168.100.1,54146,6892027077100
+
+2023-02-16 10:48:12,026 INFO received ack: {"type": "push-ack", "lastRefTime":"6892027077100", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 1
+
+2023-02-16 10:48:12,026 INFO received ack: {"type": "push-ack", "lastRefTime":"6892027077100", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 2, total push: 0
+
+2023-02-16 10:53:09,351 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-02-16 10:53:09,352 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,7189354628300
+
+2023-02-16 10:53:09,352 INFO send udp packet: 192.168.100.1,54146,7189354628300
+
+2023-02-16 10:53:09,358 INFO received ack: {"type": "push-ack", "lastRefTime":"7189354628300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 6, total push: 0
+
+2023-02-16 10:55:18,909 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 10:55:18,909 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,7318912606400
+
+2023-02-16 10:55:18,910 INFO send udp packet: 192.168.100.1,50459,7318912606400
+
+2023-02-16 10:55:18,910 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,7318912606400
+
+2023-02-16 10:55:18,910 INFO send udp packet: 192.168.100.1,54146,7318912606400
+
+2023-02-16 10:55:18,914 INFO received ack: {"type": "push-ack", "lastRefTime":"7318912606400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 4, total push: 1
+
+2023-02-16 10:55:18,915 INFO received ack: {"type": "push-ack", "lastRefTime":"7318912606400", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 5, total push: 0
+
+2023-02-16 11:06:37,199 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 11:06:37,199 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,7997202713500
+
+2023-02-16 11:06:37,199 INFO send udp packet: 192.168.100.1,50459,7997202713500
+
+2023-02-16 11:06:37,200 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,7997202713500
+
+2023-02-16 11:06:37,200 INFO send udp packet: 192.168.100.1,54146,7997202713500
+
+2023-02-16 11:06:37,202 INFO received ack: {"type": "push-ack", "lastRefTime":"7997202713500", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 1
+
+2023-02-16 11:06:37,210 INFO received ack: {"type": "push-ack", "lastRefTime":"7997202713500", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 11, total push: 0
+
+2023-02-16 11:06:39,870 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 11:06:39,871 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,7999874061100
+
+2023-02-16 11:06:39,871 INFO send udp packet: 192.168.100.1,50459,7999874061100
+
+2023-02-16 11:06:39,871 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,7999874061100
+
+2023-02-16 11:06:39,871 INFO send udp packet: 192.168.100.1,54146,7999874061100
+
+2023-02-16 11:06:39,873 INFO received ack: {"type": "push-ack", "lastRefTime":"7999874061100", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 1
+
+2023-02-16 11:06:39,884 INFO received ack: {"type": "push-ack", "lastRefTime":"7999874061100", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 13, total push: 0
+
+2023-02-16 11:06:57,202 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 11:06:57,202 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,8017205602500
+
+2023-02-16 11:06:57,202 INFO send udp packet: 192.168.100.1,50459,8017205602500
+
+2023-02-16 11:06:57,203 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8017205602500
+
+2023-02-16 11:06:57,203 INFO send udp packet: 192.168.100.1,54146,8017205602500
+
+2023-02-16 11:06:57,204 INFO received ack: {"type": "push-ack", "lastRefTime":"8017205602500", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 1
+
+2023-02-16 11:06:57,208 INFO received ack: {"type": "push-ack", "lastRefTime":"8017205602500", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 6, total push: 0
+
+2023-02-16 11:07:12,209 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 11:07:12,209 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,8032212933400
+
+2023-02-16 11:07:12,210 INFO send udp packet: 192.168.100.1,50459,8032212933400
+
+2023-02-16 11:07:12,210 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8032212933400
+
+2023-02-16 11:07:12,210 INFO send udp packet: 192.168.100.1,54146,8032212933400
+
+2023-02-16 11:07:12,213 INFO received ack: {"type": "push-ack", "lastRefTime":"8032212933400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 1
+
+2023-02-16 11:07:12,221 INFO received ack: {"type": "push-ack", "lastRefTime":"8032212933400", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 11, total push: 0
+
+2023-02-16 11:12:24,156 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 11:12:24,156 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,8344159534599
+
+2023-02-16 11:12:24,156 INFO send udp packet: 192.168.100.1,50459,8344159534599
+
+2023-02-16 11:12:24,157 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8344159534599
+
+2023-02-16 11:12:24,157 INFO send udp packet: 192.168.100.1,54146,8344159534599
+
+2023-02-16 11:12:24,162 INFO received ack: {"type": "push-ack", "lastRefTime":"8344159534599", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 5, total push: 1
+
+2023-02-16 11:12:24,173 INFO received ack: {"type": "push-ack", "lastRefTime":"8344159534599", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 17, total push: 0
+
+2023-02-16 11:21:24,413 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 11:21:24,413 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8884417077700
+
+2023-02-16 11:21:24,413 INFO send udp packet: 192.168.100.1,54146,8884417077700
+
+2023-02-16 11:21:24,417 INFO received ack: {"type": "push-ack", "lastRefTime":"8884417077700", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 4, total push: 0
+
+2023-02-16 11:21:24,510 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 11:21:24,510 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8884513152600
+
+2023-02-16 11:21:24,510 INFO send udp packet: 192.168.100.1,54146,8884513152600
+
+2023-02-16 11:21:24,510 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:49232, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,49232,8884513152600
+
+2023-02-16 11:21:24,510 INFO send udp packet: 192.168.100.1,49232,8884513152600
+
+2023-02-16 11:21:24,513 INFO received ack: {"type": "push-ack", "lastRefTime":"8884513152600", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 1
+
+2023-02-16 11:21:24,527 INFO received ack: {"type": "push-ack", "lastRefTime":"8884513152600", "data":""} from: 192.168.100.1:, cost: 49232 ms, unacked: 17, total push: 0
+
+2023-02-16 11:21:24,614 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 11:21:24,614 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:59889, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,59889,8884617796200
+
+2023-02-16 11:21:24,614 INFO send udp packet: 192.168.100.1,59889,8884617796200
+
+2023-02-16 11:21:24,617 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8884617796200
+
+2023-02-16 11:21:24,617 INFO send udp packet: 192.168.100.1,54146,8884617796200
+
+2023-02-16 11:21:24,621 INFO received ack: {"type": "push-ack", "lastRefTime":"8884617796200", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 4, total push: 1
+
+2023-02-16 11:21:24,630 INFO received ack: {"type": "push-ack", "lastRefTime":"8884617796200", "data":""} from: 192.168.100.1:, cost: 59889 ms, unacked: 16, total push: 0
+
+2023-02-16 11:21:24,662 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 11:21:24,662 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8884665413000
+
+2023-02-16 11:21:24,662 INFO send udp packet: 192.168.100.1,54146,8884665413000
+
+2023-02-16 11:21:24,665 INFO received ack: {"type": "push-ack", "lastRefTime":"8884665413000", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 11:21:24,748 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2023-02-16 11:21:24,748 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:64932, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64932,8884751615400
+
+2023-02-16 11:21:24,748 INFO send udp packet: 192.168.100.1,64932,8884751615400
+
+2023-02-16 11:21:24,750 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8884751615400
+
+2023-02-16 11:21:24,750 INFO send udp packet: 192.168.100.1,54146,8884751615400
+
+2023-02-16 11:21:24,753 INFO received ack: {"type": "push-ack", "lastRefTime":"8884751615400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 1
+
+2023-02-16 11:21:24,776 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 11:21:24,776 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:59632, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,59632,8884779050400
+
+2023-02-16 11:21:24,776 INFO send udp packet: 192.168.100.1,59632,8884779050400
+
+2023-02-16 11:21:24,777 INFO received ack: {"type": "push-ack", "lastRefTime":"8884751615400", "data":""} from: 192.168.100.1:, cost: 64932 ms, unacked: 29, total push: 1
+
+2023-02-16 11:21:24,780 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8884779050400
+
+2023-02-16 11:21:24,780 INFO send udp packet: 192.168.100.1,54146,8884779050400
+
+2023-02-16 11:21:24,780 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,8884779050400
+
+2023-02-16 11:21:24,780 INFO send udp packet: 192.168.100.1,50459,8884779050400
+
+2023-02-16 11:21:24,783 INFO received ack: {"type": "push-ack", "lastRefTime":"8884779050400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 2
+
+2023-02-16 11:21:24,801 INFO received ack: {"type": "push-ack", "lastRefTime":"8884779050400", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 21, total push: 1
+
+2023-02-16 11:21:24,818 INFO received ack: {"type": "push-ack", "lastRefTime":"8884779050400", "data":""} from: 192.168.100.1:, cost: 59632 ms, unacked: 42, total push: 0
+
+2023-02-16 11:21:24,865 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 11:21:24,865 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8884868649200
+
+2023-02-16 11:21:24,869 INFO send udp packet: 192.168.100.1,54146,8884868649200
+
+2023-02-16 11:21:24,871 INFO received ack: {"type": "push-ack", "lastRefTime":"8884868649200", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 6, total push: 0
+
+2023-02-16 11:21:24,871 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:55718, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55718,8884868649200
+
+2023-02-16 11:21:24,871 INFO send udp packet: 192.168.100.1,55718,8884868649200
+
+2023-02-16 11:21:24,872 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,8884868649200
+
+2023-02-16 11:21:24,872 INFO send udp packet: 192.168.100.1,50459,8884868649200
+
+2023-02-16 11:21:24,873 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:59889, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,59889,8884868649200
+
+2023-02-16 11:21:24,874 INFO send udp packet: 192.168.100.1,59889,8884868649200
+
+2023-02-16 11:21:24,887 INFO received ack: {"type": "push-ack", "lastRefTime":"8884868649200", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 15, total push: 2
+
+2023-02-16 11:21:24,902 INFO received ack: {"type": "push-ack", "lastRefTime":"8884868649200", "data":""} from: 192.168.100.1:, cost: 59889 ms, unacked: 28, total push: 1
+
+2023-02-16 11:21:24,909 INFO received ack: {"type": "push-ack", "lastRefTime":"8884868649200", "data":""} from: 192.168.100.1:, cost: 55718 ms, unacked: 38, total push: 0
+
+2023-02-16 11:21:25,235 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 11:21:25,235 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,8885238792600
+
+2023-02-16 11:21:25,236 INFO send udp packet: 192.168.100.1,50459,8885238792600
+
+2023-02-16 11:21:25,236 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8885238792600
+
+2023-02-16 11:21:25,236 INFO send udp packet: 192.168.100.1,54146,8885238792600
+
+2023-02-16 11:21:25,239 INFO received ack: {"type": "push-ack", "lastRefTime":"8885238792600", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 1
+
+2023-02-16 11:21:25,261 INFO received ack: {"type": "push-ack", "lastRefTime":"8885238792600", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 25, total push: 0
+
+2023-02-16 11:21:25,870 INFO DEFAULT_GROUP@@gulimall-cart is changed, add it to push queue.
+
+2023-02-16 11:21:25,870 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8885873486300
+
+2023-02-16 11:21:25,870 INFO send udp packet: 192.168.100.1,54146,8885873486300
+
+2023-02-16 11:21:25,870 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,8885873486300
+
+2023-02-16 11:21:25,870 INFO send udp packet: 192.168.100.1,50459,8885873486300
+
+2023-02-16 11:21:25,872 INFO received ack: {"type": "push-ack", "lastRefTime":"8885873486300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 1
+
+2023-02-16 11:21:25,900 INFO received ack: {"type": "push-ack", "lastRefTime":"8885873486300", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 30, total push: 0
+
+2023-02-16 11:21:54,053 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 11:21:54,053 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8914056423800
+
+2023-02-16 11:21:54,053 INFO send udp packet: 192.168.100.1,54146,8914056423800
+
+2023-02-16 11:21:54,056 INFO received ack: {"type": "push-ack", "lastRefTime":"8914056423800", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 11:21:54,058 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:49232, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,49232,8914056423800
+
+2023-02-16 11:21:54,058 INFO send udp packet: 192.168.100.1,49232,8914056423800
+
+2023-02-16 11:21:54,062 INFO received ack: {"type": "push-ack", "lastRefTime":"8914056423800", "data":""} from: 192.168.100.1:, cost: 49232 ms, unacked: 4, total push: 0
+
+2023-02-16 11:21:57,242 INFO DEFAULT_GROUP@@gulimall-cart is changed, add it to push queue.
+
+2023-02-16 11:21:57,242 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8917245951500
+
+2023-02-16 11:21:57,242 INFO send udp packet: 192.168.100.1,54146,8917245951500
+
+2023-02-16 11:21:57,243 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,8917245951500
+
+2023-02-16 11:21:57,243 INFO send udp packet: 192.168.100.1,50459,8917245951500
+
+2023-02-16 11:21:57,245 INFO received ack: {"type": "push-ack", "lastRefTime":"8917245951500", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 1
+
+2023-02-16 11:21:57,245 INFO received ack: {"type": "push-ack", "lastRefTime":"8917245951500", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 2, total push: 0
+
+2023-02-16 11:21:57,878 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 11:21:57,878 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8917881862400
+
+2023-02-16 11:21:57,878 INFO send udp packet: 192.168.100.1,54146,8917881862400
+
+2023-02-16 11:21:57,882 INFO received ack: {"type": "push-ack", "lastRefTime":"8917881862400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 4, total push: 0
+
+2023-02-16 11:21:58,413 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 11:21:58,413 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8918416278700
+
+2023-02-16 11:21:58,413 INFO send udp packet: 192.168.100.1,54146,8918416278700
+
+2023-02-16 11:21:58,415 INFO received ack: {"type": "push-ack", "lastRefTime":"8918416278700", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 11:22:10,467 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 11:22:10,467 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8930470349700
+
+2023-02-16 11:22:10,467 INFO send udp packet: 192.168.100.1,54146,8930470349700
+
+2023-02-16 11:22:10,471 INFO received ack: {"type": "push-ack", "lastRefTime":"8930470349700", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 11:22:10,474 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:49232, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,49232,8930470349700
+
+2023-02-16 11:22:10,476 INFO send udp packet: 192.168.100.1,49232,8930470349700
+
+2023-02-16 11:22:10,479 INFO received ack: {"type": "push-ack", "lastRefTime":"8930470349700", "data":""} from: 192.168.100.1:, cost: 49232 ms, unacked: 5, total push: 0
+
+2023-02-16 11:22:10,592 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 11:22:10,592 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8930595959000
+
+2023-02-16 11:22:10,592 INFO send udp packet: 192.168.100.1,54146,8930595959000
+
+2023-02-16 11:22:10,595 INFO received ack: {"type": "push-ack", "lastRefTime":"8930595959000", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 11:22:10,627 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 11:22:10,627 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8930630417200
+
+2023-02-16 11:22:10,627 INFO send udp packet: 192.168.100.1,54146,8930630417200
+
+2023-02-16 11:22:10,628 INFO received ack: {"type": "push-ack", "lastRefTime":"8930630417200", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 0
+
+2023-02-16 11:22:10,839 INFO DEFAULT_GROUP@@gulimall-cart is changed, add it to push queue.
+
+2023-02-16 11:22:10,842 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8930842705100
+
+2023-02-16 11:22:10,842 INFO send udp packet: 192.168.100.1,54146,8930842705100
+
+2023-02-16 11:22:10,844 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,8930842705100
+
+2023-02-16 11:22:10,844 INFO send udp packet: 192.168.100.1,50459,8930842705100
+
+2023-02-16 11:22:10,845 INFO received ack: {"type": "push-ack", "lastRefTime":"8930842705100", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 1
+
+2023-02-16 11:22:10,846 INFO received ack: {"type": "push-ack", "lastRefTime":"8930842705100", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 2, total push: 0
+
+2023-02-16 11:22:44,643 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 11:22:44,644 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8964646767600
+
+2023-02-16 11:22:44,644 INFO send udp packet: 192.168.100.1,54146,8964646767600
+
+2023-02-16 11:22:44,647 INFO received ack: {"type": "push-ack", "lastRefTime":"8964646767600", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 11:22:46,048 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 11:22:46,048 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,8966051588000
+
+2023-02-16 11:22:46,048 INFO send udp packet: 192.168.100.1,50459,8966051588000
+
+2023-02-16 11:22:46,049 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8966051588000
+
+2023-02-16 11:22:46,050 INFO send udp packet: 192.168.100.1,54146,8966051588000
+
+2023-02-16 11:22:46,052 INFO received ack: {"type": "push-ack", "lastRefTime":"8966051588000", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 4, total push: 1
+
+2023-02-16 11:22:46,052 INFO received ack: {"type": "push-ack", "lastRefTime":"8966051588000", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 11:22:46,730 INFO DEFAULT_GROUP@@gulimall-cart is changed, add it to push queue.
+
+2023-02-16 11:22:46,730 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8966733809400
+
+2023-02-16 11:22:46,730 INFO send udp packet: 192.168.100.1,54146,8966733809400
+
+2023-02-16 11:22:46,731 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,8966733809400
+
+2023-02-16 11:22:46,731 INFO send udp packet: 192.168.100.1,50459,8966733809400
+
+2023-02-16 11:22:46,731 INFO received ack: {"type": "push-ack", "lastRefTime":"8966733809400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 1
+
+2023-02-16 11:22:46,733 INFO received ack: {"type": "push-ack", "lastRefTime":"8966733809400", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 2, total push: 0
+
+2023-02-16 11:22:47,327 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 11:22:47,327 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8967330518500
+
+2023-02-16 11:22:47,327 INFO send udp packet: 192.168.100.1,54146,8967330518500
+
+2023-02-16 11:22:47,329 INFO received ack: {"type": "push-ack", "lastRefTime":"8967330518500", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 11:22:48,488 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 11:22:48,488 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8968491712700
+
+2023-02-16 11:22:48,488 INFO send udp packet: 192.168.100.1,54146,8968491712700
+
+2023-02-16 11:22:48,490 INFO received ack: {"type": "push-ack", "lastRefTime":"8968491712700", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 11:23:06,891 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 11:23:06,892 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8986894841400
+
+2023-02-16 11:23:06,892 INFO send udp packet: 192.168.100.1,54146,8986894841400
+
+2023-02-16 11:23:06,892 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:49232, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,49232,8986894841400
+
+2023-02-16 11:23:06,892 INFO send udp packet: 192.168.100.1,49232,8986894841400
+
+2023-02-16 11:23:06,893 INFO received ack: {"type": "push-ack", "lastRefTime":"8986894841400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 1, total push: 1
+
+2023-02-16 11:23:06,990 INFO received ack: {"type": "push-ack", "lastRefTime":"8986894841400", "data":""} from: 192.168.100.1:, cost: 49232 ms, unacked: 98, total push: 0
+
+2023-02-16 11:23:16,419 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 11:23:16,419 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,8996422344100
+
+2023-02-16 11:23:16,419 INFO send udp packet: 192.168.100.1,54146,8996422344100
+
+2023-02-16 11:23:16,422 INFO received ack: {"type": "push-ack", "lastRefTime":"8996422344100", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 0
+
+2023-02-16 11:23:35,251 INFO DEFAULT_GROUP@@gulimall-cart is changed, add it to push queue.
+
+2023-02-16 11:23:35,251 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9015254822400
+
+2023-02-16 11:23:35,251 INFO send udp packet: 192.168.100.1,54146,9015254822400
+
+2023-02-16 11:23:35,252 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,9015254822400
+
+2023-02-16 11:23:35,252 INFO send udp packet: 192.168.100.1,50459,9015254822400
+
+2023-02-16 11:23:35,254 INFO received ack: {"type": "push-ack", "lastRefTime":"9015254822400", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 1
+
+2023-02-16 11:23:35,307 INFO received ack: {"type": "push-ack", "lastRefTime":"9015254822400", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 55, total push: 0
+
+2023-02-16 11:23:41,873 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 11:23:41,873 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9021876798200
+
+2023-02-16 11:23:41,874 INFO send udp packet: 192.168.100.1,54146,9021876798200
+
+2023-02-16 11:23:41,875 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:55718, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55718,9021876798200
+
+2023-02-16 11:23:41,875 INFO send udp packet: 192.168.100.1,55718,9021876798200
+
+2023-02-16 11:23:41,876 INFO received ack: {"type": "push-ack", "lastRefTime":"9021876798200", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 1
+
+2023-02-16 11:23:41,876 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,9021876798200
+
+2023-02-16 11:23:41,876 INFO send udp packet: 192.168.100.1,50459,9021876798200
+
+2023-02-16 11:23:41,876 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:59889, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,59889,9021876798200
+
+2023-02-16 11:23:41,876 INFO send udp packet: 192.168.100.1,59889,9021876798200
+
+2023-02-16 11:23:41,878 INFO received ack: {"type": "push-ack", "lastRefTime":"9021876798200", "data":""} from: 192.168.100.1:, cost: 59889 ms, unacked: 2, total push: 2
+
+2023-02-16 11:23:41,878 INFO received ack: {"type": "push-ack", "lastRefTime":"9021876798200", "data":""} from: 192.168.100.1:, cost: 55718 ms, unacked: 3, total push: 1
+
+2023-02-16 11:23:41,981 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 11:23:41,981 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9021985026100
+
+2023-02-16 11:23:41,981 INFO send udp packet: 192.168.100.1,54146,9021985026100
+
+2023-02-16 11:23:41,985 INFO received ack: {"type": "push-ack", "lastRefTime":"9021985026100", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 4, total push: 1
+
+2023-02-16 11:23:42,036 INFO received ack: {"type": "push-ack", "lastRefTime":"9021876798200", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 160, total push: 0
+
+2023-02-16 11:23:47,125 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 11:23:47,126 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:59632, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,59632,9027129182700
+
+2023-02-16 11:23:47,126 INFO send udp packet: 192.168.100.1,59632,9027129182700
+
+2023-02-16 11:23:47,128 INFO received ack: {"type": "push-ack", "lastRefTime":"9027129182700", "data":""} from: 192.168.100.1:, cost: 59632 ms, unacked: 2, total push: 0
+
+2023-02-16 11:23:47,128 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9027129182700
+
+2023-02-16 11:23:47,128 INFO send udp packet: 192.168.100.1,54146,9027129182700
+
+2023-02-16 11:23:47,130 INFO received ack: {"type": "push-ack", "lastRefTime":"9027129182700", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 11:23:47,131 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,9027129182700
+
+2023-02-16 11:23:47,131 INFO send udp packet: 192.168.100.1,50459,9027129182700
+
+2023-02-16 11:23:47,132 INFO received ack: {"type": "push-ack", "lastRefTime":"9027129182700", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 1, total push: 0
+
+2023-02-16 11:23:57,096 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2023-02-16 11:23:57,097 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:64932, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64932,9037100524300
+
+2023-02-16 11:23:57,097 INFO send udp packet: 192.168.100.1,64932,9037100524300
+
+2023-02-16 11:23:57,098 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:63403, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,63403,9037100524300
+
+2023-02-16 11:23:57,098 INFO send udp packet: 192.168.100.1,63403,9037100524300
+
+2023-02-16 11:23:57,100 INFO received ack: {"type": "push-ack", "lastRefTime":"9037100524300", "data":""} from: 192.168.100.1:, cost: 64932 ms, unacked: 3, total push: 1
+
+2023-02-16 11:23:57,099 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9037100524300
+
+2023-02-16 11:23:57,101 INFO send udp packet: 192.168.100.1,54146,9037100524300
+
+2023-02-16 11:23:57,101 INFO received ack: {"type": "push-ack", "lastRefTime":"9037100524300", "data":""} from: 192.168.100.1:, cost: 63403 ms, unacked: 3, total push: 1
+
+2023-02-16 11:23:57,103 INFO received ack: {"type": "push-ack", "lastRefTime":"9037100524300", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 2, total push: 0
+
+2023-02-16 11:24:01,044 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 11:24:01,044 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:59889, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,59889,9041047649800
+
+2023-02-16 11:24:01,044 INFO send udp packet: 192.168.100.1,59889,9041047649800
+
+2023-02-16 11:24:01,046 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9041047649800
+
+2023-02-16 11:24:01,046 INFO send udp packet: 192.168.100.1,54146,9041047649800
+
+2023-02-16 11:24:01,049 INFO received ack: {"type": "push-ack", "lastRefTime":"9041047649800", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 1
+
+2023-02-16 11:24:02,405 INFO received ack: {"type": "push-ack", "lastRefTime":"9041047649800", "data":""} from: 192.168.100.1:, cost: 59889 ms, unacked: 1361, total push: 0
+
+2023-02-16 11:24:07,999 INFO DEFAULT_GROUP@@gulimall-cart is changed, add it to push queue.
+
+2023-02-16 11:24:07,999 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9048002485900
+
+2023-02-16 11:24:07,999 INFO send udp packet: 192.168.100.1,54146,9048002485900
+
+2023-02-16 11:24:08,000 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,9048002485900
+
+2023-02-16 11:24:08,000 INFO send udp packet: 192.168.100.1,50459,9048002485900
+
+2023-02-16 11:24:08,002 INFO received ack: {"type": "push-ack", "lastRefTime":"9048002485900", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 3, total push: 1
+
+2023-02-16 11:24:08,002 INFO received ack: {"type": "push-ack", "lastRefTime":"9048002485900", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 2, total push: 0
+
+2023-02-16 11:24:11,480 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 11:24:11,480 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9051483636900
+
+2023-02-16 11:24:11,480 INFO send udp packet: 192.168.100.1,54146,9051483636900
+
+2023-02-16 11:24:11,484 INFO received ack: {"type": "push-ack", "lastRefTime":"9051483636900", "data":""} from: 192.168.100.1:, cost: 54146 ms, unacked: 4, total push: 0
+
+2023-02-16 11:33:27,131 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 11:33:27,132 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9607135391900
+
+2023-02-16 11:33:27,132 INFO send udp packet: 192.168.100.1,54146,9607135391900
+
+2023-02-16 11:33:27,210 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 11:33:27,211 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9607214126200
+
+2023-02-16 11:33:27,211 INFO send udp packet: 192.168.100.1,54146,9607214126200
+
+2023-02-16 11:33:27,250 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 11:33:27,251 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9607254150200
+
+2023-02-16 11:33:27,251 INFO send udp packet: 192.168.100.1,54146,9607254150200
+
+2023-02-16 11:33:27,257 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:50786, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50786,9607254150200
+
+2023-02-16 11:33:27,257 INFO send udp packet: 192.168.100.1,50786,9607254150200
+
+2023-02-16 11:33:27,262 INFO received ack: {"type": "push-ack", "lastRefTime":"9607254150200", "data":""} from: 192.168.100.1:, cost: 50786 ms, unacked: 5, total push: 3
+
+2023-02-16 11:33:27,271 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:51118, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,51118,9607254150200
+
+2023-02-16 11:33:27,271 INFO send udp packet: 192.168.100.1,51118,9607254150200
+
+2023-02-16 11:33:27,272 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:55718, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55718,9607254150200
+
+2023-02-16 11:33:27,272 INFO send udp packet: 192.168.100.1,55718,9607254150200
+
+2023-02-16 11:33:27,275 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,9607254150200
+
+2023-02-16 11:33:27,275 INFO send udp packet: 192.168.100.1,50459,9607254150200
+
+2023-02-16 11:33:27,276 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:59889, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,59889,9607254150200
+
+2023-02-16 11:33:27,276 INFO received ack: {"type": "push-ack", "lastRefTime":"9607254150200", "data":""} from: 192.168.100.1:, cost: 55718 ms, unacked: 4, total push: 5
+
+2023-02-16 11:33:27,276 INFO send udp packet: 192.168.100.1,59889,9607254150200
+
+2023-02-16 11:33:27,281 INFO received ack: {"type": "push-ack", "lastRefTime":"9607254150200", "data":""} from: 192.168.100.1:, cost: 59889 ms, unacked: 5, total push: 5
+
+2023-02-16 11:33:27,511 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2023-02-16 11:33:27,511 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:64932, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64932,9607514516900
+
+2023-02-16 11:33:27,511 INFO send udp packet: 192.168.100.1,64932,9607514516900
+
+2023-02-16 11:33:27,512 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:63403, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,63403,9607514516900
+
+2023-02-16 11:33:27,512 INFO send udp packet: 192.168.100.1,63403,9607514516900
+
+2023-02-16 11:33:27,512 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9607514516900
+
+2023-02-16 11:33:27,512 INFO send udp packet: 192.168.100.1,54146,9607514516900
+
+2023-02-16 11:33:27,514 INFO received ack: {"type": "push-ack", "lastRefTime":"9607514516900", "data":""} from: 192.168.100.1:, cost: 64932 ms, unacked: 3, total push: 7
+
+2023-02-16 11:33:27,525 INFO received ack: {"type": "push-ack", "lastRefTime":"9607514516900", "data":""} from: 192.168.100.1:, cost: 63403 ms, unacked: 13, total push: 6
+
+2023-02-16 11:33:27,583 INFO received ack: {"type": "push-ack", "lastRefTime":"9607254150200", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 308, total push: 5
+
+2023-02-16 11:33:27,586 INFO received ack: {"type": "push-ack", "lastRefTime":"9607254150200", "data":""} from: 192.168.100.1:, cost: 51118 ms, unacked: 315, total push: 4
+
+2023-02-16 11:33:27,640 INFO DEFAULT_GROUP@@gulimall-third-party is changed, add it to push queue.
+
+2023-02-16 11:33:27,640 INFO serviceName: DEFAULT_GROUP@@gulimall-third-party changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9607643118900
+
+2023-02-16 11:33:27,640 INFO send udp packet: 192.168.100.1,54146,9607643118900
+
+2023-02-16 11:33:27,640 INFO DEFAULT_GROUP@@gulimall-gateway is changed, add it to push queue.
+
+2023-02-16 11:33:27,654 INFO DEFAULT_GROUP@@gulimall-cart is changed, add it to push queue.
+
+2023-02-16 11:33:27,654 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9607658144100
+
+2023-02-16 11:33:27,654 INFO send udp packet: 192.168.100.1,54146,9607658144100
+
+2023-02-16 11:33:27,655 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,9607658144100
+
+2023-02-16 11:33:27,655 INFO send udp packet: 192.168.100.1,50459,9607658144100
+
+2023-02-16 11:33:27,655 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:51118, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,51118,9607658144100
+
+2023-02-16 11:33:27,655 INFO send udp packet: 192.168.100.1,51118,9607658144100
+
+2023-02-16 11:33:27,658 INFO received ack: {"type": "push-ack", "lastRefTime":"9607658144100", "data":""} from: 192.168.100.1:, cost: 51118 ms, unacked: 3, total push: 7
+
+2023-02-16 11:33:27,668 INFO received ack: {"type": "push-ack", "lastRefTime":"9607658144100", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 13, total push: 6
+
+2023-02-16 11:33:27,714 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 11:33:27,714 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:49232, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,49232,9607717057700
+
+2023-02-16 11:33:27,714 INFO send udp packet: 192.168.100.1,49232,9607717057700
+
+2023-02-16 11:33:27,716 INFO received ack: {"type": "push-ack", "lastRefTime":"9607717057700", "data":""} from: 192.168.100.1:, cost: 49232 ms, unacked: 2, total push: 6
+
+2023-02-16 11:33:27,822 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-02-16 11:33:27,822 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9607825180300
+
+2023-02-16 11:33:27,822 INFO send udp packet: 192.168.100.1,54146,9607825180300
+
+2023-02-16 11:33:27,990 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 11:33:27,990 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:51118, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,51118,9607993586000
+
+2023-02-16 11:33:27,990 INFO send udp packet: 192.168.100.1,51118,9607993586000
+
+2023-02-16 11:33:27,990 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:59632, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,59632,9607993586000
+
+2023-02-16 11:33:27,990 INFO send udp packet: 192.168.100.1,59632,9607993586000
+
+2023-02-16 11:33:27,992 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9607993586000
+
+2023-02-16 11:33:27,992 INFO send udp packet: 192.168.100.1,54146,9607993586000
+
+2023-02-16 11:33:27,992 INFO received ack: {"type": "push-ack", "lastRefTime":"9607993586000", "data":""} from: 192.168.100.1:, cost: 59632 ms, unacked: 2, total push: 9
+
+2023-02-16 11:33:27,992 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:56355, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,56355,9607993586000
+
+2023-02-16 11:33:27,992 INFO send udp packet: 192.168.100.1,56355,9607993586000
+
+2023-02-16 11:33:27,993 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,9607993586000
+
+2023-02-16 11:33:27,993 INFO send udp packet: 192.168.100.1,50459,9607993586000
+
+2023-02-16 11:33:27,993 INFO received ack: {"type": "push-ack", "lastRefTime":"9607993586000", "data":""} from: 192.168.100.1:, cost: 51118 ms, unacked: 3, total push: 10
+
+2023-02-16 11:33:27,995 INFO received ack: {"type": "push-ack", "lastRefTime":"9607993586000", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 2, total push: 9
+
+2023-02-16 11:33:27,995 INFO received ack: {"type": "push-ack", "lastRefTime":"9607993586000", "data":""} from: 192.168.100.1:, cost: 56355 ms, unacked: 3, total push: 8
+
+2023-02-16 11:33:28,181 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 11:33:28,181 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:59889, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,59889,9608184477200
+
+2023-02-16 11:33:28,181 INFO send udp packet: 192.168.100.1,59889,9608184477200
+
+2023-02-16 11:33:28,183 INFO received ack: {"type": "push-ack", "lastRefTime":"9608184477200", "data":""} from: 192.168.100.1:, cost: 59889 ms, unacked: 2, total push: 8
+
+2023-02-16 11:33:28,183 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:54146, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54146,9608184477200
+
+2023-02-16 11:33:28,183 INFO send udp packet: 192.168.100.1,54146,9608184477200
+
+2023-02-16 11:33:28,184 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:50786, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50786,9608184477200
+
+2023-02-16 11:33:28,184 INFO send udp packet: 192.168.100.1,50786,9608184477200
+
+2023-02-16 11:33:28,186 INFO received ack: {"type": "push-ack", "lastRefTime":"9608184477200", "data":""} from: 192.168.100.1:, cost: 50786 ms, unacked: 2, total push: 9
+
+2023-02-16 11:33:28,648 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 11:33:28,649 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:51118, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,51118,9608652057100
+
+2023-02-16 11:33:28,649 INFO send udp packet: 192.168.100.1,51118,9608652057100
+
+2023-02-16 11:33:28,649 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:50459, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,50459,9608652057100
+
+2023-02-16 11:33:28,649 INFO send udp packet: 192.168.100.1,50459,9608652057100
+
+2023-02-16 11:33:28,650 INFO received ack: {"type": "push-ack", "lastRefTime":"9608652057100", "data":""} from: 192.168.100.1:, cost: 50459 ms, unacked: 1, total push: 10
+
+2023-02-16 11:33:28,651 INFO received ack: {"type": "push-ack", "lastRefTime":"9608652057100", "data":""} from: 192.168.100.1:, cost: 51118 ms, unacked: 2, total push: 9
+
+2023-02-16 13:59:34,704 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 14:01:45,623 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 14:02:38,109 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 14:04:42,965 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 14:09:15,367 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 14:24:21,644 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 14:24:26,680 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 14:24:38,150 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 14:24:43,046 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 14:24:53,785 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2023-02-16 14:24:56,621 INFO DEFAULT_GROUP@@gulimall-gateway is changed, add it to push queue.
+
+2023-02-16 14:25:10,234 INFO DEFAULT_GROUP@@gulimall-cart is changed, add it to push queue.
+
+2023-02-16 14:25:22,234 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 14:25:33,359 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 14:36:47,447 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 14:36:47,448 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,8903474268700
+
+2023-02-16 14:36:47,448 INFO send udp packet: 192.168.100.1,54486,8903474268700
+
+2023-02-16 14:36:47,452 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:55473, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55473,8903474268700
+
+2023-02-16 14:36:47,453 INFO send udp packet: 192.168.100.1,55473,8903474268700
+
+2023-02-16 14:36:47,453 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,8903474268700
+
+2023-02-16 14:36:47,453 INFO send udp packet: 192.168.100.1,52001,8903474268700
+
+2023-02-16 14:36:47,454 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:64827, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64827,8903474268700
+
+2023-02-16 14:36:47,454 INFO send udp packet: 192.168.100.1,64827,8903474268700
+
+2023-02-16 14:36:47,463 INFO received ack: {"type": "push-ack", "lastRefTime":"8903474268700", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 15, total push: 3
+
+2023-02-16 14:36:47,463 INFO received ack: {"type": "push-ack", "lastRefTime":"8903474268700", "data":""} from: 192.168.100.1:, cost: 55473 ms, unacked: 10, total push: 2
+
+2023-02-16 14:36:47,464 INFO received ack: {"type": "push-ack", "lastRefTime":"8903474268700", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 11, total push: 1
+
+2023-02-16 14:36:47,464 INFO received ack: {"type": "push-ack", "lastRefTime":"8903474268700", "data":""} from: 192.168.100.1:, cost: 64827 ms, unacked: 10, total push: 0
+
+2023-02-16 14:37:16,633 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 14:37:16,633 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,8932659872000
+
+2023-02-16 14:37:16,633 INFO send udp packet: 192.168.100.1,54486,8932659872000
+
+2023-02-16 14:37:16,633 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:55473, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55473,8932659872000
+
+2023-02-16 14:37:16,633 INFO send udp packet: 192.168.100.1,55473,8932659872000
+
+2023-02-16 14:37:16,634 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,8932659872000
+
+2023-02-16 14:37:16,634 INFO send udp packet: 192.168.100.1,52001,8932659872000
+
+2023-02-16 14:37:16,634 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:64827, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64827,8932659872000
+
+2023-02-16 14:37:16,635 INFO send udp packet: 192.168.100.1,64827,8932659872000
+
+2023-02-16 14:37:16,637 INFO received ack: {"type": "push-ack", "lastRefTime":"8932659872000", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 3
+
+2023-02-16 14:37:16,638 INFO received ack: {"type": "push-ack", "lastRefTime":"8932659872000", "data":""} from: 192.168.100.1:, cost: 55473 ms, unacked: 5, total push: 2
+
+2023-02-16 14:37:16,638 INFO received ack: {"type": "push-ack", "lastRefTime":"8932659872000", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 5, total push: 1
+
+2023-02-16 14:37:16,638 INFO received ack: {"type": "push-ack", "lastRefTime":"8932659872000", "data":""} from: 192.168.100.1:, cost: 64827 ms, unacked: 3, total push: 0
+
+2023-02-16 14:47:53,912 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 14:47:53,912 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,9569939149900
+
+2023-02-16 14:47:53,912 INFO send udp packet: 192.168.100.1,54486,9569939149900
+
+2023-02-16 14:47:53,913 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:55473, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55473,9569939149900
+
+2023-02-16 14:47:53,913 INFO send udp packet: 192.168.100.1,55473,9569939149900
+
+2023-02-16 14:47:53,913 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,9569939149900
+
+2023-02-16 14:47:53,913 INFO send udp packet: 192.168.100.1,52001,9569939149900
+
+2023-02-16 14:47:53,913 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:64827, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64827,9569939149900
+
+2023-02-16 14:47:53,913 INFO send udp packet: 192.168.100.1,64827,9569939149900
+
+2023-02-16 14:47:53,915 INFO received ack: {"type": "push-ack", "lastRefTime":"9569939149900", "data":""} from: 192.168.100.1:, cost: 55473 ms, unacked: 2, total push: 3
+
+2023-02-16 14:47:53,915 INFO received ack: {"type": "push-ack", "lastRefTime":"9569939149900", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 2
+
+2023-02-16 14:47:53,916 INFO received ack: {"type": "push-ack", "lastRefTime":"9569939149900", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 4, total push: 1
+
+2023-02-16 14:47:53,918 INFO received ack: {"type": "push-ack", "lastRefTime":"9569939149900", "data":""} from: 192.168.100.1:, cost: 64827 ms, unacked: 5, total push: 0
+
+2023-02-16 14:48:21,469 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 14:48:21,469 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,9597495610700
+
+2023-02-16 14:48:21,469 INFO send udp packet: 192.168.100.1,54486,9597495610700
+
+2023-02-16 14:48:21,469 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:55473, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55473,9597495610700
+
+2023-02-16 14:48:21,469 INFO send udp packet: 192.168.100.1,55473,9597495610700
+
+2023-02-16 14:48:21,469 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,9597495610700
+
+2023-02-16 14:48:21,469 INFO send udp packet: 192.168.100.1,52001,9597495610700
+
+2023-02-16 14:48:21,469 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:64827, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64827,9597495610700
+
+2023-02-16 14:48:21,469 INFO send udp packet: 192.168.100.1,64827,9597495610700
+
+2023-02-16 14:48:21,471 INFO received ack: {"type": "push-ack", "lastRefTime":"9597495610700", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 2, total push: 3
+
+2023-02-16 14:48:21,471 INFO received ack: {"type": "push-ack", "lastRefTime":"9597495610700", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 2
+
+2023-02-16 14:48:21,472 INFO received ack: {"type": "push-ack", "lastRefTime":"9597495610700", "data":""} from: 192.168.100.1:, cost: 64827 ms, unacked: 3, total push: 1
+
+2023-02-16 14:48:21,473 INFO received ack: {"type": "push-ack", "lastRefTime":"9597495610700", "data":""} from: 192.168.100.1:, cost: 55473 ms, unacked: 4, total push: 0
+
+2023-02-16 15:08:05,559 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:08:05,559 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,10781586092100
+
+2023-02-16 15:08:05,560 INFO send udp packet: 192.168.100.1,52001,10781586092100
+
+2023-02-16 15:08:05,562 INFO received ack: {"type": "push-ack", "lastRefTime":"10781586092100", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 0
+
+2023-02-16 15:08:39,576 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:08:39,576 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,10815602640900
+
+2023-02-16 15:08:39,576 INFO send udp packet: 192.168.100.1,52001,10815602640900
+
+2023-02-16 15:08:39,578 INFO received ack: {"type": "push-ack", "lastRefTime":"10815602640900", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 0
+
+2023-02-16 15:11:46,018 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:11:46,019 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,11002045506100
+
+2023-02-16 15:11:46,019 INFO send udp packet: 192.168.100.1,52001,11002045506100
+
+2023-02-16 15:11:46,021 INFO received ack: {"type": "push-ack", "lastRefTime":"11002045506100", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 0
+
+2023-02-16 15:12:08,678 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:12:08,678 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,11024704999200
+
+2023-02-16 15:12:08,678 INFO send udp packet: 192.168.100.1,52001,11024704999200
+
+2023-02-16 15:12:08,681 INFO received ack: {"type": "push-ack", "lastRefTime":"11024704999200", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 0
+
+2023-02-16 15:13:37,558 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:13:37,558 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,11113584684800
+
+2023-02-16 15:13:37,558 INFO send udp packet: 192.168.100.1,52001,11113584684800
+
+2023-02-16 15:13:37,562 INFO received ack: {"type": "push-ack", "lastRefTime":"11113584684800", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 0
+
+2023-02-16 15:14:18,824 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:14:18,824 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,11154850502700
+
+2023-02-16 15:14:18,824 INFO send udp packet: 192.168.100.1,52001,11154850502700
+
+2023-02-16 15:14:18,827 INFO received ack: {"type": "push-ack", "lastRefTime":"11154850502700", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 0
+
+2023-02-16 15:21:45,294 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:21:45,294 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,11601321427200
+
+2023-02-16 15:21:45,294 INFO send udp packet: 192.168.100.1,52001,11601321427200
+
+2023-02-16 15:21:45,298 INFO received ack: {"type": "push-ack", "lastRefTime":"11601321427200", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 4, total push: 0
+
+2023-02-16 15:22:14,720 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:22:14,720 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,11630746566400
+
+2023-02-16 15:22:14,720 INFO send udp packet: 192.168.100.1,52001,11630746566400
+
+2023-02-16 15:22:14,721 INFO received ack: {"type": "push-ack", "lastRefTime":"11630746566400", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 1, total push: 0
+
+2023-02-16 15:26:14,957 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 15:26:14,957 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,11870984032100
+
+2023-02-16 15:26:14,957 INFO send udp packet: 192.168.100.1,54486,11870984032100
+
+2023-02-16 15:26:14,961 INFO received ack: {"type": "push-ack", "lastRefTime":"11870984032100", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 4, total push: 0
+
+2023-02-16 15:26:14,961 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:55473, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55473,11870984032100
+
+2023-02-16 15:26:14,962 INFO send udp packet: 192.168.100.1,55473,11870984032100
+
+2023-02-16 15:26:14,962 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,11870984032100
+
+2023-02-16 15:26:14,962 INFO send udp packet: 192.168.100.1,52001,11870984032100
+
+2023-02-16 15:26:14,963 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:64827, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64827,11870984032100
+
+2023-02-16 15:26:14,963 INFO send udp packet: 192.168.100.1,64827,11870984032100
+
+2023-02-16 15:26:14,964 INFO received ack: {"type": "push-ack", "lastRefTime":"11870984032100", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 2
+
+2023-02-16 15:26:14,967 INFO received ack: {"type": "push-ack", "lastRefTime":"11870984032100", "data":""} from: 192.168.100.1:, cost: 55473 ms, unacked: 5, total push: 1
+
+2023-02-16 15:26:14,967 INFO received ack: {"type": "push-ack", "lastRefTime":"11870984032100", "data":""} from: 192.168.100.1:, cost: 64827 ms, unacked: 4, total push: 0
+
+2023-02-16 15:26:17,434 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:26:17,434 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,11873460712300
+
+2023-02-16 15:26:17,434 INFO send udp packet: 192.168.100.1,52001,11873460712300
+
+2023-02-16 15:26:17,436 INFO received ack: {"type": "push-ack", "lastRefTime":"11873460712300", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 0
+
+2023-02-16 15:26:36,903 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 15:26:36,913 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,11892929614800
+
+2023-02-16 15:26:36,913 INFO send udp packet: 192.168.100.1,54486,11892929614800
+
+2023-02-16 15:26:36,913 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:55473, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55473,11892929614800
+
+2023-02-16 15:26:36,913 INFO send udp packet: 192.168.100.1,55473,11892929614800
+
+2023-02-16 15:26:36,914 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,11892929614800
+
+2023-02-16 15:26:36,914 INFO send udp packet: 192.168.100.1,52001,11892929614800
+
+2023-02-16 15:26:36,915 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:64827, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64827,11892929614800
+
+2023-02-16 15:26:36,915 INFO send udp packet: 192.168.100.1,64827,11892929614800
+
+2023-02-16 15:26:36,916 INFO received ack: {"type": "push-ack", "lastRefTime":"11892929614800", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 3, total push: 3
+
+2023-02-16 15:26:36,917 INFO received ack: {"type": "push-ack", "lastRefTime":"11892929614800", "data":""} from: 192.168.100.1:, cost: 55473 ms, unacked: 4, total push: 2
+
+2023-02-16 15:26:36,918 INFO received ack: {"type": "push-ack", "lastRefTime":"11892929614800", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 4, total push: 1
+
+2023-02-16 15:26:36,930 INFO received ack: {"type": "push-ack", "lastRefTime":"11892929614800", "data":""} from: 192.168.100.1:, cost: 64827 ms, unacked: 15, total push: 0
+
+2023-02-16 15:26:37,235 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:26:37,235 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,11893261537000
+
+2023-02-16 15:26:37,235 INFO send udp packet: 192.168.100.1,52001,11893261537000
+
+2023-02-16 15:26:37,237 INFO received ack: {"type": "push-ack", "lastRefTime":"11893261537000", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 0
+
+2023-02-16 15:29:17,809 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:29:17,810 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,12053836543300
+
+2023-02-16 15:29:17,810 INFO send udp packet: 192.168.100.1,52001,12053836543300
+
+2023-02-16 15:29:17,812 INFO received ack: {"type": "push-ack", "lastRefTime":"12053836543300", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 0
+
+2023-02-16 15:29:44,725 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 15:29:44,725 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,12080751554000
+
+2023-02-16 15:29:44,725 INFO send udp packet: 192.168.100.1,52001,12080751554000
+
+2023-02-16 15:29:44,726 INFO received ack: {"type": "push-ack", "lastRefTime":"12080751554000", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 1, total push: 0
+
+2023-02-16 15:47:15,437 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:47:15,437 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13131463773400
+
+2023-02-16 15:47:15,437 INFO send udp packet: 192.168.100.1,52001,13131463773400
+
+2023-02-16 15:47:15,437 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13131463773400
+
+2023-02-16 15:47:15,438 INFO send udp packet: 192.168.100.1,54486,13131463773400
+
+2023-02-16 15:47:15,439 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13131463773400
+
+2023-02-16 15:47:15,439 INFO send udp packet: 192.168.100.1,54184,13131463773400
+
+2023-02-16 15:47:15,442 INFO received ack: {"type": "push-ack", "lastRefTime":"13131463773400", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 5, total push: 2
+
+2023-02-16 15:47:15,443 INFO received ack: {"type": "push-ack", "lastRefTime":"13131463773400", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 4, total push: 1
+
+2023-02-16 15:47:15,464 INFO received ack: {"type": "push-ack", "lastRefTime":"13131463773400", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 25, total push: 0
+
+2023-02-16 15:47:56,312 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:47:56,312 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13172339382400
+
+2023-02-16 15:47:56,312 INFO send udp packet: 192.168.100.1,52001,13172339382400
+
+2023-02-16 15:47:56,313 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13172339382400
+
+2023-02-16 15:47:56,313 INFO send udp packet: 192.168.100.1,54486,13172339382400
+
+2023-02-16 15:47:56,313 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13172339382400
+
+2023-02-16 15:47:56,313 INFO send udp packet: 192.168.100.1,54184,13172339382400
+
+2023-02-16 15:47:56,315 INFO received ack: {"type": "push-ack", "lastRefTime":"13172339382400", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 2
+
+2023-02-16 15:47:56,316 INFO received ack: {"type": "push-ack", "lastRefTime":"13172339382400", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 3, total push: 1
+
+2023-02-16 15:47:56,318 INFO received ack: {"type": "push-ack", "lastRefTime":"13172339382400", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 5, total push: 0
+
+2023-02-16 15:48:30,581 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:48:30,581 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13206607639300
+
+2023-02-16 15:48:30,581 INFO send udp packet: 192.168.100.1,52001,13206607639300
+
+2023-02-16 15:48:30,582 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13206607639300
+
+2023-02-16 15:48:30,582 INFO send udp packet: 192.168.100.1,54486,13206607639300
+
+2023-02-16 15:48:30,582 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13206607639300
+
+2023-02-16 15:48:30,582 INFO send udp packet: 192.168.100.1,54184,13206607639300
+
+2023-02-16 15:48:30,583 INFO received ack: {"type": "push-ack", "lastRefTime":"13206607639300", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 1, total push: 2
+
+2023-02-16 15:48:30,584 INFO received ack: {"type": "push-ack", "lastRefTime":"13206607639300", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 2, total push: 1
+
+2023-02-16 15:48:30,589 INFO received ack: {"type": "push-ack", "lastRefTime":"13206607639300", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 8, total push: 0
+
+2023-02-16 15:48:45,961 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:48:45,961 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13221988089700
+
+2023-02-16 15:48:45,962 INFO send udp packet: 192.168.100.1,52001,13221988089700
+
+2023-02-16 15:48:45,962 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13221988089700
+
+2023-02-16 15:48:45,962 INFO send udp packet: 192.168.100.1,54486,13221988089700
+
+2023-02-16 15:48:45,963 INFO received ack: {"type": "push-ack", "lastRefTime":"13221988089700", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 1, total push: 1
+
+2023-02-16 15:48:45,963 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13221988089700
+
+2023-02-16 15:48:45,963 INFO send udp packet: 192.168.100.1,54184,13221988089700
+
+2023-02-16 15:48:45,964 INFO received ack: {"type": "push-ack", "lastRefTime":"13221988089700", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 2, total push: 1
+
+2023-02-16 15:48:45,965 INFO received ack: {"type": "push-ack", "lastRefTime":"13221988089700", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 2, total push: 0
+
+2023-02-16 15:49:05,940 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:49:05,940 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13241966628200
+
+2023-02-16 15:49:05,940 INFO send udp packet: 192.168.100.1,52001,13241966628200
+
+2023-02-16 15:49:05,940 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13241966628200
+
+2023-02-16 15:49:05,940 INFO send udp packet: 192.168.100.1,54486,13241966628200
+
+2023-02-16 15:49:05,941 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13241966628200
+
+2023-02-16 15:49:05,941 INFO send udp packet: 192.168.100.1,54184,13241966628200
+
+2023-02-16 15:49:05,941 INFO received ack: {"type": "push-ack", "lastRefTime":"13241966628200", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 1, total push: 2
+
+2023-02-16 15:49:05,942 INFO received ack: {"type": "push-ack", "lastRefTime":"13241966628200", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 2, total push: 1
+
+2023-02-16 15:49:05,942 INFO received ack: {"type": "push-ack", "lastRefTime":"13241966628200", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 1, total push: 0
+
+2023-02-16 15:49:20,948 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:49:20,948 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13256975340900
+
+2023-02-16 15:49:20,948 INFO send udp packet: 192.168.100.1,52001,13256975340900
+
+2023-02-16 15:49:20,949 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13256975340900
+
+2023-02-16 15:49:20,949 INFO send udp packet: 192.168.100.1,54486,13256975340900
+
+2023-02-16 15:49:20,949 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13256975340900
+
+2023-02-16 15:49:20,949 INFO send udp packet: 192.168.100.1,54184,13256975340900
+
+2023-02-16 15:49:20,949 INFO received ack: {"type": "push-ack", "lastRefTime":"13256975340900", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 1, total push: 2
+
+2023-02-16 15:49:20,951 INFO received ack: {"type": "push-ack", "lastRefTime":"13256975340900", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 2, total push: 1
+
+2023-02-16 15:49:20,951 INFO received ack: {"type": "push-ack", "lastRefTime":"13256975340900", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 2, total push: 0
+
+2023-02-16 15:49:25,228 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:49:25,228 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13261255397100
+
+2023-02-16 15:49:25,228 INFO send udp packet: 192.168.100.1,52001,13261255397100
+
+2023-02-16 15:49:25,229 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13261255397100
+
+2023-02-16 15:49:25,229 INFO send udp packet: 192.168.100.1,54486,13261255397100
+
+2023-02-16 15:49:25,229 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13261255397100
+
+2023-02-16 15:49:25,229 INFO send udp packet: 192.168.100.1,54184,13261255397100
+
+2023-02-16 15:49:25,232 INFO received ack: {"type": "push-ack", "lastRefTime":"13261255397100", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 4, total push: 2
+
+2023-02-16 15:49:25,232 INFO received ack: {"type": "push-ack", "lastRefTime":"13261255397100", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 3, total push: 1
+
+2023-02-16 15:49:25,234 INFO received ack: {"type": "push-ack", "lastRefTime":"13261255397100", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 5, total push: 0
+
+2023-02-16 15:49:40,949 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:49:40,949 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13276976233000
+
+2023-02-16 15:49:40,949 INFO send udp packet: 192.168.100.1,52001,13276976233000
+
+2023-02-16 15:49:40,950 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13276976233000
+
+2023-02-16 15:49:40,950 INFO send udp packet: 192.168.100.1,54486,13276976233000
+
+2023-02-16 15:49:40,950 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13276976233000
+
+2023-02-16 15:49:40,950 INFO send udp packet: 192.168.100.1,54184,13276976233000
+
+2023-02-16 15:49:40,951 INFO received ack: {"type": "push-ack", "lastRefTime":"13276976233000", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 2
+
+2023-02-16 15:49:40,951 INFO received ack: {"type": "push-ack", "lastRefTime":"13276976233000", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 1, total push: 1
+
+2023-02-16 15:49:40,951 INFO received ack: {"type": "push-ack", "lastRefTime":"13276976233000", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 1, total push: 0
+
+2023-02-16 15:49:49,145 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:49:49,145 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13285171878800
+
+2023-02-16 15:49:49,145 INFO send udp packet: 192.168.100.1,52001,13285171878800
+
+2023-02-16 15:49:49,145 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13285171878800
+
+2023-02-16 15:49:49,145 INFO send udp packet: 192.168.100.1,54486,13285171878800
+
+2023-02-16 15:49:49,145 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13285171878800
+
+2023-02-16 15:49:49,146 INFO send udp packet: 192.168.100.1,54184,13285171878800
+
+2023-02-16 15:49:49,146 INFO received ack: {"type": "push-ack", "lastRefTime":"13285171878800", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 1, total push: 2
+
+2023-02-16 15:49:49,147 INFO received ack: {"type": "push-ack", "lastRefTime":"13285171878800", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 1, total push: 1
+
+2023-02-16 15:49:49,147 INFO received ack: {"type": "push-ack", "lastRefTime":"13285171878800", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 2, total push: 0
+
+2023-02-16 15:50:05,950 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:50:05,950 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13301977401600
+
+2023-02-16 15:50:05,950 INFO send udp packet: 192.168.100.1,52001,13301977401600
+
+2023-02-16 15:50:05,951 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13301977401600
+
+2023-02-16 15:50:05,951 INFO send udp packet: 192.168.100.1,54486,13301977401600
+
+2023-02-16 15:50:05,951 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13301977401600
+
+2023-02-16 15:50:05,951 INFO send udp packet: 192.168.100.1,54184,13301977401600
+
+2023-02-16 15:50:05,952 INFO received ack: {"type": "push-ack", "lastRefTime":"13301977401600", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 2
+
+2023-02-16 15:50:05,953 INFO received ack: {"type": "push-ack", "lastRefTime":"13301977401600", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 2, total push: 1
+
+2023-02-16 15:50:05,953 INFO received ack: {"type": "push-ack", "lastRefTime":"13301977401600", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 2, total push: 0
+
+2023-02-16 15:50:20,957 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:50:20,958 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13316984294000
+
+2023-02-16 15:50:20,958 INFO send udp packet: 192.168.100.1,52001,13316984294000
+
+2023-02-16 15:50:20,958 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13316984294000
+
+2023-02-16 15:50:20,958 INFO send udp packet: 192.168.100.1,54486,13316984294000
+
+2023-02-16 15:50:20,958 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13316984294000
+
+2023-02-16 15:50:20,958 INFO send udp packet: 192.168.100.1,54184,13316984294000
+
+2023-02-16 15:50:20,959 INFO received ack: {"type": "push-ack", "lastRefTime":"13316984294000", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 1, total push: 2
+
+2023-02-16 15:50:20,960 INFO received ack: {"type": "push-ack", "lastRefTime":"13316984294000", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 2, total push: 1
+
+2023-02-16 15:50:20,961 INFO received ack: {"type": "push-ack", "lastRefTime":"13316984294000", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 3, total push: 0
+
+2023-02-16 15:51:05,643 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:51:05,643 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13361670229700
+
+2023-02-16 15:51:05,643 INFO send udp packet: 192.168.100.1,52001,13361670229700
+
+2023-02-16 15:51:05,644 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13361670229700
+
+2023-02-16 15:51:05,644 INFO send udp packet: 192.168.100.1,54486,13361670229700
+
+2023-02-16 15:51:05,644 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13361670229700
+
+2023-02-16 15:51:05,644 INFO send udp packet: 192.168.100.1,54184,13361670229700
+
+2023-02-16 15:51:05,646 INFO received ack: {"type": "push-ack", "lastRefTime":"13361670229700", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 2
+
+2023-02-16 15:51:05,646 INFO received ack: {"type": "push-ack", "lastRefTime":"13361670229700", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 2, total push: 1
+
+2023-02-16 15:51:05,647 INFO received ack: {"type": "push-ack", "lastRefTime":"13361670229700", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 3, total push: 0
+
+2023-02-16 15:51:20,957 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:51:20,957 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13376984019200
+
+2023-02-16 15:51:20,957 INFO send udp packet: 192.168.100.1,52001,13376984019200
+
+2023-02-16 15:51:20,958 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13376984019200
+
+2023-02-16 15:51:20,958 INFO send udp packet: 192.168.100.1,54486,13376984019200
+
+2023-02-16 15:51:20,958 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13376984019200
+
+2023-02-16 15:51:20,958 INFO send udp packet: 192.168.100.1,54184,13376984019200
+
+2023-02-16 15:51:20,958 INFO received ack: {"type": "push-ack", "lastRefTime":"13376984019200", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 1, total push: 2
+
+2023-02-16 15:51:20,959 INFO received ack: {"type": "push-ack", "lastRefTime":"13376984019200", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 1, total push: 1
+
+2023-02-16 15:51:20,959 INFO received ack: {"type": "push-ack", "lastRefTime":"13376984019200", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 1, total push: 0
+
+2023-02-16 15:51:35,965 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:51:35,965 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13391991611100
+
+2023-02-16 15:51:35,965 INFO send udp packet: 192.168.100.1,52001,13391991611100
+
+2023-02-16 15:51:35,965 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13391991611100
+
+2023-02-16 15:51:35,965 INFO send udp packet: 192.168.100.1,54486,13391991611100
+
+2023-02-16 15:51:35,965 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13391991611100
+
+2023-02-16 15:51:35,965 INFO send udp packet: 192.168.100.1,54184,13391991611100
+
+2023-02-16 15:51:35,967 INFO received ack: {"type": "push-ack", "lastRefTime":"13391991611100", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 2
+
+2023-02-16 15:51:35,967 INFO received ack: {"type": "push-ack", "lastRefTime":"13391991611100", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 2, total push: 1
+
+2023-02-16 15:51:35,968 INFO received ack: {"type": "push-ack", "lastRefTime":"13391991611100", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 3, total push: 0
+
+2023-02-16 15:51:39,151 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 15:51:39,151 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,13395177784100
+
+2023-02-16 15:51:39,151 INFO send udp packet: 192.168.100.1,52001,13395177784100
+
+2023-02-16 15:51:39,151 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,13395177784100
+
+2023-02-16 15:51:39,151 INFO send udp packet: 192.168.100.1,54486,13395177784100
+
+2023-02-16 15:51:39,151 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,13395177784100
+
+2023-02-16 15:51:39,151 INFO send udp packet: 192.168.100.1,54184,13395177784100
+
+2023-02-16 15:51:39,153 INFO received ack: {"type": "push-ack", "lastRefTime":"13395177784100", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 2
+
+2023-02-16 15:51:39,153 INFO received ack: {"type": "push-ack", "lastRefTime":"13395177784100", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 2, total push: 1
+
+2023-02-16 15:51:39,154 INFO received ack: {"type": "push-ack", "lastRefTime":"13395177784100", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 3, total push: 0
+
+2023-02-16 15:59:02,688 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-02-16 16:18:03,263 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 16:18:03,263 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,14979289909700
+
+2023-02-16 16:18:03,263 INFO send udp packet: 192.168.100.1,52001,14979289909700
+
+2023-02-16 16:18:03,264 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,14979289909700
+
+2023-02-16 16:18:03,264 INFO send udp packet: 192.168.100.1,54486,14979289909700
+
+2023-02-16 16:18:03,265 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,14979289909700
+
+2023-02-16 16:18:03,265 INFO send udp packet: 192.168.100.1,54184,14979289909700
+
+2023-02-16 16:18:03,265 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:51999, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,51999,14979289909700
+
+2023-02-16 16:18:03,265 INFO send udp packet: 192.168.100.1,51999,14979289909700
+
+2023-02-16 16:18:03,269 INFO received ack: {"type": "push-ack", "lastRefTime":"14979289909700", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 6, total push: 3
+
+2023-02-16 16:18:03,270 INFO received ack: {"type": "push-ack", "lastRefTime":"14979289909700", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 6, total push: 2
+
+2023-02-16 16:18:03,270 INFO received ack: {"type": "push-ack", "lastRefTime":"14979289909700", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 5, total push: 1
+
+2023-02-16 16:18:03,287 INFO received ack: {"type": "push-ack", "lastRefTime":"14979289909700", "data":""} from: 192.168.100.1:, cost: 51999 ms, unacked: 22, total push: 0
+
+2023-02-16 16:18:50,218 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 16:18:50,218 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,15026245325300
+
+2023-02-16 16:18:50,218 INFO send udp packet: 192.168.100.1,52001,15026245325300
+
+2023-02-16 16:18:50,219 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,15026245325300
+
+2023-02-16 16:18:50,219 INFO send udp packet: 192.168.100.1,54486,15026245325300
+
+2023-02-16 16:18:50,219 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,15026245325300
+
+2023-02-16 16:18:50,219 INFO send udp packet: 192.168.100.1,54184,15026245325300
+
+2023-02-16 16:18:50,219 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:51999, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,51999,15026245325300
+
+2023-02-16 16:18:50,219 INFO send udp packet: 192.168.100.1,51999,15026245325300
+
+2023-02-16 16:18:50,221 INFO received ack: {"type": "push-ack", "lastRefTime":"15026245325300", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 3
+
+2023-02-16 16:18:50,222 INFO received ack: {"type": "push-ack", "lastRefTime":"15026245325300", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 3, total push: 2
+
+2023-02-16 16:18:50,223 INFO received ack: {"type": "push-ack", "lastRefTime":"15026245325300", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 4, total push: 1
+
+2023-02-16 16:18:50,223 INFO received ack: {"type": "push-ack", "lastRefTime":"15026245325300", "data":""} from: 192.168.100.1:, cost: 51999 ms, unacked: 4, total push: 0
+
+2023-02-16 16:23:36,773 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 16:23:36,773 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,15312800536700
+
+2023-02-16 16:23:36,774 INFO send udp packet: 192.168.100.1,52001,15312800536700
+
+2023-02-16 16:23:36,775 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,15312800536700
+
+2023-02-16 16:23:36,775 INFO send udp packet: 192.168.100.1,54486,15312800536700
+
+2023-02-16 16:23:36,776 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,15312800536700
+
+2023-02-16 16:23:36,776 INFO send udp packet: 192.168.100.1,54184,15312800536700
+
+2023-02-16 16:23:36,776 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:51999, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,51999,15312800536700
+
+2023-02-16 16:23:36,777 INFO send udp packet: 192.168.100.1,51999,15312800536700
+
+2023-02-16 16:23:36,777 INFO received ack: {"type": "push-ack", "lastRefTime":"15312800536700", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 3
+
+2023-02-16 16:23:36,779 INFO received ack: {"type": "push-ack", "lastRefTime":"15312800536700", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 4, total push: 2
+
+2023-02-16 16:23:36,780 INFO received ack: {"type": "push-ack", "lastRefTime":"15312800536700", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 4, total push: 1
+
+2023-02-16 16:23:36,781 INFO received ack: {"type": "push-ack", "lastRefTime":"15312800536700", "data":""} from: 192.168.100.1:, cost: 51999 ms, unacked: 4, total push: 0
+
+2023-02-16 16:24:11,873 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 16:24:11,873 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,15347900500800
+
+2023-02-16 16:24:11,873 INFO send udp packet: 192.168.100.1,52001,15347900500800
+
+2023-02-16 16:24:11,874 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54486, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54486,15347900500800
+
+2023-02-16 16:24:11,874 INFO send udp packet: 192.168.100.1,54486,15347900500800
+
+2023-02-16 16:24:11,875 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,15347900500800
+
+2023-02-16 16:24:11,875 INFO send udp packet: 192.168.100.1,54184,15347900500800
+
+2023-02-16 16:24:11,876 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:51999, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,51999,15347900500800
+
+2023-02-16 16:24:11,876 INFO send udp packet: 192.168.100.1,51999,15347900500800
+
+2023-02-16 16:24:11,877 INFO received ack: {"type": "push-ack", "lastRefTime":"15347900500800", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 4, total push: 3
+
+2023-02-16 16:24:11,878 INFO received ack: {"type": "push-ack", "lastRefTime":"15347900500800", "data":""} from: 192.168.100.1:, cost: 54486 ms, unacked: 4, total push: 2
+
+2023-02-16 16:24:11,878 INFO received ack: {"type": "push-ack", "lastRefTime":"15347900500800", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 3, total push: 1
+
+2023-02-16 16:24:11,879 INFO received ack: {"type": "push-ack", "lastRefTime":"15347900500800", "data":""} from: 192.168.100.1:, cost: 51999 ms, unacked: 3, total push: 0
+
+2023-02-16 16:25:55,193 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:25:55,195 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,15451220432700
+
+2023-02-16 16:25:55,195 INFO send udp packet: 192.168.100.1,52001,15451220432700
+
+2023-02-16 16:25:55,196 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,15451220432700
+
+2023-02-16 16:25:55,196 INFO send udp packet: 192.168.100.1,53336,15451220432700
+
+2023-02-16 16:25:55,199 INFO received ack: {"type": "push-ack", "lastRefTime":"15451220432700", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 4, total push: 1
+
+2023-02-16 16:25:55,203 INFO received ack: {"type": "push-ack", "lastRefTime":"15451220432700", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 7, total push: 0
+
+2023-02-16 16:26:34,809 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:26:34,809 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,15490836212200
+
+2023-02-16 16:26:34,809 INFO send udp packet: 192.168.100.1,52001,15490836212200
+
+2023-02-16 16:26:34,810 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,15490836212200
+
+2023-02-16 16:26:34,810 INFO send udp packet: 192.168.100.1,53336,15490836212200
+
+2023-02-16 16:26:34,811 INFO received ack: {"type": "push-ack", "lastRefTime":"15490836212200", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 1
+
+2023-02-16 16:26:34,812 INFO received ack: {"type": "push-ack", "lastRefTime":"15490836212200", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 2, total push: 0
+
+2023-02-16 16:32:02,515 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:32:02,517 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,15818542261800
+
+2023-02-16 16:32:02,517 INFO send udp packet: 192.168.100.1,52001,15818542261800
+
+2023-02-16 16:32:02,517 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,15818542261800
+
+2023-02-16 16:32:02,517 INFO send udp packet: 192.168.100.1,53336,15818542261800
+
+2023-02-16 16:32:02,520 INFO received ack: {"type": "push-ack", "lastRefTime":"15818542261800", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 1
+
+2023-02-16 16:32:02,520 INFO received ack: {"type": "push-ack", "lastRefTime":"15818542261800", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 3, total push: 0
+
+2023-02-16 16:32:45,205 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:32:45,205 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,15861232459500
+
+2023-02-16 16:32:45,205 INFO send udp packet: 192.168.100.1,52001,15861232459500
+
+2023-02-16 16:32:45,206 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,15861232459500
+
+2023-02-16 16:32:45,206 INFO send udp packet: 192.168.100.1,53336,15861232459500
+
+2023-02-16 16:32:45,209 INFO received ack: {"type": "push-ack", "lastRefTime":"15861232459500", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 2, total push: 1
+
+2023-02-16 16:32:45,210 INFO received ack: {"type": "push-ack", "lastRefTime":"15861232459500", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 5, total push: 0
+
+2023-02-16 16:33:56,917 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:33:56,917 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,15932943610000
+
+2023-02-16 16:33:56,917 INFO send udp packet: 192.168.100.1,52001,15932943610000
+
+2023-02-16 16:33:56,917 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,15932943610000
+
+2023-02-16 16:33:56,917 INFO send udp packet: 192.168.100.1,53336,15932943610000
+
+2023-02-16 16:33:56,918 INFO received ack: {"type": "push-ack", "lastRefTime":"15932943610000", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 1, total push: 1
+
+2023-02-16 16:33:56,919 INFO received ack: {"type": "push-ack", "lastRefTime":"15932943610000", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 2, total push: 0
+
+2023-02-16 16:34:11,930 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:34:11,930 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,15947956748600
+
+2023-02-16 16:34:11,930 INFO send udp packet: 192.168.100.1,52001,15947956748600
+
+2023-02-16 16:34:11,930 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,15947956748600
+
+2023-02-16 16:34:11,930 INFO send udp packet: 192.168.100.1,53336,15947956748600
+
+2023-02-16 16:34:11,934 INFO received ack: {"type": "push-ack", "lastRefTime":"15947956748600", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 4, total push: 1
+
+2023-02-16 16:34:11,935 INFO received ack: {"type": "push-ack", "lastRefTime":"15947956748600", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 5, total push: 0
+
+2023-02-16 16:35:11,440 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:35:11,440 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,16007466953000
+
+2023-02-16 16:35:11,440 INFO send udp packet: 192.168.100.1,52001,16007466953000
+
+2023-02-16 16:35:11,441 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,16007466953000
+
+2023-02-16 16:35:11,441 INFO send udp packet: 192.168.100.1,53336,16007466953000
+
+2023-02-16 16:35:11,443 INFO received ack: {"type": "push-ack", "lastRefTime":"16007466953000", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 1
+
+2023-02-16 16:35:11,444 INFO received ack: {"type": "push-ack", "lastRefTime":"16007466953000", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 3, total push: 0
+
+2023-02-16 16:35:26,934 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:35:26,934 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,16022961081300
+
+2023-02-16 16:35:26,934 INFO send udp packet: 192.168.100.1,52001,16022961081300
+
+2023-02-16 16:35:26,935 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,16022961081300
+
+2023-02-16 16:35:26,935 INFO send udp packet: 192.168.100.1,53336,16022961081300
+
+2023-02-16 16:35:26,937 INFO received ack: {"type": "push-ack", "lastRefTime":"16022961081300", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 1
+
+2023-02-16 16:35:26,937 INFO received ack: {"type": "push-ack", "lastRefTime":"16022961081300", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 2, total push: 0
+
+2023-02-16 16:35:41,940 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:35:41,941 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,16037967119900
+
+2023-02-16 16:35:41,941 INFO send udp packet: 192.168.100.1,52001,16037967119900
+
+2023-02-16 16:35:41,941 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,16037967119900
+
+2023-02-16 16:35:41,941 INFO send udp packet: 192.168.100.1,53336,16037967119900
+
+2023-02-16 16:35:41,943 INFO received ack: {"type": "push-ack", "lastRefTime":"16037967119900", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 1
+
+2023-02-16 16:35:41,944 INFO received ack: {"type": "push-ack", "lastRefTime":"16037967119900", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 3, total push: 0
+
+2023-02-16 16:36:08,875 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:36:08,876 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,16064902410100
+
+2023-02-16 16:36:08,876 INFO send udp packet: 192.168.100.1,52001,16064902410100
+
+2023-02-16 16:36:08,876 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,16064902410100
+
+2023-02-16 16:36:08,876 INFO send udp packet: 192.168.100.1,53336,16064902410100
+
+2023-02-16 16:36:08,880 INFO received ack: {"type": "push-ack", "lastRefTime":"16064902410100", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 4, total push: 1
+
+2023-02-16 16:36:08,880 INFO received ack: {"type": "push-ack", "lastRefTime":"16064902410100", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 4, total push: 0
+
+2023-02-16 16:36:26,940 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:36:26,940 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,16082967029800
+
+2023-02-16 16:36:26,940 INFO send udp packet: 192.168.100.1,52001,16082967029800
+
+2023-02-16 16:36:26,941 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,16082967029800
+
+2023-02-16 16:36:26,941 INFO send udp packet: 192.168.100.1,53336,16082967029800
+
+2023-02-16 16:36:26,941 INFO received ack: {"type": "push-ack", "lastRefTime":"16082967029800", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 1, total push: 1
+
+2023-02-16 16:36:26,942 INFO received ack: {"type": "push-ack", "lastRefTime":"16082967029800", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 1, total push: 0
+
+2023-02-16 16:36:41,946 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:36:41,946 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,16097972573300
+
+2023-02-16 16:36:41,946 INFO send udp packet: 192.168.100.1,52001,16097972573300
+
+2023-02-16 16:36:41,946 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,16097972573300
+
+2023-02-16 16:36:41,946 INFO send udp packet: 192.168.100.1,53336,16097972573300
+
+2023-02-16 16:36:41,948 INFO received ack: {"type": "push-ack", "lastRefTime":"16097972573300", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 1
+
+2023-02-16 16:36:41,949 INFO received ack: {"type": "push-ack", "lastRefTime":"16097972573300", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 3, total push: 0
+
+2023-02-16 16:37:35,449 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:37:35,449 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,16151475879900
+
+2023-02-16 16:37:35,449 INFO send udp packet: 192.168.100.1,52001,16151475879900
+
+2023-02-16 16:37:35,450 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,16151475879900
+
+2023-02-16 16:37:35,450 INFO send udp packet: 192.168.100.1,53336,16151475879900
+
+2023-02-16 16:37:35,452 INFO received ack: {"type": "push-ack", "lastRefTime":"16151475879900", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 2, total push: 1
+
+2023-02-16 16:37:35,453 INFO received ack: {"type": "push-ack", "lastRefTime":"16151475879900", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 4, total push: 0
+
+2023-02-16 16:41:18,576 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:41:18,576 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,16374603036900
+
+2023-02-16 16:41:18,576 INFO send udp packet: 192.168.100.1,52001,16374603036900
+
+2023-02-16 16:41:18,576 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,16374603036900
+
+2023-02-16 16:41:18,577 INFO send udp packet: 192.168.100.1,53336,16374603036900
+
+2023-02-16 16:41:18,579 INFO received ack: {"type": "push-ack", "lastRefTime":"16374603036900", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 1
+
+2023-02-16 16:41:18,580 INFO received ack: {"type": "push-ack", "lastRefTime":"16374603036900", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 3, total push: 0
+
+2023-02-16 16:41:54,518 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 16:41:54,519 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,16410545021599
+
+2023-02-16 16:41:54,519 INFO send udp packet: 192.168.100.1,52001,16410545021599
+
+2023-02-16 16:41:54,521 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,16410545021599
+
+2023-02-16 16:41:54,521 INFO send udp packet: 192.168.100.1,53336,16410545021599
+
+2023-02-16 16:41:54,521 INFO received ack: {"type": "push-ack", "lastRefTime":"16410545021599", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 1
+
+2023-02-16 16:41:54,523 INFO received ack: {"type": "push-ack", "lastRefTime":"16410545021599", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 2, total push: 0
+
+2023-02-16 16:59:35,140 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 16:59:35,140 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,17471167022200
+
+2023-02-16 16:59:35,140 INFO send udp packet: 192.168.100.1,52001,17471167022200
+
+2023-02-16 16:59:35,141 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:64607, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64607,17471167022200
+
+2023-02-16 16:59:35,141 INFO send udp packet: 192.168.100.1,64607,17471167022200
+
+2023-02-16 16:59:35,142 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:54866, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54866,17471167022200
+
+2023-02-16 16:59:35,142 INFO send udp packet: 192.168.100.1,54866,17471167022200
+
+2023-02-16 16:59:35,143 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:55473, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55473,17471167022200
+
+2023-02-16 16:59:35,143 INFO send udp packet: 192.168.100.1,55473,17471167022200
+
+2023-02-16 16:59:35,145 INFO received ack: {"type": "push-ack", "lastRefTime":"17471167022200", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 5, total push: 3
+
+2023-02-16 16:59:35,153 INFO received ack: {"type": "push-ack", "lastRefTime":"17471167022200", "data":""} from: 192.168.100.1:, cost: 55473 ms, unacked: 10, total push: 2
+
+2023-02-16 16:59:35,209 INFO received ack: {"type": "push-ack", "lastRefTime":"17471167022200", "data":""} from: 192.168.100.1:, cost: 54866 ms, unacked: 67, total push: 1
+
+2023-02-16 16:59:35,216 INFO received ack: {"type": "push-ack", "lastRefTime":"17471167022200", "data":""} from: 192.168.100.1:, cost: 64607 ms, unacked: 75, total push: 0
+
+2023-02-16 17:00:18,748 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 17:00:18,748 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,17514775444100
+
+2023-02-16 17:00:18,748 INFO send udp packet: 192.168.100.1,52001,17514775444100
+
+2023-02-16 17:00:18,749 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:64607, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64607,17514775444100
+
+2023-02-16 17:00:18,749 INFO send udp packet: 192.168.100.1,64607,17514775444100
+
+2023-02-16 17:00:18,750 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:54866, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54866,17514775444100
+
+2023-02-16 17:00:18,750 INFO send udp packet: 192.168.100.1,54866,17514775444100
+
+2023-02-16 17:00:18,750 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:55473, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55473,17514775444100
+
+2023-02-16 17:00:18,750 INFO send udp packet: 192.168.100.1,55473,17514775444100
+
+2023-02-16 17:00:18,751 INFO received ack: {"type": "push-ack", "lastRefTime":"17514775444100", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 3
+
+2023-02-16 17:00:18,751 INFO received ack: {"type": "push-ack", "lastRefTime":"17514775444100", "data":""} from: 192.168.100.1:, cost: 55473 ms, unacked: 1, total push: 2
+
+2023-02-16 17:00:18,755 INFO received ack: {"type": "push-ack", "lastRefTime":"17514775444100", "data":""} from: 192.168.100.1:, cost: 54866 ms, unacked: 5, total push: 1
+
+2023-02-16 17:00:18,763 INFO received ack: {"type": "push-ack", "lastRefTime":"17514775444100", "data":""} from: 192.168.100.1:, cost: 64607 ms, unacked: 14, total push: 0
+
+2023-02-16 17:17:02,302 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 17:17:02,302 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,18518329408200
+
+2023-02-16 17:17:02,302 INFO send udp packet: 192.168.100.1,52001,18518329408200
+
+2023-02-16 17:17:02,303 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,18518329408200
+
+2023-02-16 17:17:02,303 INFO send udp packet: 192.168.100.1,53336,18518329408200
+
+2023-02-16 17:17:02,304 INFO received ack: {"type": "push-ack", "lastRefTime":"18518329408200", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 1
+
+2023-02-16 17:17:02,304 INFO received ack: {"type": "push-ack", "lastRefTime":"18518329408200", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 1, total push: 0
+
+2023-02-16 17:17:17,314 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 17:17:17,314 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,18533341031100
+
+2023-02-16 17:17:17,314 INFO send udp packet: 192.168.100.1,52001,18533341031100
+
+2023-02-16 17:17:17,315 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,18533341031100
+
+2023-02-16 17:17:17,315 INFO send udp packet: 192.168.100.1,53336,18533341031100
+
+2023-02-16 17:17:17,317 INFO received ack: {"type": "push-ack", "lastRefTime":"18533341031100", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 1
+
+2023-02-16 17:17:17,318 INFO received ack: {"type": "push-ack", "lastRefTime":"18533341031100", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 3, total push: 0
+
+2023-02-16 17:18:45,452 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 17:18:45,452 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,18621479443700
+
+2023-02-16 17:18:45,452 INFO send udp packet: 192.168.100.1,52001,18621479443700
+
+2023-02-16 17:18:45,453 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,18621479443700
+
+2023-02-16 17:18:45,454 INFO send udp packet: 192.168.100.1,53336,18621479443700
+
+2023-02-16 17:18:45,454 INFO received ack: {"type": "push-ack", "lastRefTime":"18621479443700", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 2, total push: 1
+
+2023-02-16 17:18:45,456 INFO received ack: {"type": "push-ack", "lastRefTime":"18621479443700", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 2, total push: 0
+
+2023-02-16 17:30:34,825 INFO DEFAULT_GROUP@@gulimall-search is changed, add it to push queue.
+
+2023-02-16 17:30:34,828 INFO serviceName: DEFAULT_GROUP@@gulimall-search changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,19330853770100
+
+2023-02-16 17:30:34,828 INFO send udp packet: 192.168.100.1,52001,19330853770100
+
+2023-02-16 17:30:34,832 INFO received ack: {"type": "push-ack", "lastRefTime":"19330853770100", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 4, total push: 0
+
+2023-02-16 17:30:35,001 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 17:30:35,002 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:55473, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55473,19331028184100
+
+2023-02-16 17:30:35,002 INFO send udp packet: 192.168.100.1,55473,19331028184100
+
+2023-02-16 17:30:35,002 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,19331028184100
+
+2023-02-16 17:30:35,002 INFO send udp packet: 192.168.100.1,52001,19331028184100
+
+2023-02-16 17:30:35,003 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:64827, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64827,19331028184100
+
+2023-02-16 17:30:35,003 INFO send udp packet: 192.168.100.1,64827,19331028184100
+
+2023-02-16 17:30:35,003 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 17:30:35,003 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,19331030130300
+
+2023-02-16 17:30:35,003 INFO send udp packet: 192.168.100.1,52001,19331030130300
+
+2023-02-16 17:30:35,076 INFO received ack: {"type": "push-ack", "lastRefTime":"19331028184100", "data":""} from: 192.168.100.1:, cost: 55473 ms, unacked: 74, total push: 3
+
+2023-02-16 17:30:35,077 INFO received ack: {"type": "push-ack", "lastRefTime":"19331028184100", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 75, total push: 2
+
+2023-02-16 17:30:35,077 INFO received ack: {"type": "push-ack", "lastRefTime":"19331030130300", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 74, total push: 1
+
+2023-02-16 17:30:35,078 INFO received ack: {"type": "push-ack", "lastRefTime":"19331028184100", "data":""} from: 192.168.100.1:, cost: 64827 ms, unacked: 75, total push: 0
+
+2023-02-16 17:30:35,213 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2023-02-16 17:30:35,213 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,19331240196200
+
+2023-02-16 17:30:35,214 INFO send udp packet: 192.168.100.1,52001,19331240196200
+
+2023-02-16 17:30:35,214 INFO serviceName: DEFAULT_GROUP@@gulimall-coupon changed, schedule push for: 192.168.100.1:63389, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,63389,19331240196200
+
+2023-02-16 17:30:35,214 INFO send udp packet: 192.168.100.1,63389,19331240196200
+
+2023-02-16 17:30:35,217 INFO received ack: {"type": "push-ack", "lastRefTime":"19331240196200", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 3, total push: 1
+
+2023-02-16 17:30:35,236 INFO received ack: {"type": "push-ack", "lastRefTime":"19331240196200", "data":""} from: 192.168.100.1:, cost: 63389 ms, unacked: 22, total push: 0
+
+2023-02-16 17:30:35,295 INFO DEFAULT_GROUP@@gulimall-seckill is changed, add it to push queue.
+
+2023-02-16 17:30:35,297 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,19331323020500
+
+2023-02-16 17:30:35,297 INFO send udp packet: 192.168.100.1,52001,19331323020500
+
+2023-02-16 17:30:35,298 INFO serviceName: DEFAULT_GROUP@@gulimall-seckill changed, schedule push for: 192.168.100.1:53336, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53336,19331323020500
+
+2023-02-16 17:30:35,299 INFO send udp packet: 192.168.100.1,53336,19331323020500
+
+2023-02-16 17:30:35,303 INFO received ack: {"type": "push-ack", "lastRefTime":"19331323020500", "data":""} from: 192.168.100.1:, cost: 53336 ms, unacked: 4, total push: 1
+
+2023-02-16 17:30:35,323 INFO received ack: {"type": "push-ack", "lastRefTime":"19331323020500", "data":""} from: 192.168.100.1:, cost: 52001 ms, unacked: 26, total push: 0
+
+2023-02-16 17:30:35,357 INFO DEFAULT_GROUP@@gulimall-cart is changed, add it to push queue.
+
+2023-02-16 17:30:35,358 INFO serviceName: DEFAULT_GROUP@@gulimall-cart changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,19331384522900
+
+2023-02-16 17:30:35,366 INFO send udp packet: 192.168.100.1,52001,19331384522900
+
+2023-02-16 17:30:35,484 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-02-16 17:30:35,485 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,19331511449700
+
+2023-02-16 17:30:35,485 INFO send udp packet: 192.168.100.1,52001,19331511449700
+
+2023-02-16 17:30:35,520 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 17:30:35,520 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,19331546989300
+
+2023-02-16 17:30:35,520 INFO send udp packet: 192.168.100.1,52001,19331546989300
+
+2023-02-16 17:30:35,520 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:54184, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54184,19331546989300
+
+2023-02-16 17:30:35,520 INFO send udp packet: 192.168.100.1,54184,19331546989300
+
+2023-02-16 17:30:35,528 INFO received ack: {"type": "push-ack", "lastRefTime":"19331546989300", "data":""} from: 192.168.100.1:, cost: 54184 ms, unacked: 8, total push: 3
+
+2023-02-16 17:30:35,775 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 17:30:35,776 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,19331802580700
+
+2023-02-16 17:30:35,776 INFO send udp packet: 192.168.100.1,52001,19331802580700
+
+2023-02-16 17:30:35,776 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:64607, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64607,19331802580700
+
+2023-02-16 17:30:35,776 INFO send udp packet: 192.168.100.1,64607,19331802580700
+
+2023-02-16 17:30:35,780 INFO received ack: {"type": "push-ack", "lastRefTime":"19331802580700", "data":""} from: 192.168.100.1:, cost: 64607 ms, unacked: 4, total push: 4
+
+2023-02-16 17:30:35,787 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:54866, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,54866,19331802580700
+
+2023-02-16 17:30:35,788 INFO send udp packet: 192.168.100.1,54866,19331802580700
+
+2023-02-16 17:30:35,791 INFO received ack: {"type": "push-ack", "lastRefTime":"19331802580700", "data":""} from: 192.168.100.1:, cost: 54866 ms, unacked: 3, total push: 4
+
+2023-02-16 17:30:35,795 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:55473, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,55473,19331802580700
+
+2023-02-16 17:30:35,795 INFO send udp packet: 192.168.100.1,55473,19331802580700
+
+2023-02-16 17:30:35,798 INFO received ack: {"type": "push-ack", "lastRefTime":"19331802580700", "data":""} from: 192.168.100.1:, cost: 55473 ms, unacked: 3, total push: 4
+
+2023-02-16 17:30:36,107 INFO DEFAULT_GROUP@@gulimall-gateway is changed, add it to push queue.
+
+2023-02-16 17:30:36,885 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 17:30:36,885 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:52001, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,52001,19332911495900
+
+2023-02-16 17:30:36,885 INFO send udp packet: 192.168.100.1,52001,19332911495900
+
+2023-02-16 17:30:45,367 INFO retry to push data, key: 192.168.100.1,52001,19331384522900
+
+2023-02-16 17:30:45,368 INFO send udp packet: 192.168.100.1,52001,19331384522900
+
+2023-02-16 17:30:45,486 INFO retry to push data, key: 192.168.100.1,52001,19331511449700
+
+2023-02-16 17:30:45,486 INFO send udp packet: 192.168.100.1,52001,19331511449700
+
+2023-02-16 17:30:45,521 INFO retry to push data, key: 192.168.100.1,52001,19331546989300
+
+2023-02-16 17:30:45,521 INFO send udp packet: 192.168.100.1,52001,19331546989300
+
+2023-02-16 17:30:45,776 INFO retry to push data, key: 192.168.100.1,52001,19331802580700
+
+2023-02-16 17:30:45,776 INFO send udp packet: 192.168.100.1,52001,19331802580700
+
+2023-02-16 17:30:46,885 INFO retry to push data, key: 192.168.100.1,52001,19332911495900
+
+2023-02-16 17:30:46,885 INFO send udp packet: 192.168.100.1,52001,19332911495900
+
+2023-02-16 17:30:55,369 INFO retry to push data, key: 192.168.100.1,52001,19331384522900
+
+2023-02-16 17:30:55,369 WARN max re-push times reached, retry times 2, key: 192.168.100.1,52001,19331384522900
+
+2023-02-16 17:30:55,487 INFO retry to push data, key: 192.168.100.1,52001,19331511449700
+
+2023-02-16 17:30:55,487 WARN max re-push times reached, retry times 2, key: 192.168.100.1,52001,19331511449700
+
+2023-02-16 17:30:55,522 INFO retry to push data, key: 192.168.100.1,52001,19331546989300
+
+2023-02-16 17:30:55,522 WARN max re-push times reached, retry times 2, key: 192.168.100.1,52001,19331546989300
+
+2023-02-16 19:36:05,319 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2023-02-16 19:36:09,177 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2023-02-16 19:36:19,858 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2023-02-16 19:57:15,741 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 19:57:24,485 WARN client: 192.168.100.1:51603 already associated with key serviceName: DEFAULT_GROUP@@serverAddr, clusters: default, ip: 192.168.100.1, port: 51603, agent: Nacos-Java-Client:v1.1.1
+
+2023-02-16 19:57:33,720 INFO DEFAULT_GROUP@@gulimall-gateway is changed, add it to push queue.
+
+2023-02-16 19:57:37,004 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:00:32,272 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 20:00:32,273 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,2531274795500
+
+2023-02-16 20:00:32,273 INFO send udp packet: 192.168.100.1,53209,2531274795500
+
+2023-02-16 20:00:32,284 INFO received ack: {"type": "push-ack", "lastRefTime":"2531274795500", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 11, total push: 0
+
+2023-02-16 20:02:19,602 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2023-02-16 20:02:19,602 INFO serviceName: DEFAULT_GROUP@@gulimall-member changed, schedule push for: 192.168.100.1:58171, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,58171,2638605639000
+
+2023-02-16 20:02:19,602 INFO send udp packet: 192.168.100.1,58171,2638605639000
+
+2023-02-16 20:02:19,611 INFO received ack: {"type": "push-ack", "lastRefTime":"2638605639000", "data":""} from: 192.168.100.1:, cost: 58171 ms, unacked: 9, total push: 0
+
+2023-02-16 20:03:34,575 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2023-02-16 20:03:34,576 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,2713578554100
+
+2023-02-16 20:03:34,576 INFO send udp packet: 192.168.100.1,53209,2713578554100
+
+2023-02-16 20:03:34,578 INFO received ack: {"type": "push-ack", "lastRefTime":"2713578554100", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 2, total push: 0
+
+2023-02-16 20:06:11,355 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:06:11,355 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,2870357890600
+
+2023-02-16 20:06:11,355 INFO send udp packet: 192.168.100.1,53209,2870357890600
+
+2023-02-16 20:06:11,359 INFO received ack: {"type": "push-ack", "lastRefTime":"2870357890600", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 4, total push: 0
+
+2023-02-16 20:06:26,117 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:06:26,117 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,2885120564000
+
+2023-02-16 20:06:26,117 INFO send udp packet: 192.168.100.1,53209,2885120564000
+
+2023-02-16 20:06:26,121 INFO received ack: {"type": "push-ack", "lastRefTime":"2885120564000", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 4, total push: 0
+
+2023-02-16 20:07:34,153 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:07:34,153 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,2953156288500
+
+2023-02-16 20:07:34,153 INFO send udp packet: 192.168.100.1,53209,2953156288500
+
+2023-02-16 20:07:34,157 INFO received ack: {"type": "push-ack", "lastRefTime":"2953156288500", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 4, total push: 0
+
+2023-02-16 20:09:09,497 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:09:09,497 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3048500636000
+
+2023-02-16 20:09:09,497 INFO send udp packet: 192.168.100.1,53209,3048500636000
+
+2023-02-16 20:09:09,501 INFO received ack: {"type": "push-ack", "lastRefTime":"3048500636000", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 4, total push: 0
+
+2023-02-16 20:11:07,605 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 20:11:07,606 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:56781, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,56781,3166608523800
+
+2023-02-16 20:11:07,606 INFO send udp packet: 192.168.100.1,56781,3166608523800
+
+2023-02-16 20:11:07,617 INFO received ack: {"type": "push-ack", "lastRefTime":"3166608523800", "data":""} from: 192.168.100.1:, cost: 56781 ms, unacked: 11, total push: 0
+
+2023-02-16 20:11:21,097 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 20:11:21,098 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:56781, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,56781,3180100581000
+
+2023-02-16 20:11:21,098 INFO send udp packet: 192.168.100.1,56781,3180100581000
+
+2023-02-16 20:11:21,101 INFO received ack: {"type": "push-ack", "lastRefTime":"3180100581000", "data":""} from: 192.168.100.1:, cost: 56781 ms, unacked: 3, total push: 0
+
+2023-02-16 20:13:15,632 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:13:15,632 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3294635072400
+
+2023-02-16 20:13:15,632 INFO send udp packet: 192.168.100.1,53209,3294635072400
+
+2023-02-16 20:13:15,635 INFO received ack: {"type": "push-ack", "lastRefTime":"3294635072400", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 3, total push: 0
+
+2023-02-16 20:13:30,554 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:13:30,554 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3309556984300
+
+2023-02-16 20:13:30,554 INFO send udp packet: 192.168.100.1,53209,3309556984300
+
+2023-02-16 20:13:30,555 INFO received ack: {"type": "push-ack", "lastRefTime":"3309556984300", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 1, total push: 0
+
+2023-02-16 20:14:59,728 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:14:59,729 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3398731670200
+
+2023-02-16 20:14:59,729 INFO send udp packet: 192.168.100.1,53209,3398731670200
+
+2023-02-16 20:14:59,732 INFO received ack: {"type": "push-ack", "lastRefTime":"3398731670200", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 3, total push: 0
+
+2023-02-16 20:16:04,066 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:16:04,066 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3463068936100
+
+2023-02-16 20:16:04,066 INFO send udp packet: 192.168.100.1,53209,3463068936100
+
+2023-02-16 20:16:04,068 INFO received ack: {"type": "push-ack", "lastRefTime":"3463068936100", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 2, total push: 0
+
+2023-02-16 20:18:17,323 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:18:17,323 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3596325771200
+
+2023-02-16 20:18:17,323 INFO send udp packet: 192.168.100.1,53209,3596325771200
+
+2023-02-16 20:18:17,323 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:18:17,324 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3596326439700
+
+2023-02-16 20:18:17,324 INFO send udp packet: 192.168.100.1,53209,3596326439700
+
+2023-02-16 20:18:17,324 INFO received ack: {"type": "push-ack", "lastRefTime":"3596325771200", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 1, total push: 1
+
+2023-02-16 20:18:17,325 INFO received ack: {"type": "push-ack", "lastRefTime":"3596326439700", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 1, total push: 0
+
+2023-02-16 20:18:32,584 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:18:32,584 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3611587499500
+
+2023-02-16 20:18:32,585 INFO send udp packet: 192.168.100.1,53209,3611587499500
+
+2023-02-16 20:18:32,594 INFO received ack: {"type": "push-ack", "lastRefTime":"3611587499500", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 9, total push: 0
+
+2023-02-16 20:18:56,149 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:18:56,149 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3635152357400
+
+2023-02-16 20:18:56,149 INFO send udp packet: 192.168.100.1,53209,3635152357400
+
+2023-02-16 20:18:56,150 INFO received ack: {"type": "push-ack", "lastRefTime":"3635152357400", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 1, total push: 0
+
+2023-02-16 20:19:19,087 WARN client: 192.168.100.1:65440 already associated with key serviceName: DEFAULT_GROUP@@serverAddr, clusters: default, ip: 192.168.100.1, port: 65440, agent: Nacos-Java-Client:v1.1.1
+
+2023-02-16 20:19:29,517 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:19:29,517 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3668520003300
+
+2023-02-16 20:19:29,517 INFO send udp packet: 192.168.100.1,53209,3668520003300
+
+2023-02-16 20:19:29,520 INFO received ack: {"type": "push-ack", "lastRefTime":"3668520003300", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 3, total push: 0
+
+2023-02-16 20:21:07,596 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:21:07,596 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3766599531900
+
+2023-02-16 20:21:07,597 INFO send udp packet: 192.168.100.1,53209,3766599531900
+
+2023-02-16 20:21:07,600 INFO received ack: {"type": "push-ack", "lastRefTime":"3766599531900", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 3, total push: 0
+
+2023-02-16 20:21:23,226 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:21:23,226 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3782229170100
+
+2023-02-16 20:21:23,226 INFO send udp packet: 192.168.100.1,53209,3782229170100
+
+2023-02-16 20:21:23,227 INFO received ack: {"type": "push-ack", "lastRefTime":"3782229170100", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 1, total push: 0
+
+2023-02-16 20:21:41,215 WARN client: 192.168.100.1:58242 already associated with key serviceName: DEFAULT_GROUP@@serverAddr, clusters: default, ip: 192.168.100.1, port: 58242, agent: Nacos-Java-Client:v1.1.1
+
+2023-02-16 20:21:51,472 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:21:51,472 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3810475572100
+
+2023-02-16 20:21:51,472 INFO send udp packet: 192.168.100.1,53209,3810475572100
+
+2023-02-16 20:21:51,475 INFO received ack: {"type": "push-ack", "lastRefTime":"3810475572100", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 3, total push: 0
+
+2023-02-16 20:22:52,459 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:22:52,459 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3871462318800
+
+2023-02-16 20:22:52,459 INFO send udp packet: 192.168.100.1,53209,3871462318800
+
+2023-02-16 20:22:52,462 INFO received ack: {"type": "push-ack", "lastRefTime":"3871462318800", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 3, total push: 0
+
+2023-02-16 20:23:16,123 WARN client: 192.168.100.1:56142 already associated with key serviceName: DEFAULT_GROUP@@serverAddr, clusters: default, ip: 192.168.100.1, port: 56142, agent: Nacos-Java-Client:v1.1.1
+
+2023-02-16 20:23:26,247 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:23:26,247 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,3905250543900
+
+2023-02-16 20:23:26,247 INFO send udp packet: 192.168.100.1,53209,3905250543900
+
+2023-02-16 20:23:26,249 INFO received ack: {"type": "push-ack", "lastRefTime":"3905250543900", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 2, total push: 0
+
+2023-02-16 20:25:16,529 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 20:25:16,530 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:56143, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,56143,4015532786300
+
+2023-02-16 20:25:16,530 INFO send udp packet: 192.168.100.1,56143,4015532786300
+
+2023-02-16 20:25:16,545 INFO received ack: {"type": "push-ack", "lastRefTime":"4015532786300", "data":""} from: 192.168.100.1:, cost: 56143 ms, unacked: 15, total push: 0
+
+2023-02-16 20:25:17,339 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:25:17,339 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,4016342207700
+
+2023-02-16 20:25:17,339 INFO send udp packet: 192.168.100.1,53209,4016342207700
+
+2023-02-16 20:25:17,342 INFO received ack: {"type": "push-ack", "lastRefTime":"4016342207700", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 3, total push: 0
+
+2023-02-16 20:26:11,226 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2023-02-16 20:26:26,231 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2023-02-16 20:26:35,174 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 20:26:35,175 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,4094177985100
+
+2023-02-16 20:26:35,176 INFO send udp packet: 192.168.100.1,53209,4094177985100
+
+2023-02-16 20:26:35,180 INFO received ack: {"type": "push-ack", "lastRefTime":"4094177985100", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 4, total push: 0
+
+2023-02-16 20:30:05,572 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2023-02-16 20:35:47,951 INFO DEFAULT_GROUP@@gulimall-auth-server is changed, add it to push queue.
+
+2023-02-16 20:35:47,951 INFO serviceName: DEFAULT_GROUP@@gulimall-auth-server changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,4646954559800
+
+2023-02-16 20:35:47,952 INFO send udp packet: 192.168.100.1,53209,4646954559800
+
+2023-02-16 20:35:47,955 INFO received ack: {"type": "push-ack", "lastRefTime":"4646954559800", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 3, total push: 0
+
+2023-02-16 20:36:02,499 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 20:36:05,845 WARN client: 192.168.100.1:49236 already associated with key serviceName: DEFAULT_GROUP@@serverAddr, clusters: default, ip: 192.168.100.1, port: 49236, agent: Nacos-Java-Client:v1.1.1
+
+2023-02-16 20:36:17,703 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:36:17,703 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,4676705924100
+
+2023-02-16 20:36:17,703 INFO send udp packet: 192.168.100.1,53209,4676705924100
+
+2023-02-16 20:36:17,706 INFO received ack: {"type": "push-ack", "lastRefTime":"4676705924100", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 3, total push: 0
+
+2023-02-16 20:38:51,876 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:38:51,876 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,4830878957300
+
+2023-02-16 20:38:51,876 INFO send udp packet: 192.168.100.1,53209,4830878957300
+
+2023-02-16 20:38:51,878 INFO received ack: {"type": "push-ack", "lastRefTime":"4830878957300", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 2, total push: 0
+
+2023-02-16 20:39:15,524 WARN client: 192.168.100.1:60240 already associated with key serviceName: DEFAULT_GROUP@@serverAddr, clusters: default, ip: 192.168.100.1, port: 60240, agent: Nacos-Java-Client:v1.1.1
+
+2023-02-16 20:39:28,555 INFO DEFAULT_GROUP@@gulimall-order is changed, add it to push queue.
+
+2023-02-16 20:39:28,555 INFO serviceName: DEFAULT_GROUP@@gulimall-order changed, schedule push for: 192.168.100.1:53209, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,53209,4867558438300
+
+2023-02-16 20:39:28,555 INFO send udp packet: 192.168.100.1,53209,4867558438300
+
+2023-02-16 20:39:28,558 INFO received ack: {"type": "push-ack", "lastRefTime":"4867558438300", "data":""} from: 192.168.100.1:, cost: 53209 ms, unacked: 3, total push: 0
+
+2023-02-16 20:40:47,645 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 20:40:47,645 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:64641, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64641,4946648403100
+
+2023-02-16 20:40:47,645 INFO send udp packet: 192.168.100.1,64641,4946648403100
+
+2023-02-16 20:40:47,653 INFO received ack: {"type": "push-ack", "lastRefTime":"4946648403100", "data":""} from: 192.168.100.1:, cost: 64641 ms, unacked: 8, total push: 0
+
+2023-02-16 20:41:11,042 WARN client: 192.168.100.1:59708 already associated with key serviceName: DEFAULT_GROUP@@serverAddr, clusters: default, ip: 192.168.100.1, port: 59708, agent: Nacos-Java-Client:v1.1.1
+
+2023-02-16 20:41:21,107 INFO DEFAULT_GROUP@@gulimall-ware is changed, add it to push queue.
+
+2023-02-16 20:41:21,107 INFO serviceName: DEFAULT_GROUP@@gulimall-ware changed, schedule push for: 192.168.100.1:64641, agent: Nacos-Java-Client:v1.1.1, key: 192.168.100.1,64641,4980109971700
+
+2023-02-16 20:41:21,107 INFO send udp packet: 192.168.100.1,64641,4980109971700
+
+2023-02-16 20:41:21,112 INFO received ack: {"type": "push-ack", "lastRefTime":"4980109971700", "data":""} from: 192.168.100.1:, cost: 64641 ms, unacked: 5, total push: 0
 

@@ -33,10 +33,10 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
  *  1）、每一个微服务必须创建undo_Log
  *  2）、安装事务协调器：seate-server
  *  3）、整合
- *      1、导入依赖
+ *      1、导入依赖 spring-cloud-starter-alibaba-seata seatall-all:0.9.0
  *      2、解压并启动seata-server：
  *          registry.conf:注册中心配置    修改 registry ： nacos
- *      3、所有想要用到分布式事务的微服务使用seata DataSourceProxy 代理自己的数据源
+ *      3、所有想要用到分布式事务的微服务使用seata DataSourceProxy 代理自己的数据源 MySeataConfig
  *      4、每个微服务，都必须导入   registry.conf   file.conf
  *          vgroup_mapping.{application.name}-fescar-service-group = "default"
  *      5、启动测试分布式事务

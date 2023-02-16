@@ -67,11 +67,14 @@ public class SeckillServiceImpl implements SeckillService {
             //上架商品
             List<SeckillSessionsWithSkus> sessionData = r.getData(new TypeReference<List<SeckillSessionsWithSkus>>() {
             });
-            //缓存到redis
-            //1、缓存活动信息
-            saveSessionInfos(sessionData);
-            //2、缓存活动的关联商品信息
-            saveSessionSkuInfos(sessionData);
+            if(sessionData != null){//近三天没有秒杀活动商品
+                //缓存到redis
+                //1、缓存活动信息
+                saveSessionInfos(sessionData);
+                //2、缓存活动的关联商品信息
+                saveSessionSkuInfos(sessionData);
+            }
+
         }
     }
 
@@ -221,6 +224,7 @@ public class SeckillServiceImpl implements SeckillService {
                                     orderTo.setMemberId(respVo.getId());
                                     orderTo.setPromotionSessionId(redisTo.getPromotionSessionId());
                                     orderTo.setSkuId(redisTo.getSkuId());
+                                    orderTo.setSkuPic(redisTo.getSkuInfo().getSkuDefaultImg());
                                     rabbitTemplate.convertAndSend("order-event-exchange","order.seckill.order",orderTo);
 
                                     long s2 = System.currentTimeMillis();
@@ -232,6 +236,7 @@ public class SeckillServiceImpl implements SeckillService {
                             }
                         }else {
                             //说明已经买过了
+                            log.error("该用户已经买过了。。。");
                             return null;
                         }
                     }
@@ -241,10 +246,7 @@ public class SeckillServiceImpl implements SeckillService {
             }else {
                 return null;
             }
-
         }
-
-
         return null;
     }
 

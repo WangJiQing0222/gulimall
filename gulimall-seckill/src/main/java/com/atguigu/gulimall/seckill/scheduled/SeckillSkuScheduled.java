@@ -31,7 +31,7 @@ public class SeckillSkuScheduled {
     private final String upload_lock = "seckill:upload:lock";
 
     //TODO 幂等性处理
-    @Scheduled(cron = "*/3 * * * * ?")//秒 分 时 日 月 周
+    @Scheduled(cron = "*/10 * * * * ?")//秒 分 时 日 月 周
     public void uploadSeckillSkuLatest3Days(){
 
         //分布式锁。锁的业务执行完成，状态经更新完成。释放锁以后。其他人获取到就会拿到最新的状态。

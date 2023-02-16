@@ -24,5 +24,12 @@ public interface WareInfoService extends IService<WareInfoEntity> {
      * @return
      */
     FareVo getFare(Long addrId);
+
+    /**
+     * 测试Seata的插入数据样例
+     * @return
+     */
+    Boolean testSeata();
+
 }
 

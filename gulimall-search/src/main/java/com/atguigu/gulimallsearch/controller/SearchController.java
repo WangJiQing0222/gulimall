@@ -29,6 +29,6 @@ public class SearchController {
         model.addAttribute("result", result);
 
         System.out.println("-------------------" + result);
-        return "list";
+        return "list1";
     }
 }

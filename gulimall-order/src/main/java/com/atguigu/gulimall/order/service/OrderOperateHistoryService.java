@@ -16,5 +16,11 @@ import java.util.Map;
 public interface OrderOperateHistoryService extends IService<OrderOperateHistoryEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    /**
+     * 测试Seata分布式事务是否生效
+     * @return
+     */
+    Boolean seata();
 }
 

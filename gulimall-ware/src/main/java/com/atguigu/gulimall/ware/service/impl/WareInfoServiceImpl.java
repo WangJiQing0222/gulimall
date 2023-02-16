@@ -20,6 +20,7 @@ import com.atguigu.common.utils.Query;
 import com.atguigu.gulimall.ware.dao.WareInfoDao;
 import com.atguigu.gulimall.ware.entity.WareInfoEntity;
 import com.atguigu.gulimall.ware.service.WareInfoService;
+import org.springframework.transaction.annotation.Transactional;
 
 
 @Service("wareInfoService")
@@ -67,6 +68,22 @@ public class WareInfoServiceImpl extends ServiceImpl<WareInfoDao, WareInfoEntity
             return fareVo;//使用手机号最后一位数字作为运费
         }
         return null;
+    }
+
+    /**
+     * 测试Seata的插入数据样例 wms_ware_info
+     * @return
+     */
+    @Transactional
+    @Override
+    public Boolean testSeata() {
+        WareInfoEntity wareInfoEntity = new WareInfoEntity();
+        wareInfoEntity.setName("WangJiQing");
+        wareInfoEntity.setAreacode("湖北省");
+
+        boolean flag = this.save(wareInfoEntity);
+        System.out.println("wms执行了" + flag);
+        return flag;
     }
 
 }

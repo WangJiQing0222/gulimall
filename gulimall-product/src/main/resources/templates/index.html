@@ -599,7 +599,7 @@
                     .append($("<img style='width: 130px; height: 130px' src='" + item.skuInfo.skuDefaultImg + "' />"))
                     .append($("<p>" + item.skuInfo.skuTitle + "</p>"))
                     .append($("<span>" + item.seckillPrice + "</span>"))
-                    .append($("<s>" + item.skuInfo.price + "</s>"))
+                    .append($("<s>" + item.skuInfo.price + 100 + "</s>"))//+100 模仿商家，故意抬高原价，让客户以为降价便宜
                     .appendTo("#seckillSkuContent");
             })
         }

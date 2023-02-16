@@ -27,6 +27,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.sun.xml.internal.bind.v2.TODO;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -46,6 +47,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 
+@Slf4j
 @Service("orderService")
 public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> implements OrderService {
 
@@ -109,13 +111,14 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
 
             //2、远程查询购物车中所有选中的内容
             List<OrderItemVo> items = cartFeignService.getCurrentUserCartItems();
-            System.out.println("购物车内容：" + items);
+            log.debug("购物车内容:{}--->com.atguigu.gulimall.order.service.impl.OrderServiceImpl.confirmOrder", items);
             confirmVo.setItems(items);
         }, executor).thenRunAsync(() -> {
             List<OrderItemVo> items = confirmVo.getItems();
             List<Long> collect = items.stream().map(item -> item.getSkuId()).collect(Collectors.toList());
 
             //TODO 一定要启动库存服务
+            log.debug("远程调用ware");
             R hasStock = wmsFeignService.getSkuHasStock(collect);
             List<SkuStockVo> data = hasStock.getData(new TypeReference<List<SkuStockVo>>() {
             });
@@ -127,7 +130,6 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
             }else {
                 System.out.println("远程调用库存为null----------->:" + data);
             }
-
 
         },executor);
 
@@ -165,6 +167,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
     public SubmitOrderResponseVo submitOrder(OrderSubmitVo vo) {
         confirmVoThreadLocal.set(vo);
         SubmitOrderResponseVo response = new SubmitOrderResponseVo();
+        response.setCode(0);
 
         MemberRespVo memberRespVo = LoginUserInterceptor.loginUser.get();
         //1、验证令牌是否合法【令牌的对比和删除必须保证原子性】
@@ -186,7 +189,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
             OrderCreateTo order = createOrder();
             BigDecimal payAmount = order.getOrder().getPayAmount();
             BigDecimal payPrice = vo.getPayPrice();
-            System.out.println("payAmount:" + payAmount + "payPrice:" + payPrice);
+            System.out.println("payAmount:" + payAmount + "  payPrice:" + payPrice);
             //2、验价
             if(Math.abs(payAmount.subtract(payPrice).doubleValue()) < 0.01){
                 //金额对比
@@ -220,7 +223,6 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
 
                     //TODO 订单创建成功，发送消息给MQ
                     rabbitTemplate.convertAndSend("order-event-exchange","order.create.order",order.getOrder());
-
 
                     return response;
                 }else {
@@ -333,6 +335,10 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
         return null;
     }
 
+    /**
+     * 创建秒杀单
+     * @param seckillOrderTo
+     */
     @Override
     public void createSeckillOrder(SeckillOrderTo seckillOrderTo) {
         //TODO 保存订单信息
@@ -351,6 +357,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
         itemEntity.setOrderSn(seckillOrderTo.getOrderSn());
         itemEntity.setRealAmount(multiply);
         itemEntity.setSkuQuantity(seckillOrderTo.getNum());
+        itemEntity.setSkuPic(seckillOrderTo.getSkuPic());
         orderItemService.save(itemEntity);
 
 
@@ -386,6 +393,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
         return createTo;
     }
 
+
     private void computePrice(OrderEntity orderEntity, List<OrderItemEntity> itemEntities) {
         BigDecimal total = new BigDecimal("0");
 
@@ -397,14 +405,14 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
         BigDecimal growth = new BigDecimal("0");
         //订单的总额，叠加每一个订单项的总额信息
         for (OrderItemEntity item : itemEntities) {
-            total.add(item.getRealAmount());
+            total = total.add(item.getRealAmount());
 
-            coupon.add(item.getCouponAmount());
-            integration.add(item.getIntegrationAmount());
-            promotion.add(item.getPromotionAmount());
+            coupon = coupon.add(item.getCouponAmount());
+            integration = integration.add(item.getIntegrationAmount());
+            promotion = promotion.add(item.getPromotionAmount());
 
-            gift.add(new BigDecimal(item.getGiftIntegration().toString()));
-            growth.add(new BigDecimal(item.getGiftGrowth().toString()));
+            gift = gift.add(new BigDecimal(item.getGiftIntegration().toString()));
+            growth = growth.add(new BigDecimal(item.getGiftGrowth().toString()));
         }
 
         //1、订单价格相关
@@ -515,14 +523,12 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
         itemEntity.setPromotionAmount(new BigDecimal("0"));//促销价格
         itemEntity.setCouponAmount(new BigDecimal("0"));//优惠卷
         itemEntity.setIntegrationAmount(new BigDecimal("0"));//积分
-        //当前订单项的实际金额 总额-各种优惠
-        BigDecimal orign = itemEntity.getSkuPrice().multiply(new BigDecimal(itemEntity.getSkuQuantity().toString()));
-        BigDecimal subtract = orign.subtract(itemEntity.getPromotionAmount())
+        //当前订单项的实际金额
+        BigDecimal totalPrice = itemEntity.getSkuPrice().multiply(new BigDecimal(itemEntity.getSkuQuantity().toString()));
+        BigDecimal realAmount = totalPrice.subtract(itemEntity.getPromotionAmount())//总额-各种优惠
                 .subtract(itemEntity.getCouponAmount())
                 .subtract(itemEntity.getIntegrationAmount());
-        itemEntity.setRealAmount(itemEntity.getSkuPrice().multiply(orign));//最后减去所有优惠的真实价格
-        
-
+        itemEntity.setRealAmount(realAmount);//最后减去所有优惠的真实价格
 
         return itemEntity;
     }

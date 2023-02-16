@@ -34,5 +34,12 @@ public interface WmsFeignService {
      * @return
      */
     @PostMapping("/ware/waresku/lock/order")
-    public R orderLockStock(@RequestBody WareSkuLockVo vo);
+    R orderLockStock(@RequestBody WareSkuLockVo vo);
+
+    /**
+     * 测试Seata的插入数据样例 wms_ware_info
+     * @return
+     */
+    @GetMapping("/ware/wareinfo/insert")
+    R testSeata();
 }

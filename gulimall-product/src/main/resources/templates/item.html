@@ -521,7 +521,7 @@
                         <li>京东价</li>
                         <li>
                             <span>￥</span>
-                            <span th:text="${#numbers.formatDecimal(item.info.price,3,2)}">4499.00</span>
+                            <span th:text="${#numbers.formatDecimal(item.info.price + 100,3,2)}">4499.00</span>
                         </li>
                         <li style="color: red" th:if="${item.seckillInfoVo != null}">
 
@@ -1398,7 +1398,7 @@
     $(".seckillA").click(function () {
         var isLogin = [[${session.loginUser != null}]];     //true
         if (isLogin) {
-            var killId = $(this).attr("sessionid") + "-" + $(this).attr("skuid");
+            var killId = $(this).attr("sessionid") + "_" + $(this).attr("skuid");
             var code = $(this).attr("code");
             var num = $("#numInput").val();
             location.href = "http://seckill.gulimall.com/kill?killId=" + killId + "&key=" + code + "&num=" + num;

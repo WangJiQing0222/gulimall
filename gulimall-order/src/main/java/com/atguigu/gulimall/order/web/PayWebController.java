@@ -38,4 +38,12 @@ public class PayWebController {
 
         return pay;
     }
+
+    @ResponseBody
+    @GetMapping(value = "/demo", produces = {MediaType.TEXT_HTML_VALUE})
+    public String demo() throws AlipayApiException {
+        String res = alipayTemplate.demo();
+
+        return res;
+    }
 }
