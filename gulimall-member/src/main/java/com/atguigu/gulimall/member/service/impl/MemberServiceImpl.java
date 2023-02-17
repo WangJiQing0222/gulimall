@@ -72,6 +72,7 @@ public class MemberServiceImpl extends ServiceImpl<MemberDao, MemberEntity> impl
 
         //密码需要进行加密存储
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+        log.debug("password:" + vo.getPassWord());
         String encode = encoder.encode(vo.getPassWord());
         entity.setPassword(encode);//设置密码
 
@@ -92,6 +93,16 @@ public class MemberServiceImpl extends ServiceImpl<MemberDao, MemberEntity> impl
         Integer phoneCount  = this.baseMapper.selectCount(new QueryWrapper<MemberEntity>().eq("mobile", phone));
         if(phoneCount > 0){
             throw new PhoneExistException();
+        }
+    }
+
+    public static void main(String[] args) {
+        String pass = "123456";
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+        String encode = null;
+        for (int i = 0; i < 10; i++) {
+            encode = encoder.encode(pass);
+            System.out.println(encoder.matches(pass, encode));
         }
     }
 

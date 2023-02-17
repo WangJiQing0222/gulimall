@@ -130,4 +130,5 @@ public class OAuth2Controller {
             return "redirect:http://auth.gulimall.com/login.html";
         }
     }
+
 }

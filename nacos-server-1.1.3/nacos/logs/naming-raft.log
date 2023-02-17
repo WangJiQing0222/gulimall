@@ -36,3 +36,215 @@
 
 2023-02-17 09:58:36,408 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-product
 
+2023-02-17 14:01:56,468 INFO initializing Raft sub-system
+
+2023-02-17 14:01:56,468 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2023-02-17 14:01:56,471 INFO raft notifier started
+
+2023-02-17 14:01:56,473 INFO cache loaded, datum count: 0, current term: 0
+
+2023-02-17 14:01:56,473 INFO finish to load data from disk, cost: 5 ms.
+
+2023-02-17 14:01:56,477 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2023-02-17 14:01:56,266 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2023-02-17 14:01:56,497 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2023-02-17 14:01:56,605 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2023-02-17 14:02:01,381 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2023-02-17 14:02:11,224 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-02-17 14:02:11,224 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2023-02-17 14:02:11,224 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-02-17 14:02:31,257 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-02-17 14:02:32,356 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-gateway
+
+2023-02-17 14:02:36,796 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@renren-fast
+
+2023-02-17 14:02:36,796 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@renren-fast
+
+2023-02-17 15:05:51,819 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":18505,"state":"FOLLOWER","term":0,"voteFor":""}, term: 0
+
+2023-02-17 15:05:51,820 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":18553,"state":"CANDIDATE","term":1,"voteFor":"192.168.100.1:8848"}, term: 1
+
+2023-02-17 15:05:51,820 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":15754,"state":"CANDIDATE","term":2,"voteFor":"192.168.100.1:8848"}, term: 2
+
+2023-02-17 15:05:51,821 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":17298,"state":"CANDIDATE","term":3,"voteFor":"192.168.100.1:8848"}, term: 3
+
+2023-02-17 15:05:51,821 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":17428,"state":"CANDIDATE","term":4,"voteFor":"192.168.100.1:8848"}, term: 4
+
+2023-02-17 15:05:51,821 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":17792,"state":"CANDIDATE","term":5,"voteFor":"192.168.100.1:8848"}, term: 5
+
+2023-02-17 15:05:51,821 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":17927,"state":"CANDIDATE","term":6,"voteFor":"192.168.100.1:8848"}, term: 6
+
+2023-02-17 15:05:51,822 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":15821,"state":"CANDIDATE","term":7,"voteFor":"192.168.100.1:8848"}, term: 7
+
+2023-02-17 15:05:51,822 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":15645,"state":"CANDIDATE","term":8,"voteFor":"192.168.100.1:8848"}, term: 8
+
+2023-02-17 15:05:51,822 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":15202,"state":"CANDIDATE","term":9,"voteFor":"192.168.100.1:8848"}, term: 9
+
+2023-02-17 15:05:51,822 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":19820,"state":"CANDIDATE","term":10,"voteFor":"192.168.100.1:8848"}, term: 10
+
+2023-02-17 15:05:51,822 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":18618,"state":"CANDIDATE","term":11,"voteFor":"192.168.100.1:8848"}, term: 11
+
+2023-02-17 15:05:51,822 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":17523,"state":"CANDIDATE","term":12,"voteFor":"192.168.100.1:8848"}, term: 12
+
+2023-02-17 15:05:51,823 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":16738,"state":"CANDIDATE","term":13,"voteFor":"192.168.100.1:8848"}, term: 13
+
+2023-02-17 15:05:51,823 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":17560,"state":"CANDIDATE","term":14,"voteFor":"192.168.100.1:8848"}, term: 14
+
+2023-02-17 15:05:51,823 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":19419,"state":"CANDIDATE","term":15,"voteFor":"192.168.100.1:8848"}, term: 15
+
+2023-02-17 15:05:51,823 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":18511,"state":"CANDIDATE","term":16,"voteFor":"192.168.100.1:8848"}, term: 16
+
+2023-02-17 15:05:51,824 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":18876,"state":"CANDIDATE","term":17,"voteFor":"192.168.100.1:8848"}, term: 17
+
+2023-02-17 15:05:51,824 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":16136,"state":"CANDIDATE","term":18,"voteFor":"192.168.100.1:8848"}, term: 18
+
+2023-02-17 15:05:51,824 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":15955,"state":"CANDIDATE","term":19,"voteFor":"192.168.100.1:8848"}, term: 19
+
+2023-02-17 15:05:51,824 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":19430,"state":"CANDIDATE","term":20,"voteFor":"192.168.100.1:8848"}, term: 20
+
+2023-02-17 15:05:51,824 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":16792,"state":"CANDIDATE","term":21,"voteFor":"192.168.100.1:8848"}, term: 21
+
+2023-02-17 15:05:51,825 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":16266,"state":"CANDIDATE","term":22,"voteFor":"192.168.100.1:8848"}, term: 22
+
+2023-02-17 15:05:51,825 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":19359,"state":"CANDIDATE","term":23,"voteFor":"192.168.100.1:8848"}, term: 23
+
+2023-02-17 15:05:51,825 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":19863,"state":"CANDIDATE","term":24,"voteFor":"192.168.100.1:8848"}, term: 24
+
+2023-02-17 15:05:51,825 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":16521,"state":"CANDIDATE","term":25,"voteFor":"192.168.100.1:8848"}, term: 25
+
+2023-02-17 15:05:51,826 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":18081,"state":"CANDIDATE","term":26,"voteFor":"192.168.100.1:8848"}, term: 26
+
+2023-02-17 15:05:51,826 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":16738,"state":"CANDIDATE","term":27,"voteFor":"192.168.100.1:8848"}, term: 27
+
+2023-02-17 15:05:51,826 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":17442,"state":"CANDIDATE","term":28,"voteFor":"192.168.100.1:8848"}, term: 28
+
+2023-02-17 15:05:51,826 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":18197,"state":"CANDIDATE","term":29,"voteFor":"192.168.100.1:8848"}, term: 29
+
+2023-02-17 15:05:51,826 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":19732,"state":"CANDIDATE","term":30,"voteFor":"192.168.100.1:8848"}, term: 30
+
+2023-02-17 15:05:51,827 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":15856,"state":"CANDIDATE","term":31,"voteFor":"192.168.100.1:8848"}, term: 31
+
+2023-02-17 15:05:51,827 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":17459,"state":"CANDIDATE","term":32,"voteFor":"192.168.100.1:8848"}, term: 32
+
+2023-02-17 15:05:51,827 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":15276,"state":"CANDIDATE","term":33,"voteFor":"192.168.100.1:8848"}, term: 33
+
+2023-02-17 15:05:51,827 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":17344,"state":"CANDIDATE","term":34,"voteFor":"192.168.100.1:8848"}, term: 34
+
+2023-02-17 15:05:51,828 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":17524,"state":"CANDIDATE","term":35,"voteFor":"192.168.100.1:8848"}, term: 35
+
+2023-02-17 15:05:51,828 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":17505,"state":"CANDIDATE","term":36,"voteFor":"192.168.100.1:8848"}, term: 36
+
+2023-02-17 15:05:51,828 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":16378,"state":"CANDIDATE","term":37,"voteFor":"192.168.100.1:8848"}, term: 37
+
+2023-02-17 15:05:51,828 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":16205,"state":"CANDIDATE","term":38,"voteFor":"192.168.100.1:8848"}, term: 38
+
+2023-02-17 15:05:51,829 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":19352,"state":"CANDIDATE","term":39,"voteFor":"192.168.100.1:8848"}, term: 39
+
+2023-02-17 15:05:51,829 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.100.1:8848","leaderDueMs":19763,"state":"CANDIDATE","term":40,"voteFor":"192.168.100.1:8848"}, term: 40
+
+2023-02-17 15:05:55,847 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-02-17 15:06:10,850 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-02-17 17:19:04,733 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@serverAddr
+
+2023-02-17 17:20:01,951 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-search
+
+2023-02-17 17:20:16,313 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-auth-server
+
+2023-02-17 17:20:16,313 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-auth-server
+
+2023-02-17 17:20:27,549 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-member
+
+2023-02-17 17:20:38,738 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-ware
+
+2023-02-17 17:20:38,738 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-ware
+
+2023-02-17 17:20:55,949 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-third-party
+
+2023-02-17 17:20:57,748 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-order
+
+2023-02-17 17:20:57,748 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-order
+
+2023-02-17 17:21:11,337 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-coupon
+
+2023-02-17 17:21:19,836 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-cart
+
+2023-02-17 17:21:19,836 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-cart
+
+2023-02-17 17:21:27,820 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-seckill
+
+2023-02-17 17:21:27,820 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-seckill
+
+2023-02-17 17:21:37,713 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-product
+
+2023-02-17 17:48:29,377 INFO initializing Raft sub-system
+
+2023-02-17 17:48:29,378 INFO raft notifier started
+
+2023-02-17 17:48:29,378 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2023-02-17 17:48:29,383 INFO cache loaded, datum count: 0, current term: 0
+
+2023-02-17 17:48:29,383 INFO finish to load data from disk, cost: 5 ms.
+
+2023-02-17 17:48:29,388 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2023-02-17 17:48:29,247 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2023-02-17 17:48:29,399 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2023-02-17 17:48:29,463 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2023-02-17 17:48:31,795 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2023-02-17 17:48:38,123 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@serverAddr
+
+2023-02-17 17:48:39,236 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-02-17 17:48:39,236 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2023-02-17 17:48:39,237 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-02-17 17:49:04,319 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.100.1","key":"192.168.100.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-02-17 17:49:16,255 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-seckill
+
+2023-02-17 17:49:21,903 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-product
+
+2023-02-17 17:50:15,158 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-search
+
+2023-02-17 17:50:23,479 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-auth-server
+
+2023-02-17 17:50:36,964 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-member
+
+2023-02-17 17:50:36,964 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-member
+
+2023-02-17 17:50:50,800 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-order
+
+2023-02-17 17:50:54,507 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-ware
+
+2023-02-17 17:50:57,691 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-third-party
+
+2023-02-17 17:51:05,707 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-coupon
+
+2023-02-17 17:51:06,930 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-gateway
+
+2023-02-17 17:51:16,303 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@renren-fast
+
+2023-02-17 17:51:16,303 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@renren-fast
+
+2023-02-17 17:51:16,849 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-cart
+
+2023-02-17 17:51:16,849 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-cart
+

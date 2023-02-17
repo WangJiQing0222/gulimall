@@ -30,7 +30,7 @@ public class OrderPayedListener {
      */
     @PostMapping("/payed/notify")
     public String handleAlipayed(PayAsyncVo vo, HttpServletRequest request) throws AlipayApiException {
-        //只要我们收到了支付宝给我们异步的通知，告诉我们订单支付功。返回succe.55,支付宝就再也不通知
+        //只要我们收到了支付宝给我们异步的通知，告诉我们订单支付功。返回success.55,支付宝就再也不通知
 //        Map<String, String[]> map = request.getParameterMap();
 //        for (String key : map.keySet()) {
 //            String value = request.getParameter(key);

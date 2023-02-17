@@ -9,6 +9,7 @@ import com.example.auth.feign.MemberFeignService;
 import com.example.auth.feign.ThirdPartFeignService;
 import com.example.auth.vo.UserLoginVo;
 import com.example.auth.vo.UserRegisterVo;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -31,6 +32,7 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
+@Slf4j
 @Controller
 public class LoginController {
 
@@ -92,6 +94,7 @@ public class LoginController {
             Map<String, String> errors = result.getFieldErrors().stream().collect(Collectors.toMap(FieldError::getField, FieldError::getDefaultMessage));
             attributes.addFlashAttribute("errors", errors);
 
+            log.debug("后端校验格式失败：" + errors);
             //出错回到注册页面
             return "redirect:http://auth.gulimall.com/reg.html";
         }
@@ -111,6 +114,7 @@ public class LoginController {
                     return "redirect:http://auth.gulimall.com/login.html";
                 }else {
                     //失败
+                    log.debug("远程调用注册失败。。。");
                     Map<String, String> errors = new HashMap<>();
                     errors.put("msg", r.getData("msg", new TypeReference<String>(){}));
                     attributes.addFlashAttribute("errors", errors);
@@ -119,6 +123,7 @@ public class LoginController {
 
             }else {
                 //校验出错回到注册页面
+                log.debug("验证码与缓存中不一致。。。");
                 HashMap<String, String> errors = new HashMap<>();
                 errors.put("code", "验证码错误");
                 attributes.addFlashAttribute("errors", errors);
@@ -127,6 +132,7 @@ public class LoginController {
 
         }else {
             //校验出错回到注册页面
+            log.debug("缓存中没有验证码。。。");
             HashMap<String, String> errors = new HashMap<>();
             errors.put("code", "验证码错误");
             attributes.addFlashAttribute("errors", errors);
@@ -152,7 +158,7 @@ public class LoginController {
             MemberRespVo data = login.getData("data", new TypeReference<MemberRespVo>() {
             });
             session.setAttribute(AuthServerConstant.LOGIN_USER, data);
-            return "redirect:http://gulilmall.com";
+            return "redirect:http://gulimall.com";
         }else {
             Map<String, String> errors = new HashMap<>();
             errors.put("msg", login.getData("msg", new TypeReference<String>(){}));

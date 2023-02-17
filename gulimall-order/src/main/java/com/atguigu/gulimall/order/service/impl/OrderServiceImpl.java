@@ -133,7 +133,6 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
 
         },executor);
 
-
         //3、查询用户积分
         Integer integration = memberRespVo.getIntegration();
         confirmVo.setIntegration(integration);
