@@ -11,6 +11,7 @@ import com.atguigu.gulimall.member.service.MemberService;
 import com.atguigu.gulimall.member.vo.MemberLoginVo;
 import com.atguigu.gulimall.member.vo.MemberRegistVo;
 import com.atguigu.gulimall.member.vo.SocialGiteeUser;
+import com.atguigu.gulimall.member.vo.SocialWeiboUser;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -37,6 +38,19 @@ public class MemberController {
     @Autowired
     private CouponFeignService couponFeignService;
 
+    @PostMapping("/oauth2/weibo/login")
+    public R oauthloginWeibo(@RequestBody SocialWeiboUser vo) throws Exception {
+        MemberEntity entity = memberService.weiboLogin(vo);
+        System.out.println("==================>" + entity);
+        if (entity != null) {
+            log.debug("Gitee登录成功。。。");
+            //TODO  1、登陆成功处理
+            return R.ok().setData(entity);
+        }else {
+            log.debug("Gitee登录失败。。。");
+            return R.error(BizCodeEnume.LOGINACCT_PASSWORD_INVALID_EXCEPTION.getCode(), BizCodeEnume.LOGINACCT_PASSWORD_INVALID_EXCEPTION.getMsg());
+        }
+    }
 
     /**
      * OAuth2.0_Gitee登录
@@ -46,7 +60,7 @@ public class MemberController {
      */
     @PostMapping("/oauth2/gitee/login")
     public R oauthloginGitee(@RequestBody SocialGiteeUser vo) throws Exception {
-        MemberEntity entity = memberService.login(vo);
+        MemberEntity entity = memberService.giteeLogin(vo);
         if (entity != null) {
             log.debug("Gitee登录成功。。。");
             //TODO  1、登陆成功处理

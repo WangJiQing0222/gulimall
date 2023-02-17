@@ -7,6 +7,7 @@ import com.atguigu.gulimall.member.exception.UserNameExistException;
 import com.atguigu.gulimall.member.vo.MemberLoginVo;
 import com.atguigu.gulimall.member.vo.MemberRegistVo;
 import com.atguigu.gulimall.member.vo.SocialGiteeUser;
+import com.atguigu.gulimall.member.vo.SocialWeiboUser;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.Map;
@@ -31,6 +32,9 @@ public interface MemberService extends IService<MemberEntity> {
 
     MemberEntity login(MemberLoginVo vo);
 
-    MemberEntity login(SocialGiteeUser vo) throws Exception;
+    MemberEntity giteeLogin(SocialGiteeUser vo) throws Exception;
+
+    MemberEntity weiboLogin(SocialWeiboUser vo) throws Exception;
+
 }
 

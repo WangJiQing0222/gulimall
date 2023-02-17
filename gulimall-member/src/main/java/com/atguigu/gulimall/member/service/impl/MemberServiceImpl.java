@@ -6,10 +6,7 @@ import com.atguigu.gulimall.member.exception.PhoneExistException;
 import com.atguigu.gulimall.member.exception.UserNameExistException;
 import com.atguigu.gulimall.member.service.MemberLevelService;
 import com.atguigu.gulimall.member.service.SocialService;
-import com.atguigu.gulimall.member.vo.MemberLoginVo;
-import com.atguigu.gulimall.member.vo.MemberRegistVo;
-import com.atguigu.gulimall.member.vo.SocialGiteeUser;
-import com.atguigu.gulimall.member.vo.SocialGiteeUserInfoVo;
+import com.atguigu.gulimall.member.vo.*;
 import org.apache.commons.codec.digest.Crypt;
 import org.apache.commons.codec.digest.Md5Crypt;
 import org.apache.http.HttpResponse;
@@ -125,7 +122,7 @@ public class MemberServiceImpl extends ServiceImpl<MemberDao, MemberEntity> impl
     }
 
     @Override
-    public MemberEntity login(SocialGiteeUser giteeUser) throws Exception {
+    public MemberEntity giteeLogin(SocialGiteeUser giteeUser) throws Exception {
         //具有登录和注册逻辑
         HttpResponse response = socialService.getInfoByGiteeToken(giteeUser.getAccess_token());
         String json = EntityUtils.toString(response.getEntity());
@@ -167,6 +164,57 @@ public class MemberServiceImpl extends ServiceImpl<MemberDao, MemberEntity> impl
             register.setSocialUid(uid);
             register.setAccessToken(giteeUser.getAccess_token());
             register.setExpiresIn(giteeUser.getExpires_in());
+
+            //把用户信息插入到数据库中 注册
+            this.baseMapper.insert(register);
+
+            return register;
+        }
+    }
+
+    @Override
+    public MemberEntity weiboLogin(SocialWeiboUser weiboUser) throws Exception {
+        //具有登录和注册逻辑
+        HttpResponse response = socialService.getInfoByWeiboToken(weiboUser.getAccess_token());
+        String json = EntityUtils.toString(response.getEntity());
+        SocialWeiboUserInfoVo weiboUserInfoVo = JSON.parseObject(json, SocialWeiboUserInfoVo.class);
+        //查询socialUid
+        String uid = String.valueOf(weiboUserInfoVo.getUid());
+
+        //1、判断当前社交用户是否已经登录过系统
+        MemberEntity memberEntity = this.baseMapper.selectOne(new QueryWrapper<MemberEntity>().eq("social_uid", uid));
+        if (memberEntity != null) {
+            //这个用户已经注册过
+            //更新用户的访问令牌的时间和access_token
+            MemberEntity update = new MemberEntity();
+            update.setId(memberEntity.getId());
+            update.setAccessToken(weiboUser.getAccess_token());
+            update.setExpiresIn(weiboUser.getExpires_in());
+            updateById(update);
+
+            //数据库查询出来的信息更全面，所以返回memberEntity而不是update
+            memberEntity.setAccessToken(weiboUser.getAccess_token());
+            memberEntity.setExpiresIn(weiboUser.getExpires_in());
+            return memberEntity;
+        }else {
+            MemberEntity register = new MemberEntity();
+            try {
+                if(response.getStatusLine().getStatusCode() == 200) {
+                    //2、没有查到当前社交用户对应的记录我们就需要注册一个
+                    //名称
+//                    register.setNickname(weiboUserInfoVo.getName());
+                    //性别
+//                    register.setGender(0);//TODO gitee not have gender
+                    //头像
+//                    register.setHeader(weiboUserInfoVo.getAvatar_url());
+                    //注册时间
+                    register.setCreateTime(new Date());
+                }
+            }catch (Exception e){}
+
+            register.setSocialUid(uid);
+            register.setAccessToken(weiboUser.getAccess_token());
+            register.setExpiresIn(weiboUser.getExpires_in());
 
             //把用户信息插入到数据库中 注册
             this.baseMapper.insert(register);

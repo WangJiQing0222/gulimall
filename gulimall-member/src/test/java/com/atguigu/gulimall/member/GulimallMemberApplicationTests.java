@@ -34,7 +34,7 @@ public class GulimallMemberApplicationTests {
         user.setAccess_token("dbd0baf83b3593a000227563145c9881");
         user.setExpires_in("86400");
         user.setToken_type("bearer");
-        MemberEntity login = memberService.login(user);
+        MemberEntity login = memberService.giteeLogin(user);
         System.out.println(login);
     }
 

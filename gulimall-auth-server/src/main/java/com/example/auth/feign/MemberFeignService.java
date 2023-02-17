@@ -2,6 +2,7 @@ package com.example.auth.feign;
 
 import com.atguigu.common.utils.R;
 import com.example.auth.vo.SocialGiteeUser;
+import com.example.auth.vo.SocialWeiboUser;
 import com.example.auth.vo.UserLoginVo;
 import com.example.auth.vo.UserRegisterVo;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -34,4 +35,7 @@ public interface MemberFeignService {
      */
     @PostMapping("/member/member/oauth2/gitee/login")
     R oauthloginGitee(@RequestBody SocialGiteeUser vo) throws Exception;
+
+    @PostMapping("/member/member/oauth2/weibo/login")
+    R oauthloginWeibo(@RequestBody SocialWeiboUser vo) throws Exception;
 }
