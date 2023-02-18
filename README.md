@@ -10,11 +10,11 @@ gulimall（谷粒商城） 项目是一套电商项目，包括前台商城系�
 
 > 下订单
 
-![下订单](README/下订单.gif)
+![下订单](https://files.cnblogs.com/files/blogs/778338/%E4%B8%8B%E8%AE%A2%E5%8D%95-167663033989011.gif?t=1676684264)
 
 > 秒杀
 
-![秒杀](README/秒杀.gif)
+![秒杀](https://files.cnblogs.com/files/blogs/778338/%E7%A7%92%E6%9D%80.gif?t=1676684264)
 
 
 
@@ -22,15 +22,15 @@ gulimall（谷粒商城） 项目是一套电商项目，包括前台商城系�
 
 后台登录上传商品
 
-![后台页面展示](README/后台页面展示.gif)
+![后台页面展示](https://files.cnblogs.com/files/blogs/778338/%E5%90%8E%E5%8F%B0%E9%A1%B5%E9%9D%A2%E5%B1%95%E7%A4%BA.gif?t=1676684264)
 
 > nacos服务
 
-![nacos配置](README/nacos配置.gif)
+![nacos配置](https://files.cnblogs.com/files/blogs/778338/nacos%E9%85%8D%E7%BD%AE.gif?t=1676684263)
 
 链路追踪ZipKin可视化界面
 
-![链路追踪ZipKin](README/链路追踪ZipKin.gif)
+![链路追踪ZipKin](https://blog-static.cnblogs.com/files/blogs/778338/%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AAZipKin.gif?t=1676684264)
 
 
 

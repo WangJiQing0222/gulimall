@@ -64,3 +64,47 @@
 
 2023-02-17 17:48:32,590 INFO [dump-all-ok] oss.yml+DEFAULT_GROUP, 1671443668218, length=218, md5=b955c6087e11dac05bdb8ba09a9eae75
 
+2023-02-17 22:06:56,724 INFO [dump-all-ok] gulimall-coupon.properties+DEFAULT_GROUP, 1670836109240, length=46, md5=13373c3987e46e0560776d2cb3f80ea7
+
+2023-02-17 22:06:56,724 INFO [dump-all-ok] gulimall-coupon.properties+DEFAULT_GROUP, 1670838266844, length=46, md5=6c0104188e44e78897edb7b6e3ef978f
+
+2023-02-17 22:06:56,724 INFO [dump-all-ok] gulimall-coupon.properties+dev, 1670924873140, length=46, md5=b5d4f29ee4b80f101d10f8f36398e7aa
+
+2023-02-17 22:06:56,724 INFO [dump-all-ok] gulimall-coupon.properties+prop, 1670838506270, length=46, md5=13373c3987e46e0560776d2cb3f80ea7
+
+2023-02-17 22:06:56,724 INFO [dump-all-ok] datasource.yml+dev, 1672566250197, length=193, md5=4ec5bb071db86fcac364bc4bdb935332
+
+2023-02-17 22:06:56,740 INFO [dump-all-ok] mybatis.yml+dev, 1670916679333, length=116, md5=3c8cba7df1687e1fbe635fdfa0352287
+
+2023-02-17 22:06:56,740 INFO [dump-all-ok] other.yml+dev, 1670916725101, length=166, md5=58f094f80127330909102100f4e8847f
+
+2023-02-17 22:06:56,740 INFO [dump-all-ok] gulimall-gateway.properties+DEFAULT_GROUP, 1670924979218, length=45, md5=6ffb3542e8939ce685e64b348d6d7084
+
+2023-02-17 22:06:56,740 INFO [dump-all-ok] gulimall-gateway.properties+dev, 1670924964322, length=45, md5=d1e8dfb4cdd5a66e62976e00186f480e
+
+2023-02-17 22:06:56,740 INFO [dump-all-ok] other.yml+dev, 1670925320803, length=165, md5=63252b35ba591d500b584309d77fe459
+
+2023-02-17 22:06:56,740 INFO [dump-all-ok] oss.yml+DEFAULT_GROUP, 1671443668218, length=218, md5=b955c6087e11dac05bdb8ba09a9eae75
+
+2023-02-17 22:15:32,370 INFO [dump-all-ok] gulimall-coupon.properties+DEFAULT_GROUP, 1670836109240, length=46, md5=13373c3987e46e0560776d2cb3f80ea7
+
+2023-02-17 22:15:32,371 INFO [dump-all-ok] gulimall-coupon.properties+DEFAULT_GROUP, 1670838266844, length=46, md5=6c0104188e44e78897edb7b6e3ef978f
+
+2023-02-17 22:15:32,372 INFO [dump-all-ok] gulimall-coupon.properties+dev, 1670924873140, length=46, md5=b5d4f29ee4b80f101d10f8f36398e7aa
+
+2023-02-17 22:15:32,372 INFO [dump-all-ok] gulimall-coupon.properties+prop, 1670838506270, length=46, md5=13373c3987e46e0560776d2cb3f80ea7
+
+2023-02-17 22:15:32,372 INFO [dump-all-ok] datasource.yml+dev, 1672566250197, length=193, md5=4ec5bb071db86fcac364bc4bdb935332
+
+2023-02-17 22:15:32,372 INFO [dump-all-ok] mybatis.yml+dev, 1670916679333, length=116, md5=3c8cba7df1687e1fbe635fdfa0352287
+
+2023-02-17 22:15:32,373 INFO [dump-all-ok] other.yml+dev, 1670916725101, length=166, md5=58f094f80127330909102100f4e8847f
+
+2023-02-17 22:15:32,373 INFO [dump-all-ok] gulimall-gateway.properties+DEFAULT_GROUP, 1670924979218, length=45, md5=6ffb3542e8939ce685e64b348d6d7084
+
+2023-02-17 22:15:32,373 INFO [dump-all-ok] gulimall-gateway.properties+dev, 1670924964322, length=45, md5=d1e8dfb4cdd5a66e62976e00186f480e
+
+2023-02-17 22:15:32,373 INFO [dump-all-ok] other.yml+dev, 1670925320803, length=165, md5=63252b35ba591d500b584309d77fe459
+
+2023-02-17 22:15:32,373 INFO [dump-all-ok] oss.yml+DEFAULT_GROUP, 1671443668218, length=218, md5=b955c6087e11dac05bdb8ba09a9eae75
+
