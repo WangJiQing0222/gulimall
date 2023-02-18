@@ -11,6 +11,9 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 
+/**
+ * 订单关单完成
+ */
 @Service
 @RabbitListener(queues = {"order.release.order.queue"})
 public class OrderCloseListener {
